@@ -1,0 +1,150 @@
+.word-grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 4 / 2.2;
+}
+
+.solved-category {
+    grid-column: span 4;
+    grid-row: span 1;
+    background-color: #888888;
+    color: black;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5vw;
+    text-transform: uppercase;
+}
+
+.solved-category h3 {
+    position: relative;
+    padding-bottom: 1vh;
+}
+
+.solved-category h3::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 50%;
+    border-bottom: thin solid;
+}
+
+.solved-category p {
+    padding-top: 1vh;
+}
+
+.difficulty-1 {
+    background-color: #FFCC22;
+}
+
+.difficulty-2 {
+    background-color: #9AC757;
+}
+
+.difficulty-3 {
+    background-color: #9EAEFF;
+}
+
+.difficulty-4 {
+    background-color: #CC66CC;
+}
+
+.word-tile {
+    background-color: #BBBBBB;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    aspect-ratio: 2 / 1;
+
+    font-size: calc(1.5em);
+    font-weight: bold;
+    line-height: 1.2;
+    text-transform: uppercase;
+
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.word-tile.selected {
+    background-color: #888888;
+    color: white;
+    border-color: #444444;
+}
+
+.word-tile:hover {
+    border-color: #555555;
+}
+
+.word-tile.disabled {
+    border-color: #ccc;
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-2vh);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.word-tile.animate {
+    animation: moveUpDown 1s ease-in-out;
+}
+
+
+@media (max-width: 1024px) and (orientation: landscape) {
+    
+}
+
+@media (max-width: 1024px) and (orientation: portrait) {
+    
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+    
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+    .word-grid-container {
+        aspect-ratio: 4 / 4;
+        gap: 4px;
+        margin-bottom: -1vh;
+    }
+
+    .solved-category {
+        border-radius: 1.5vh;
+    }
+
+    .solved-category h3 {
+        font-size: 2vh;
+    }
+    
+    .solved-category p {
+        font-size: 1.4vh;
+    }
+
+    .word-tile {
+        aspect-ratio: 1 / 1;
+        font-size: 2vh;
+        padding: 1px;
+    }
+}

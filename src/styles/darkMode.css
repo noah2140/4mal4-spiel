@@ -1,0 +1,22 @@
+
+body.dark-mode {
+    background-color: #171a20;
+    color: #edf2f7;
+}
+
+body.dark-mode .modal-content {
+    background-color: #272e3a;
+}
+
+body.dark-mode .toggle-pill {
+    background-color: #1a202c;
+}
+
+body.dark-mode .option-name {
+    color: #edf2f7;
+}
+
+body.dark-mode .close-button {
+    color: #edf2f7;
+}
+

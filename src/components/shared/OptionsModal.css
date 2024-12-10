@@ -1,0 +1,89 @@
+.option-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+.toggle-pill {
+    width: 3vw;
+    height: 1.5vw;
+    border-radius: 12px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toggle-pill.on {
+    color: #39da59e6;
+    border: 1px solid #ddd;
+}
+
+.toggle-pill.off {
+    color: red;
+    border: 1px solid #ddd;
+}
+
+.toggle-circle {
+    width: 1.4vw;
+    height: 1.4vw;
+    position: absolute;              
+    top: 0;                  
+    left: 0;     
+    background-color: #333;
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.toggle-pill.on .toggle-circle {
+    transform: translateX(1.4vw);  
+}
+
+.toggle-pill.on .toggle-circle {
+    background-color: green;
+}
+
+.toggle-pill.off .toggle-circle {
+    background-color: red;
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+    
+}
+
+@media (max-width: 1024px) and (orientation: portrait) {
+    
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+    
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+    .option-item {
+        font-size: 2.5vh;
+    }
+
+    .toggle-pill {
+        width: 6vh;
+        height: 3vh;
+    }
+    
+    .toggle-circle {
+        width: 2.8vh;
+        height: 2.8vh;
+    }
+    
+    .toggle-pill.on .toggle-circle {
+        transform: translateX(2.2vh);  
+    }
+}

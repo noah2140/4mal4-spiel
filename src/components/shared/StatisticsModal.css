@@ -1,0 +1,105 @@
+.stats-modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.stats-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    gap: 20px;
+    padding-bottom: 2vh;
+    border-bottom: thin solid;
+    height: 100%;
+}
+
+.stats-item {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-right: thin solid;
+    font-size: 1.1em;
+    padding: 10px;
+}
+
+.stats-item:last-child {
+    border-right: none;
+}
+
+.stats-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-bottom: 0.5vh;
+}
+
+.stats-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.5vh;
+}
+
+.tries-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    font-size: 3vh;
+}
+
+.tries-display p {
+    font-size: 4vh;
+    padding: 2vh;
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+    
+}
+
+@media (max-width: 1024px) and (orientation: portrait) {
+    
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+    
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+    .stats-bar {
+        gap: 0px;
+        
+    }
+
+    .stats-item {
+        width: 40%;
+        padding-right: 2.4vh;
+        padding-left: 2.4vh;
+    }
+
+    .stats-header {
+        font-size: 2vh;
+    }
+    
+    .stats-number {
+        font-size: 2vh;
+    }
+
+    .tries-display {
+        font-size: 2.4vh;
+    }
+
+    .share-button {
+        width: 60%;
+        font-size: 2vh;
+    }
+}
