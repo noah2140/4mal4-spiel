@@ -50,7 +50,7 @@ const WordGrid: React.FC<WordGridProps> = ({
     }, []);
 
     const calculateFontSize = (word: string): number => {
-        const baseSize = isMobile ? 16 : 24;
+        const baseSize = isMobile ? 18 : 24;
         const maxLength = 5;
         return word.length > maxLength
             ? (baseSize * maxLength) / word.length
