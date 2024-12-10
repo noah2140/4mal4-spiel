@@ -70,7 +70,7 @@
 
 @media (max-width: 768px) and (orientation: portrait) {
     .option-item {
-        font-size: 2.5vh;
+        font-size: 2.1vh;
     }
 
     .toggle-pill {

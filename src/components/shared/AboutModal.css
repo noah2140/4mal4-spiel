@@ -34,10 +34,10 @@
 
 @media (max-width: 768px) and (orientation: portrait) {
     .description-category h3 {
-        font-size: 2.8vh;
+        font-size: 2.6vh;
     }
     
     .description-category p {
-        font-size: 2.5vh;
+        font-size: 2.3vh;
     }
 }
