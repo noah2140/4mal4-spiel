@@ -3,7 +3,6 @@ import useClickOutside from '../../hooks/useClickOutside';
 import { Statistics } from '../../types/Statistics';
 import { Puzzle } from '../../types/Puzzle';
 import { PuzzleProgress } from '../../types/Progress';
-import { resetStatistics } from '../../services/StatisticsService';
 import './StatisticsModal.css';
 
 interface StatisticsModalProps {
@@ -139,7 +138,7 @@ const StatisticsModal: React.FC<StatisticsModalProps> = ({ onClose, statistics, 
                     </div>
                     {progress && (progress.state === "Gelöst" || progress.state === "Nicht geschafft") && (
                         <div className="tries-display">
-                            <p><strong>Puzzle #{puzzleIndex + 1}</strong></p>
+                            <p><strong>4x4</strong> - Puzzle #{puzzleIndex + 1}</p>
                             {progress.tryOrder.map((tryValue, index) => {
                                 const emojis = getCategoryEmojis(
                                     progress.tryOrder, 

@@ -2,75 +2,30 @@ import { Puzzle } from '../types/Puzzle';
 
 export const puzzles: Puzzle[] = [
     {
-        date: '2024-12-09',
-        categories: [
-            { name: 'Fruits', words: ['Apple', 'Banana', 'Cherry', 'Zuschreiben'] },
-            { name: 'Animals', words: ['Lion', 'Tiger', 'Bear', 'Wolf'] },
-            { name: 'Colors', words: ['Red', 'Blue', 'Green', 'Yellow'] },
-            { name: 'Countries', words: ['USA', 'Canada', 'Germany', 'Japan'] },
-        ],
-    },
-    {
         date: '2024-12-10',
         categories: [
-            { name: 'Fruits', words: ['Apple', 'Banana', 'Cherry', 'Zuschreiben'] },
-            { name: 'Animals', words: ['Lion', 'Tiger', 'Bear', 'Wolf'] },
-            { name: 'Colors', words: ['Red', 'Blue', 'Green', 'Yellow'] },
-            { name: 'Countries', words: ['USA', 'Canada', 'Germany', 'Japan'] },
+            { name: 'Zum Erreichen eines Ziels verwendet', words: ['Instrument', 'Methode', 'Mittel', 'Werkzeug'] },
+            { name: 'Was man beschreitet', words: ['Reise', 'Route', 'Schritt', 'Weg'] },
+            { name: 'Beim Golf zu sehen', words: ['Ball', 'Bunker', 'Grün', 'Loch'] },
+            { name: '_Frau/Mann', words: ['Ehe', 'Fach', 'Haus', 'Traum'] },
         ],
     },
     {
         date: '2024-12-11',
         categories: [
-            { name: 'Fruits', words: ['Apple', 'Banana', 'Cherry', 'Grape'] },
-            { name: 'Animals', words: ['Lion', 'Tiger', 'Bear', 'Wolf'] },
-            { name: 'Colors', words: ['Red', 'Blue', 'Green', 'Yellow'] },
-            { name: 'Countries', words: ['USA', 'Canada', 'Germany', 'Japan'] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: 'Teile einer Gitarre', words: ['Hals', 'Kopf', 'Korpus', 'Saite'] },
+            { name: '', words: ['', '', '', ''] },
         ],
     },
     {
-        date: '2024-12-12',
+        date: '2099-12-31',
         categories: [
-            { name: 'Fruits', words: ['Apple', 'Banana', 'Cherry', 'Grape'] },
-            { name: 'Animals', words: ['Lion', 'Tiger', 'Bear', 'Wolf'] },
-            { name: 'Colors', words: ['Red', 'Blue', 'Green', 'Yellow'] },
-            { name: 'Countries', words: ['USA', 'Canada', 'Germany', 'Japan'] },
-        ],
-    },
-    {
-        date: '2024-12-13',
-        categories: [
-            { name: 'Fruits', words: ['Apple', 'Banana', 'Cherry', 'Grape'] },
-            { name: 'Animals', words: ['Lion', 'Tiger', 'Bear', 'Wolf'] },
-            { name: 'Colors', words: ['Red', 'Blue', 'Green', 'Yellow'] },
-            { name: 'Countries', words: ['USA', 'Canada', 'Germany', 'Japan'] },
-        ],
-    },
-    {
-        date: '2024-12-14',
-        categories: [
-            { name: 'Fruits', words: ['Apple', 'Banana', 'Cherry', 'Grape'] },
-            { name: 'Animals', words: ['Lion', 'Tiger', 'Bear', 'Wolf'] },
-            { name: 'Colors', words: ['Red', 'Blue', 'Green', 'Yellow'] },
-            { name: 'Countries', words: ['USA', 'Canada', 'Germany', 'Japan'] },
-        ],
-    },
-    {
-        date: '2024-12-15',
-        categories: [
-            { name: 'Fruits', words: ['Apple', 'Banana', 'Cherry', 'Grape'] },
-            { name: 'Animals', words: ['Lion', 'Tiger', 'Bear', 'Wolf'] },
-            { name: 'Colors', words: ['Red', 'Blue', 'Green', 'Yellow'] },
-            { name: 'Countries', words: ['USA', 'Canada', 'Germany', 'Japan'] },
-        ],
-    },
-    {
-        date: '2024-12-16',
-        categories: [
-            { name: 'Fruits', words: ['Apple', 'Banana', 'Cherry', 'Grape'] },
-            { name: 'Animals', words: ['Lion', 'Tiger', 'Bear', 'Wolf'] },
-            { name: 'Colors', words: ['Red', 'Blue', 'Green', 'Yellow'] },
-            { name: 'Countries', words: ['USA', 'Canada', 'Germany', 'Japan'] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
         ],
     },
 ];

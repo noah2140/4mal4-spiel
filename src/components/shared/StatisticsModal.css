@@ -58,8 +58,8 @@
 }
 
 .tries-display p {
-    font-size: 4vh;
-    padding: 2vh;
+    font-size: 3vh;
+    padding: 1vh;
 }
 
 @media (min-width: 1024px) and (orientation: landscape) {
@@ -98,8 +98,13 @@
         font-size: 2.4vh;
     }
 
+    .tries-display p {
+        font-size: 2vh;
+    }
+
     .share-button {
         width: 60%;
         font-size: 2vh;
+        aspect-ratio: 4 / 1;
     }
 }
