@@ -112,8 +112,6 @@ const useGuessHandler = (
                 newProgress.state = "Nicht geschafft";
                 updatedStats.streak = 0;
                 updatedStats.nrAttempted++;
-        
-                setShowStatisticsModal(true);
             }
         
             if (shouldShake) {
