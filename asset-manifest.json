@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/4mal4-spiel/static/css/main.9886f7ab.css",
+    "main.js": "/4mal4-spiel/static/js/main.6ba6ba4e.js",
+    "index.html": "/4mal4-spiel/index.html",
+    "main.9886f7ab.css.map": "/4mal4-spiel/static/css/main.9886f7ab.css.map",
+    "main.6ba6ba4e.js.map": "/4mal4-spiel/static/js/main.6ba6ba4e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9886f7ab.css",
+    "static/js/main.6ba6ba4e.js"
+  ]
+}
