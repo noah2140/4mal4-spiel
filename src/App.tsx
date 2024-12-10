@@ -14,7 +14,7 @@ const App: React.FC = () => {
     }, []);
     
     return (
-        <Router>
+        <Router basename="/4mal4-spiel">
             <div className="app-container">
                 <Routes>
                     <Route path="/" element={<Home />} />
