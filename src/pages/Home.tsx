@@ -131,7 +131,7 @@ const Home: React.FC = () => {
             setTimeout(() => {
                 handleGuess(pairs);
                 setAnimateTiles([]);
-            }, 1000);
+            }, 1100);
         } else {
             console.log('These words have already been guessed');
         }
