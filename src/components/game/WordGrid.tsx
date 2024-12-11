@@ -34,23 +34,54 @@ const WordGrid: React.FC<WordGridProps> = ({
     const [tilePositions, setTilePositions] = useState<any[]>([]);
     const tileRefs = useRef<(HTMLButtonElement | null)[]>([] as (HTMLButtonElement | null)[]);
     const [fontSizes, setFontSizes] = useState<number[]>([]);
-    const [isMobile, setIsMobile] = useState(false);
+    const [deviceType, setDeviceType] = useState<'mobile' | 'tablet' | 'pc' | 'unknown'>('unknown');
+    const [isPortrait, setIsPortrait] = useState(true);
 
     useEffect(() => {
-        const checkIfMobile = () => {
-            setIsMobile(window.matchMedia("(max-width: 768px)").matches);
+        const checkDeviceType = () => {
+            const width = window.innerWidth;
+            const height = window.innerHeight;
+
+            setIsPortrait(height > width);
+
+            if (width <= 480) {
+                setDeviceType('mobile');
+            } else if (width > 480 && width <= 768) {
+                setDeviceType('mobile');
+            } else if (width > 768 && width <= 1024) {
+                setDeviceType('tablet');
+            } else if (width > 1024) {
+                setDeviceType('pc');
+            } else {
+                setDeviceType('unknown');
+            }
         };
 
-        checkIfMobile();
-        window.addEventListener("resize", checkIfMobile);
+        checkDeviceType();
+
+        window.addEventListener('resize', checkDeviceType);
 
         return () => {
-            window.removeEventListener("resize", checkIfMobile);
+            window.removeEventListener('resize', checkDeviceType);
         };
     }, []);
 
     const calculateFontSize = (word: string): number => {
-        const baseSize = isMobile ? 18 : 24;
+        let baseSize: number;
+        switch (deviceType) {
+            case 'mobile':
+                baseSize = 15;
+                break;
+            case 'tablet':
+                baseSize = 22;
+                break;
+            case 'pc':
+                baseSize = 24;
+                break;
+            default:
+                baseSize = 15;
+        }
+
         const maxLength = 5;
         return word.length > maxLength
             ? (baseSize * maxLength) / word.length
@@ -60,7 +91,7 @@ const WordGrid: React.FC<WordGridProps> = ({
     useEffect(() => {
         const sizes = remainingWords.map(calculateFontSize);
         setFontSizes(sizes);
-    }, [remainingWords]);
+    }, [remainingWords, deviceType]);
 
     useEffect(() => {
         if (progress) {
