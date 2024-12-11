@@ -101,7 +101,7 @@
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-2vh);
+        transform: translateY(-1.5vh);
     }
     100% {
         transform: translateY(0);
@@ -109,7 +109,7 @@
 }
 
 .word-tile.animate {
-    animation: moveUpDown 0.7s ease-in-out;
+    animation: moveUpDown 0.9s ease-in-out;
 }
 
 

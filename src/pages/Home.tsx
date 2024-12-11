@@ -131,14 +131,14 @@ const Home: React.FC = () => {
             setTimeout(() => {
                 handleGuess(pairs);
                 setAnimateTiles([]);
-            }, 1100);
+            }, 1300);
         } else {
             console.log('These words have already been guessed');
         }
     };
 
     const calculateAnimationDelays = () => {
-        const delays = selectedWords.map((_, index) => index * 0.07);
+        const delays = selectedWords.map((_, index) => index * 0.075);
         return delays;
     };
 
