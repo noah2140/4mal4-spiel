@@ -17,7 +17,12 @@ const usePuzzleLoader = () => {
         }));
     };
 
+    let initialized = false;
+
     useEffect(() => {
+        if (initialized) return; // Prevent reinitialization
+
+        initialized = true;
         const loadedPuzzles = fetchPuzzles();
         setPuzzles(loadedPuzzles);
 
@@ -31,9 +36,12 @@ const usePuzzleLoader = () => {
         const puzzleDateToLoad = (storedToday === today) 
             ? (lastOpenedPuzzleDate || today) 
             : today;
+        
+        console.log(puzzleDateToLoad);
 
         if (storedToday !== today) {
             localStorage.setItem('today', today);
+            localStorage.setItem('lastOpenedPuzzle', today);
         }
 
         const puzzle = fetchPuzzleByDate(puzzleDateToLoad);
