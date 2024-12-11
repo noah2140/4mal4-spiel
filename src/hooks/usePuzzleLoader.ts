@@ -24,9 +24,17 @@ const usePuzzleLoader = () => {
         const loadedProgress: AllPuzzleProgress = {};
 
         const lastOpenedPuzzleDate = localStorage.getItem('lastOpenedPuzzle');
+        const storedToday = localStorage.getItem('today');
     
         const today = new Date().toISOString().split('T')[0];
-        const puzzleDateToLoad = lastOpenedPuzzleDate || today;
+
+        const puzzleDateToLoad = (storedToday === today) 
+            ? (lastOpenedPuzzleDate || today) 
+            : today;
+
+        if (storedToday !== today) {
+            localStorage.setItem('today', today);
+        }
 
         const puzzle = fetchPuzzleByDate(puzzleDateToLoad);
         if (puzzle) {
