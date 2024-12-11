@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/4mal4-spiel/static/css/main.b09b8d34.css",
-    "main.js": "/4mal4-spiel/static/js/main.55187572.js",
+    "main.css": "/4mal4-spiel/static/css/main.9cf4cc7d.css",
+    "main.js": "/4mal4-spiel/static/js/main.26f1feb3.js",
     "index.html": "/4mal4-spiel/index.html",
-    "main.b09b8d34.css.map": "/4mal4-spiel/static/css/main.b09b8d34.css.map",
-    "main.55187572.js.map": "/4mal4-spiel/static/js/main.55187572.js.map"
+    "main.9cf4cc7d.css.map": "/4mal4-spiel/static/css/main.9cf4cc7d.css.map",
+    "main.26f1feb3.js.map": "/4mal4-spiel/static/js/main.26f1feb3.js.map"
   },
   "entrypoints": [
-    "static/css/main.b09b8d34.css",
-    "static/js/main.55187572.js"
+    "static/css/main.9cf4cc7d.css",
+    "static/js/main.26f1feb3.js"
   ]
 }
