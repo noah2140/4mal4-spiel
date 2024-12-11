@@ -118,7 +118,7 @@ button {
 
 @media (max-width: 1024px) and (orientation: landscape) {
     #main-container {
-        width: 70%;
+        width: 50%;
     }
 }
 
@@ -128,13 +128,22 @@ button {
     }
 }
 
-@media (max-width: 450px) and (orientation: landscape) {
+@media (max-width: 768px) and (orientation: landscape) {
+    .modal-content {
+        width: 80%;
+        height: 80%;
+    }
+
+    .modal-entry h2 {
+        font-size: 7vh;
+    }
+
     #main-container {
-        width: 90%;
+        width: 70%;
     }
 }
 
-@media (max-width: 450px) and (orientation: portrait) {
+@media (max-width: 768px) and (orientation: portrait) {
     .modal-content {
         width: 80%;
         height: 80%;

@@ -71,13 +71,42 @@
 }
 
 @media (max-width: 768px) and (orientation: landscape) {
+    .stats-bar {
+        gap: 0px;
+    }
+
+    .stats-item {
+        width: 33%;
+        padding-right: 2.4vh;
+        padding-left: 2.4vh;
+    }
+
+    .stats-header {
+        font-size: 4vh;
+    }
     
+    .stats-number {
+        font-size: 3.4vh;
+    }
+
+    .tries-display {
+        font-size: 3.4vh;
+    }
+
+    .tries-display p {
+        font-size: 4vh;
+    }
+
+    .share-button {
+        width: 30%;
+        font-size: 3.6vh;
+        aspect-ratio: 5 / 1;
+    }
 }
 
 @media (max-width: 768px) and (orientation: portrait) {
     .stats-bar {
         gap: 0px;
-        
     }
 
     .stats-item {
