@@ -1,20 +1,18 @@
 import React from 'react';
-import usePuzzleLoader from '../hooks/usePuzzleLoader';
-import useGuessHandler from '../hooks/useGuessHandler';
-import { useSwapHandler } from '../hooks/useSwapHandler';
-import useAnimationController from '../hooks/useAnimationController';
-import ProgressDisplay from '../components/game/ProgressDisplay';
+import ScreenShake from "../components/animations/ScreenShake";
+import GameControls from '../components/game/GameControls';
 import Tries from '../components/game/Tries';
 import WordGrid from '../components/game/WordGrid';
-import PuzzleModal from '../components/shared/PuzzleModal';
 import TopBar from '../components/layout/TopBar';
-import AboutModal from '../components/shared/AboutModal';
-import StatisticsModal from '../components/shared/StatisticsModal';
-import OptionsModal from '../components/shared/OptionsModal';
-import { Puzzle } from '../types/Puzzle';
-import ScreenShake from "../components/animations/ScreenShake";
+import Modals from '../components/shared/Modals';
+import useAnimationController from '../hooks/useAnimationController';
+import useGuessHandler from '../hooks/useGuessHandler';
+import useModalManager from '../hooks/useModalManager';
+import usePuzzleLoader from '../hooks/usePuzzleLoader';
+import { useSwapHandler } from '../hooks/useSwapHandler';
 import { loadOptions } from '../services/OptionsService';
 import { fetchStatistics } from '../services/StatisticsService';
+import { Puzzle } from '../types/Puzzle';
 import './Home.css';
 
 const Home: React.FC = () => {
@@ -22,7 +20,6 @@ const Home: React.FC = () => {
         puzzles,
         currentPuzzle,
         progress,
-        loadPuzzle,
         handleSelectPuzzle,
         setShowModal,
         showModal,
@@ -35,9 +32,6 @@ const Home: React.FC = () => {
     const { performShuffle } = useSwapHandler<string>();
     const [remainingWords, setRemainingWords] = React.useState<string[]>([]);
     const [wordOrder, setWordOrder] = React.useState<string[]>([]);
-    const [showAboutModal, setShowAboutModal] = React.useState(false);
-    const [showStatisticsModal, setShowStatisticsModal] = React.useState(false);
-    const [showOptionsModal, setShowOptionsModal] = React.useState(false);
 
     const triggerShake = () => {
         setShake(true);
@@ -46,6 +40,14 @@ const Home: React.FC = () => {
 
     const shouldShake = options.find((option) => option.name === "Wackeln bei Fehlversuchen")?.isOn;
     const [animatePairs, setAnimatePairs] = React.useState<[number, number][]>([]);
+
+    const {
+        showAboutModal,
+        showStatisticsModal,
+        showOptionsModal, 
+        setShowStatisticsModal, 
+        toggleModal,
+    } = useModalManager();
 
     const { handleGuess, selectedWords, setSelectedWords } = useGuessHandler(
         currentPuzzle,
@@ -102,8 +104,6 @@ const Home: React.FC = () => {
         return puzzles.filter((puzzle) => puzzle.date <= today);
     };
 
-    const resetSelectedWords = () => setSelectedWords([]);
-
     const shuffleDisplayedWords = () => {
         const shuffled = performShuffle(wordOrder);
         setWordOrder(shuffled);
@@ -124,8 +124,6 @@ const Home: React.FC = () => {
         const isAlreadyGuessed = (
             (currentPuzzle?.date && progress[currentPuzzle.date]?.falseTries?.some((attempt: string[]) => areArraysEqual(attempt, selectedWords))) ?? false
         );
-
-        const pairs = createSolveSwapPairs();
     
         if (!isAlreadyGuessed) {
             const pairs = createSolveSwapPairs();
@@ -172,29 +170,33 @@ const Home: React.FC = () => {
         return pairs;
     };
 
+    const gameOver = currentPuzzle
+        ? progress[currentPuzzle.date]?.falseTries.length === 4
+        : false;
+
     return (
         <ScreenShake trigger={shake}>
             <div>
                 <TopBar
                     onShowPuzzleModal={() => setShowModal(true)}
-                    onShowAboutModal={() => setShowAboutModal(true)}
-                    onShowStatisticsModal={() => setShowStatisticsModal(true)}
-                    onShowOptionsModal={() => setShowOptionsModal(true)}
+                    onShowAboutModal={() => toggleModal('about')}
+                    onShowStatisticsModal={() => toggleModal('statistics')}
+                    onShowOptionsModal={() => toggleModal('options')}
                 />
 
-                {showModal && (
-                    <PuzzleModal
-                        puzzles={filterPuzzles(puzzles)}
-                        progress={progress}
-                        selectedPuzzle={currentPuzzle?.date || null}
-                        onSelect={(date) => handleSelectPuzzle(date, resetSelectedWords)}
-                        onClose={() => setShowModal(false)}
-                    />
-                )}
-
-                {showAboutModal && <AboutModal onClose={() => setShowAboutModal(false)}/>}
-                {showStatisticsModal && <StatisticsModal onClose={() => setShowStatisticsModal(false)} statistics={statistics} progress={currentPuzzle ? progress[currentPuzzle.date] || null : null} currentPuzzle={currentPuzzle} puzzles={puzzles} />}
-                {showOptionsModal && <OptionsModal onClose={() => setShowOptionsModal(false)} />}
+                <Modals
+                    showModal={showModal}
+                    showAboutModal={showAboutModal}
+                    showStatisticsModal={showStatisticsModal}
+                    showOptionsModal={showOptionsModal}
+                    puzzles={filterPuzzles(puzzles)}
+                    progress={progress}
+                    currentPuzzle={currentPuzzle}
+                    statistics={statistics}
+                    toggleModal={toggleModal}
+                    handleSelectPuzzle={handleSelectPuzzle}
+                    setShowModal={setShowModal}
+                />
 
                 {currentPuzzle ? (
                     <div id="main-container">
@@ -226,46 +228,16 @@ const Home: React.FC = () => {
                             </div>
                         )}
 
-                        <div id="buttons-container">
-                            {progress[currentPuzzle.date]?.state !== 'Gelöst' && progress[currentPuzzle.date]?.state !== 'Nicht geschafft' ? (
-                                <>
-                                    <button 
-                                        id="shuffle-button" 
-                                        className="regular-button" 
-                                        onClick={shuffleDisplayedWords}
-                                        disabled={guessAnimationInProgress}
-                                    >
-                                        Mischen
-                                    </button>
-
-                                    <button 
-                                        id="deselect-button" 
-                                        className="regular-button" 
-                                        onClick={() => setSelectedWords([])} 
-                                        disabled={selectedWords.length < 1 || guessAnimationInProgress}
-                                    >
-                                        Auswahl löschen
-                                    </button>
-
-                                    <button 
-                                        id="enter-button" 
-                                        className="regular-button" 
-                                        onClick={handleGuessWithAnimation} 
-                                        disabled={selectedWords.length < 4 || guessAnimationInProgress}
-                                    >
-                                        Enter
-                                    </button>
-                                </>
-                            ) : (
-                                <button
-                                    id="results-button"
-                                    className="regular-button"
-                                    onClick={() => setShowStatisticsModal(true)}
-                                >
-                                    Ergebnisse
-                                </button>
-                            )}
-                        </div>
+                    <GameControls
+                        onShuffle={shuffleDisplayedWords}
+                        onDeselect={() => setSelectedWords([])}
+                        onEnter={handleGuessWithAnimation}
+                        isEnterDisabled={selectedWords.length < 4 || guessAnimationInProgress}
+                        isShuffleDisabled={guessAnimationInProgress}
+                        isDeselectDisabled={selectedWords.length < 1 || guessAnimationInProgress}
+                        showResults={gameOver}
+                        onShowResults={() => toggleModal('statistics')}
+                    />
                         
                     </div>
                 ) : (
