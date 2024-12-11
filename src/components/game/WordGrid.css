@@ -100,14 +100,8 @@
     0% {
         transform: translateY(0);
     }
-    25% {
-        transform: translateY(-1vh);
-    }
     50% {
         transform: translateY(-2vh);
-    }
-    75% {
-        transform: translateY(-1vh);
     }
     100% {
         transform: translateY(0);
