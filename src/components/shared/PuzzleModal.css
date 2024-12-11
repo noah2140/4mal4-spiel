@@ -33,7 +33,7 @@ body.dark-mode .puzzle-item:hover {
 
 .puzzleStatus {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     margin-right: 1vw;
 }
 
