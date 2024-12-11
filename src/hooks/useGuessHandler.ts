@@ -86,15 +86,15 @@ const useGuessHandler = (
             setFalseTriesCount(newProgress.falseTries.length);
         
             if ((newProgress.falseTries.length ?? 0) >= MAX_FALSE_TRIES) {
-                setSelectedWords([]);
+                setSelectedWords([]); 
                 const existingCorrectCategoryNames = new Set(
                     (newProgress.correctTries || []).map((tryItem) => tryItem.category)
                 );
-    
+
                 const categoriesToAdd = currentPuzzle.categories.filter(
                     (category) => !existingCorrectCategoryNames.has(category.name)
                 );
-        
+            
                 newProgress.correctTries = [
                     ...(newProgress.correctTries || []),
                     ...categoriesToAdd.map((category) => {
@@ -108,7 +108,7 @@ const useGuessHandler = (
                         };
                     }),
                 ];
-        
+            
                 newProgress.state = "Nicht geschafft";
                 updatedStats.streak = 0;
                 updatedStats.nrAttempted++;

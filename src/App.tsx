@@ -4,7 +4,7 @@ import { loadOptions } from './services/OptionsService';
 import Home from './pages/Home';
 import './styles/darkMode.css';
 
-//localStorage.clear();
+//localStorage.clear(); 
 
 const App: React.FC = () => {
     useEffect(() => {

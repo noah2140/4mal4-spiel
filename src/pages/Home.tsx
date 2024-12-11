@@ -90,8 +90,14 @@ const Home: React.FC = () => {
             const newRemainingWords = puzzleWords.filter((word) => !solvedWords.includes(word));
             setRemainingWords(newRemainingWords);
 
-            if (wordOrder.length === 0 || wordOrder.some((word) => !newRemainingWords.includes(word))) {
-                setWordOrder(newRemainingWords);
+            if (newRemainingWords.length === 0) {
+                if (wordOrder.length > 0) {
+                    setWordOrder([]);
+                }
+            } else {
+                if (wordOrder.length === 0 || wordOrder.some((word) => !newRemainingWords.includes(word))) {
+                    setWordOrder(newRemainingWords);
+                }
             }
         }
 
