@@ -10,6 +10,7 @@ import useGuessHandler from '../hooks/useGuessHandler';
 import useModalManager from '../hooks/useModalManager';
 import usePuzzleLoader from '../hooks/usePuzzleLoader';
 import { useSwapHandler } from '../hooks/useSwapHandler';
+import { useSwapPairs } from '../hooks/useSwapPairs';
 import { loadOptions } from '../services/OptionsService';
 import { fetchStatistics } from '../services/StatisticsService';
 import { Puzzle } from '../types/Puzzle';
@@ -120,13 +121,15 @@ const Home: React.FC = () => {
         return sortedArr1.every((item, index) => item === sortedArr2[index]);
     };
 
+    const swapPairs = useSwapPairs(wordOrder, selectedWords);
+
     const handleGuessWithAnimation = () => {
         const isAlreadyGuessed = (
             (currentPuzzle?.date && progress[currentPuzzle.date]?.falseTries?.some((attempt: string[]) => areArraysEqual(attempt, selectedWords))) ?? false
         );
     
         if (!isAlreadyGuessed) {
-            const pairs = createSolveSwapPairs();
+            const pairs = swapPairs;
             startGuessAnimation(selectedWords, () => handleGuess(pairs));
         } else {
             console.log('These words have already been guessed');
@@ -136,38 +139,6 @@ const Home: React.FC = () => {
     const calculateAnimationDelays = () => {
         const delays = selectedWords.map((_, index) => index * 0.1);
         return delays;
-    };
-
-    const createSolveSwapPairs = () => {
-
-        let alreadySwapped = [false, false, false, false];
-
-        for (let i=0; i<4; i++) {
-            for (let j=0; j<4; j++) {
-                if (wordOrder[i] === selectedWords[j]) {
-                    alreadySwapped[i] = true;
-                    break;
-                }
-            }
-        }
-
-        let pairs: [number, number][] = [];
-
-        for (let i=4; i<wordOrder.length; i++) {
-            for (let j=0; j<4; j++) {
-                if (wordOrder[i] === selectedWords[j]) {
-                    for (let k=0; k<4; k++) {
-                        if (alreadySwapped[k] === false) {
-                            alreadySwapped[k] = true;
-                            pairs.push([i, k]);
-                            break;
-                        }
-                    }
-                }
-            }
-        }
-
-        return pairs;
     };
 
     const gameOver = currentPuzzle
