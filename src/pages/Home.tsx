@@ -98,7 +98,7 @@ const Home: React.FC = () => {
         return () => {
             document.body.classList.remove('no-scroll');
         };
-    }, [showModal, showAboutModal, showStatisticsModal, showOptionsModal, currentPuzzle, progress]);
+    }, [showModal, showAboutModal, showStatisticsModal, showOptionsModal, currentPuzzle, progress, wordOrder]);
 
     const filterPuzzles = (puzzles: Puzzle[]) => {
         const today = new Date().toISOString().split('T')[0];

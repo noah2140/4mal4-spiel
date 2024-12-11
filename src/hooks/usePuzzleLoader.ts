@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Puzzle } from '../types/Puzzle';
 import { PuzzleProgress, AllPuzzleProgress } from '../types/Progress';
 import { fetchPuzzles, fetchPuzzleByDate } from '../services/PuzzleService';
@@ -17,12 +17,12 @@ const usePuzzleLoader = () => {
         }));
     };
 
-    let initialized = false;
+    let initialized = useRef(false);
 
     useEffect(() => {
-        if (initialized) return; // Prevent reinitialization
+        if (initialized.current) return;
 
-        initialized = true;
+        initialized.current = true;
         const loadedPuzzles = fetchPuzzles();
         setPuzzles(loadedPuzzles);
 
