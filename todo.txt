@@ -3,7 +3,7 @@ To-Dos:
 General Logic:
 -Make it so animations play out, when puzzle is failed
 -Maybe: No update of tiles in puzzle grid after swapping on solve
--Store date of last load, to update displayed puzzle to newest
+-Store date of last load, to update displayed puzzle to newest ✔
 
 Animations:
 -Swap tiles on press of shuffle button
