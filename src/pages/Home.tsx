@@ -2,6 +2,7 @@ import React from 'react';
 import usePuzzleLoader from '../hooks/usePuzzleLoader';
 import useGuessHandler from '../hooks/useGuessHandler';
 import { useSwapHandler } from '../hooks/useSwapHandler';
+import useAnimationController from '../hooks/useAnimationController';
 import ProgressDisplay from '../components/game/ProgressDisplay';
 import Tries from '../components/game/Tries';
 import WordGrid from '../components/game/WordGrid';
@@ -37,8 +38,6 @@ const Home: React.FC = () => {
     const [showAboutModal, setShowAboutModal] = React.useState(false);
     const [showStatisticsModal, setShowStatisticsModal] = React.useState(false);
     const [showOptionsModal, setShowOptionsModal] = React.useState(false);
-    const [animateTiles, setAnimateTiles] = React.useState<string[]>([]);
-    const [guessAnimationInProgress, setGuessAnimationInProgress] = React.useState(false);
 
     const triggerShake = () => {
         setShake(true);
@@ -58,6 +57,8 @@ const Home: React.FC = () => {
         setShowStatisticsModal,
         setAnimatePairs
     );
+
+    const { guessAnimationInProgress, animateTiles, startGuessAnimation } = useAnimationController();
 
     const shuffleArray = (array: string[]): string[] => {
         const shuffledArray = [...array];
@@ -127,14 +128,8 @@ const Home: React.FC = () => {
         const pairs = createSolveSwapPairs();
     
         if (!isAlreadyGuessed) {
-            setGuessAnimationInProgress(true);
-            setAnimateTiles(selectedWords);
-    
-            setTimeout(() => {
-                handleGuess(pairs);
-                setAnimateTiles([]);
-                setGuessAnimationInProgress(false);
-            }, 1200);
+            const pairs = createSolveSwapPairs();
+            startGuessAnimation(selectedWords, () => handleGuess(pairs));
         } else {
             console.log('These words have already been guessed');
         }

@@ -9,7 +9,7 @@ Animations:
 -Swap tiles on press of shuffle button
 
 Buttons:
--Disable buttons while guess plays out
+-Disable buttons while guess plays out ✔
 
 Modals:
 -Contact
