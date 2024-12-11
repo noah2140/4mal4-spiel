@@ -49,18 +49,18 @@ const WordGrid: React.FC<WordGridProps> = ({
         };
     }, []);
 
-    const calculateFontSize = (word: string): number => {
-        const baseSize = isMobile ? 18 : 24;
-        const maxLength = 5;
-        return word.length > maxLength
-            ? (baseSize * maxLength) / word.length
-            : baseSize;
-    };
-
     useEffect(() => {
+        const calculateFontSize = (word: string): number => {
+            const baseSize = isMobile ? 18 : 24;
+            const maxLength = 5;
+            return word.length > maxLength
+                ? (baseSize * maxLength) / word.length
+                : baseSize;
+        };
+
         const sizes = remainingWords.map(calculateFontSize);
         setFontSizes(sizes);
-    }, [remainingWords]);
+    }, [remainingWords, isMobile]);
 
     useEffect(() => {
         if (progress) {
@@ -79,42 +79,42 @@ const WordGrid: React.FC<WordGridProps> = ({
                 : [...prevSelected, word].slice(0, 4)
         );
     };
-
-    const animateWordSwap = () => {
-        animatePairs.forEach(([index1, index2]) => {
-            const tile1 = tileRefs.current[index1];
-            const tile2 = tileRefs.current[index2];
-
-            if (tile1 && tile2) {
-                const pos1 = tilePositions[index1];
-                const pos2 = tilePositions[index2];
-
-                tile1.style.transition = 'transform 0.5s ease';
-                tile2.style.transition = 'transform 0.5s ease';
-                tile1.style.transform = `translate(${pos2.left - pos1.left}px, ${pos2.top - pos1.top}px)`;
-                tile2.style.transform = `translate(${pos1.left - pos2.left}px, ${pos1.top - pos2.top}px)`;
-
-                setTimeout(() => {
-                    tile1.style.transition = '';
-                    tile2.style.transition = '';
-                    tile1.style.transform = '';
-                    tile2.style.transform = '';
     
-                    const updatedPositions = [...tilePositions];
-                    updatedPositions[index1] = pos2;
-                    updatedPositions[index2] = pos1;
-    
-                    setTilePositions(updatedPositions);
-                }, 500);
-            }
-        });
-    };
-
     useEffect(() => {
+        const animateWordSwap = () => {
+            animatePairs.forEach(([index1, index2]) => {
+                const tile1 = tileRefs.current[index1];
+                const tile2 = tileRefs.current[index2];
+    
+                if (tile1 && tile2) {
+                    const pos1 = tilePositions[index1];
+                    const pos2 = tilePositions[index2];
+    
+                    tile1.style.transition = 'transform 0.5s ease';
+                    tile2.style.transition = 'transform 0.5s ease';
+                    tile1.style.transform = `translate(${pos2.left - pos1.left}px, ${pos2.top - pos1.top}px)`;
+                    tile2.style.transform = `translate(${pos1.left - pos2.left}px, ${pos1.top - pos2.top}px)`;
+    
+                    setTimeout(() => {
+                        tile1.style.transition = '';
+                        tile2.style.transition = '';
+                        tile1.style.transform = '';
+                        tile2.style.transform = '';
+        
+                        const updatedPositions = [...tilePositions];
+                        updatedPositions[index1] = pos2;
+                        updatedPositions[index2] = pos1;
+        
+                        setTilePositions(updatedPositions);
+                    }, 500);
+                }
+            });
+        };
+
         if (animatePairs.length > 0) {
             animateWordSwap();
         }
-    }, [animatePairs]);
+    }, [animatePairs, tilePositions]);
 
     useEffect(() => {
         if (tileRefs.current.length > 0) {
