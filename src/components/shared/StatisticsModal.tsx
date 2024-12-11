@@ -102,7 +102,7 @@ const StatisticsModal: React.FC<StatisticsModalProps> = ({ onClose, statistics, 
 
         const emojiLines = emojis.map((line) => line.join('')).join('\n');
 
-        return `4x4\nPuzzle #${puzzleIndex + 1} (Serie: ${statistics.streak})\n${emojiLines}`;
+        return `4x4 Puzzle #${puzzleIndex + 1}\n(Aktuelle Serie: ${statistics.streak})\n${emojiLines}\n\nhttps://noah2140.github.io/4mal4-spiel`;
     };
 
     return (
