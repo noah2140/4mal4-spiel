@@ -38,6 +38,7 @@ const Home: React.FC = () => {
     const [showStatisticsModal, setShowStatisticsModal] = React.useState(false);
     const [showOptionsModal, setShowOptionsModal] = React.useState(false);
     const [animateTiles, setAnimateTiles] = React.useState<string[]>([]);
+    const [guessAnimationInProgress, setGuessAnimationInProgress] = React.useState(false);
 
     const triggerShake = () => {
         setShake(true);
@@ -126,19 +127,21 @@ const Home: React.FC = () => {
         const pairs = createSolveSwapPairs();
     
         if (!isAlreadyGuessed) {
+            setGuessAnimationInProgress(true);
             setAnimateTiles(selectedWords);
     
             setTimeout(() => {
                 handleGuess(pairs);
                 setAnimateTiles([]);
-            }, 1300);
+                setGuessAnimationInProgress(false);
+            }, 1200);
         } else {
             console.log('These words have already been guessed');
         }
     };
 
     const calculateAnimationDelays = () => {
-        const delays = selectedWords.map((_, index) => index * 0.075);
+        const delays = selectedWords.map((_, index) => index * 0.1);
         return delays;
     };
 
@@ -231,15 +234,30 @@ const Home: React.FC = () => {
                         <div id="buttons-container">
                             {progress[currentPuzzle.date]?.state !== 'Gelöst' && progress[currentPuzzle.date]?.state !== 'Nicht geschafft' ? (
                                 <>
-                                    <button id="shuffle-button" className="regular-button" onClick={shuffleDisplayedWords}>
+                                    <button 
+                                        id="shuffle-button" 
+                                        className="regular-button" 
+                                        onClick={shuffleDisplayedWords}
+                                        disabled={guessAnimationInProgress}
+                                    >
                                         Mischen
                                     </button>
 
-                                    <button id="deselect-button" className="regular-button" onClick={() => setSelectedWords([])} disabled={selectedWords.length < 1}>
+                                    <button 
+                                        id="deselect-button" 
+                                        className="regular-button" 
+                                        onClick={() => setSelectedWords([])} 
+                                        disabled={selectedWords.length < 1 || guessAnimationInProgress}
+                                    >
                                         Auswahl löschen
                                     </button>
 
-                                    <button id="enter-button" className="regular-button" onClick={handleGuessWithAnimation} disabled={selectedWords.length < 4}>
+                                    <button 
+                                        id="enter-button" 
+                                        className="regular-button" 
+                                        onClick={handleGuessWithAnimation} 
+                                        disabled={selectedWords.length < 4 || guessAnimationInProgress}
+                                    >
                                         Enter
                                     </button>
                                 </>
