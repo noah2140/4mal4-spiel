@@ -39,8 +39,8 @@
         font-size: 1.8vh;
     }
 
-    .results-button {
-        margin-top: 5vh;
+    #results-button {
+        margin-top: 3vh;
     }
 }
 
