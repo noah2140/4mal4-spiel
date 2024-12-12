@@ -116,19 +116,13 @@ button {
     color: #999999;
 }
 
-@media (max-width: 1024px) and (orientation: landscape) {
-    #main-container {
-        width: 50%;
-    }
-}
-
 @media (max-width: 1024px) and (orientation: portrait) {
     #main-container {
         width: 60%;
     }
 }
 
-@media (max-width: 650px) and (orientation: landscape) {
+@media (max-width: 850px) and (orientation: landscape) {
     .modal-content {
         width: 80%;
         height: 80%;

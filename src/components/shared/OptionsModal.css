@@ -56,15 +56,11 @@
     background-color: red;
 }
 
-@media (min-width: 1024px) and (orientation: landscape) {
-    
-}
-
 @media (max-width: 1024px) and (orientation: portrait) {
     
 }
 
-@media (max-width: 650px) and (orientation: landscape) {
+@media (max-width: 850px) and (orientation: landscape) {
     .option-item {
         font-size: 5vh;
     }

@@ -39,10 +39,16 @@ const WordGrid: React.FC<WordGridProps> = ({
 
     useEffect(() => {
         const checkDeviceType = () => {
-            const width = window.innerWidth;
-            const height = window.innerHeight;
+            let width = window.innerWidth;
+            let height = window.innerHeight;
 
             setIsPortrait(height > width);
+
+            if (!isPortrait) {
+                let temp = height;
+                height = width;
+                width = temp;
+            }
 
             if (width <= 480) {
                 setDeviceType('mobile');
