@@ -64,7 +64,7 @@
     
 }
 
-@media (max-width: 768px) and (orientation: landscape) {
+@media (max-width: 650px) and (orientation: landscape) {
     .option-item {
         font-size: 5vh;
     }
@@ -84,7 +84,7 @@
     }
 }
 
-@media (max-width: 768px) and (orientation: portrait) {
+@media (max-width: 650px) and (orientation: portrait) {
     .option-item {
         font-size: 2.1vh;
     }

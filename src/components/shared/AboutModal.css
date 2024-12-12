@@ -28,7 +28,7 @@
     
 }
 
-@media (max-width: 768px) and (orientation: landscape) {
+@media (max-width: 650px) and (orientation: landscape) {
     .description-category h3 {
         font-size: 5vh;
     }
@@ -38,7 +38,7 @@
     }
 }
 
-@media (max-width: 768px) and (orientation: portrait) {
+@media (max-width: 650px) and (orientation: portrait) {
     .description-category h3 {
         font-size: 2.6vh;
     }

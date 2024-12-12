@@ -46,9 +46,9 @@ const WordGrid: React.FC<WordGridProps> = ({
 
             if (width <= 480) {
                 setDeviceType('mobile');
-            } else if (width > 480 && width <= 750) {
+            } else if (width > 480 && width <= 650) {
                 setDeviceType('mobile');
-            } else if (width > 750 && width <= 1024) {
+            } else if (width > 650 && width <= 1024) {
                 setDeviceType('tablet');
             } else if (width > 1024) {
                 setDeviceType('pc');

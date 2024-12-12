@@ -61,14 +61,14 @@ body.dark-mode .selected-puzzle .puzzle-item:hover {
     
 }
 
-@media (max-width: 768px) and (orientation: landscape) {
+@media (max-width: 650px) and (orientation: landscape) {
     .puzzle-item {
         font-size: 5vh;
         height: 10vh;
     }
 }
 
-@media (max-width: 768px) and (orientation: portrait) {
+@media (max-width: 650px) and (orientation: portrait) {
     .puzzle-item {
         font-size: 2vh;
         height: 10vh;

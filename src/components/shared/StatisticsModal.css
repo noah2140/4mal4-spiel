@@ -70,7 +70,7 @@
     
 }
 
-@media (max-width: 768px) and (orientation: landscape) {
+@media (max-width: 650px) and (orientation: landscape) {
     .stats-bar {
         gap: 0px;
     }
@@ -104,7 +104,7 @@
     }
 }
 
-@media (max-width: 768px) and (orientation: portrait) {
+@media (max-width: 650px) and (orientation: portrait) {
     .stats-bar {
         gap: 0px;
     }

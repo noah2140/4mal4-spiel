@@ -71,7 +71,7 @@
     
 }
 
-@media (max-width: 768px) and (orientation: landscape) {
+@media (max-width: 650px) and (orientation: landscape) {
     #right-modal-buttons button {
         width: 2.5rem;
         height: 2.5rem;
@@ -81,7 +81,7 @@
     }
 }
 
-@media (max-width: 768px) and (orientation: portrait) {
+@media (max-width: 650px) and (orientation: portrait) {
     .top-bar {
         padding: 0.05rem 0.75rem;
     }
