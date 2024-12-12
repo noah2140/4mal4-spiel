@@ -12,10 +12,13 @@ Buttons:
 -Disable buttons while guess plays out ✔
 
 Modals:
--Contact
+-Contact (✔)
 -Support
 -Weekly Challenge?
 
 Stylings:
 -Proper styling for all main devices
 -Ensure proper styling for PCs, no matter how it is displayed
+
+For Contact Modal:
+-Improve styling for everything, including different devices

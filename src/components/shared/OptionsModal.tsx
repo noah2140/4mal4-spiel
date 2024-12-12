@@ -43,7 +43,7 @@ const OptionsModal: React.FC<OptionsModalProps> = ({ onClose }) => {
         <div className="modal-overlay">
             <div className="modal-content" ref={modalRef}>
                 <div className="modal-entry">
-                    <h2>Options</h2>
+                    <h2>Einstellungen</h2>
 
                     <button className="close-button" onClick={onClose}>
                         &times;

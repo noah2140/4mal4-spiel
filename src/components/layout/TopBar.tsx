@@ -1,9 +1,10 @@
 import React from 'react';
-import { FaQuestionCircle, FaChartBar, FaCog } from 'react-icons/fa';
+import { FaQuestionCircle, FaChartBar, FaCog, FaEnvelopeOpenText } from 'react-icons/fa';
 import './TopBar.css';
 
 interface TopBarProps {
     onShowPuzzleModal: () => void;
+    onShowReportModal: () => void;
     onShowAboutModal: () => void;
     onShowStatisticsModal: () => void;
     onShowOptionsModal: () => void;
@@ -11,6 +12,7 @@ interface TopBarProps {
 
 const TopBar: React.FC<TopBarProps> = ({
     onShowPuzzleModal,
+    onShowReportModal,
     onShowAboutModal,
     onShowStatisticsModal,
     onShowOptionsModal,
@@ -25,6 +27,9 @@ const TopBar: React.FC<TopBarProps> = ({
             </button>
 
             <div id="right-modal-buttons">
+                <button onClick={onShowReportModal}>
+                    <FaEnvelopeOpenText size={20} />
+                </button>
                 <button onClick={onShowAboutModal}>
                     <FaQuestionCircle size={20} />
                 </button>

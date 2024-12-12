@@ -43,6 +43,7 @@ const Home: React.FC = () => {
     const [animatePairs, setAnimatePairs] = React.useState<[number, number][]>([]);
 
     const {
+        showReportModal,
         showAboutModal,
         showStatisticsModal,
         showOptionsModal, 
@@ -75,7 +76,7 @@ const Home: React.FC = () => {
     React.useEffect(() => {
         setOptions(loadOptions());
 
-        const isModalOpen = showModal || showAboutModal || showStatisticsModal || showOptionsModal;
+        const isModalOpen = showModal || showReportModal || showAboutModal || showStatisticsModal || showOptionsModal;
         
         if (isModalOpen) {
             document.body.classList.add('no-scroll');
@@ -104,7 +105,7 @@ const Home: React.FC = () => {
         return () => {
             document.body.classList.remove('no-scroll');
         };
-    }, [showModal, showAboutModal, showStatisticsModal, showOptionsModal, currentPuzzle, progress, wordOrder]);
+    }, [showModal, showReportModal, showAboutModal, showStatisticsModal, showOptionsModal, currentPuzzle, progress, wordOrder]);
 
     const filterPuzzles = (puzzles: Puzzle[]) => {
         const today = new Date().toISOString().split('T')[0];
@@ -156,6 +157,7 @@ const Home: React.FC = () => {
             <div>
                 <TopBar
                     onShowPuzzleModal={() => setShowModal(true)}
+                    onShowReportModal={() => toggleModal('report')}
                     onShowAboutModal={() => toggleModal('about')}
                     onShowStatisticsModal={() => toggleModal('statistics')}
                     onShowOptionsModal={() => toggleModal('options')}
@@ -163,6 +165,7 @@ const Home: React.FC = () => {
 
                 <Modals
                     showModal={showModal}
+                    showReportModal={showReportModal}
                     showAboutModal={showAboutModal}
                     showStatisticsModal={showStatisticsModal}
                     showOptionsModal={showOptionsModal}
