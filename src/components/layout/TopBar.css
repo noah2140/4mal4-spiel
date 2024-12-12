@@ -65,8 +65,8 @@
 
 @media (max-height: 700px) and (orientation: landscape) {
     #right-modal-buttons button {
-        width: 4.5vh;
-        height: 4.5vh;
+        width: 6vh;
+        height: 6vh;
         display: flex;
         align-items: center;
         justify-content: center;

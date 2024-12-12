@@ -56,6 +56,23 @@
     background-color: red;
 }
 
+@media (max-height: 700px) and (orientation: landscape) {
+    .toggle-pill {
+        width: 5.6vh;
+        height: 2.8vh;
+        border-radius: 20px;
+    }
+    
+    .toggle-circle {
+        width: 2.8vh;
+        height: 2.8vh;
+    }
+    
+    .toggle-pill.on .toggle-circle {
+        transform: translateX(2.2vh);  
+    }
+}
+
 @media (max-width: 1024px) and (orientation: portrait) {
     .option-item {
         font-size: 2.5vh;
@@ -64,6 +81,7 @@
     .toggle-pill {
         width: 5.6vh;
         height: 2.8vh;
+        border-radius: 20px;
     }
     
     .toggle-circle {

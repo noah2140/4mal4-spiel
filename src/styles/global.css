@@ -118,7 +118,7 @@ button {
 
 @media (max-height: 700px) and (orientation: landscape) {
     #main-container {
-        width: 70%;
+        width: 60%;
     }
 }
 
