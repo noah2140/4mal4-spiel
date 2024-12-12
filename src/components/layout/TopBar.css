@@ -63,6 +63,16 @@
     align-self: center;
 }
 
+@media (max-height: 700px) and (orientation: landscape) {
+    #right-modal-buttons button {
+        width: 4.5vh;
+        height: 4.5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 @media (max-width: 1024px) and (orientation: portrait) {
     #right-modal-buttons button {
         width: 2.5vh;

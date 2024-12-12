@@ -116,6 +116,12 @@ button {
     color: #999999;
 }
 
+@media (max-height: 700px) and (orientation: landscape) {
+    #main-container {
+        width: 70%;
+    }
+}
+
 @media (max-width: 1024px) and (orientation: portrait) {
     .modal-content {
         width: 80%;
@@ -131,7 +137,8 @@ button {
     }
 
     .regular-button {
-        font-size: 2vh;
+        font-size: 1.8vh;
+        aspect-ratio: 3 / 1;
     }
 }
 
