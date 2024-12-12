@@ -62,8 +62,8 @@
     }
 
     .toggle-pill {
-        width: 5vh;
-        height: 2.5vh;
+        width: 5.6vh;
+        height: 2.8vh;
     }
     
     .toggle-circle {
@@ -72,7 +72,7 @@
     }
     
     .toggle-pill.on .toggle-circle {
-        transform: translateX(4.4vh);  
+        transform: translateX(2.2vh);  
     }
 }
 
@@ -92,7 +92,7 @@
     }
     
     .toggle-pill.on .toggle-circle {
-        transform: translateX(4vh);  
+        transform: translateX(3.5vh);  
     }
 }
 

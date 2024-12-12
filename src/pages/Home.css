@@ -38,6 +38,10 @@
     .remaining-tries-text {
         font-size: 1.8vh;
     }
+
+    .results-button {
+        margin-top: 5vh;
+    }
 }
 
 @media (max-width: 850px) and (orientation: landscape) {

@@ -75,8 +75,8 @@
 
 @media (max-width: 1024px) and (orientation: portrait) {
     #right-modal-buttons button {
-        width: 2.5vh;
-        height: 2.5vh;
+        width: 5vh;
+        height: 5vh;
         display: flex;
         align-items: center;
         justify-content: center;
