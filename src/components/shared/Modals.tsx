@@ -1,5 +1,6 @@
 import React from 'react';
 import PuzzleModal from './PuzzleModal';
+import ReportModal from './ReportModal';
 import AboutModal from './AboutModal';
 import StatisticsModal from './StatisticsModal';
 import OptionsModal from './OptionsModal';
@@ -7,6 +8,7 @@ import { Puzzle } from '../../types/Puzzle';
 
 interface ModalsProps {
     showModal: boolean;
+    showReportModal: boolean;
     showAboutModal: boolean;
     showStatisticsModal: boolean;
     showOptionsModal: boolean;
@@ -14,13 +16,14 @@ interface ModalsProps {
     progress: Record<string, any>;
     currentPuzzle: Puzzle | null;
     statistics: any;
-    toggleModal: (modalName: "about" | "statistics" | "options") => void;
+    toggleModal: (modalName: "report" | "about" | "statistics" | "options") => void;
     handleSelectPuzzle: (date: string, resetSelectedWords: () => void) => void;
     setShowModal: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 const Modals: React.FC<ModalsProps> = ({
     showModal,
+    showReportModal,
     showAboutModal,
     showStatisticsModal,
     showOptionsModal,
@@ -43,6 +46,8 @@ const Modals: React.FC<ModalsProps> = ({
                     onClose={() => setShowModal(false)}
                 />
             )}
+
+            {showReportModal && <ReportModal onClose={() => toggleModal('report')} />}
 
             {showAboutModal && <AboutModal onClose={() => toggleModal('about')} />}
 
