@@ -55,7 +55,7 @@ body.dark-mode .selected-puzzle .puzzle-item:hover {
 
 @media (max-width: 1024px) and (orientation: portrait) {
     .puzzle-item {
-        font-size: 5vh;
+        font-size: 3vh;
         height: 10vh;
     }
 }
