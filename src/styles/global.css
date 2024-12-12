@@ -135,6 +135,10 @@ button {
     #main-container {
         width: 70%;
     }
+
+    .regular-button {
+        font-size: 3vh;
+    }
 }
 
 @media (max-width: 650px) and (orientation: portrait) {

@@ -18,7 +18,7 @@
     border-radius: 5px;
     padding: 10px;
     border: none;
-    font-size: 1em;
+    font-size: 1.8vh;
     text-transform: uppercase;
 }
 
@@ -44,19 +44,21 @@
 }
 
 @media (max-width: 1024px) and (orientation: portrait) {
-    
+    .grid-item {
+        font-size: 2.5vh;
+    }
 }
 
 @media (max-width: 850px) and (orientation: landscape) {
     .tries-grid {
-        gap: 3px;
+        gap: 5px;
         margin-top: 0vh;
-        margin-bottom: 15vh;
-        height: 10vh;
+        margin-bottom: 14vh;
+        height: 12vh;
     }
 
     .grid-item {
-        font-size: 2vh;
+        font-size: 2.5vh;
     }
 }
 

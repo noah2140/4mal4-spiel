@@ -79,7 +79,7 @@ const WordGrid: React.FC<WordGridProps> = ({
                 baseSize = 17;
                 break;
             case 'tablet':
-                baseSize = 22;
+                baseSize = 20;
                 break;
             case 'pc':
                 baseSize = 24;

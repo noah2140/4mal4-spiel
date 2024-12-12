@@ -21,7 +21,13 @@
 }
 
 @media (max-width: 1024px) and (orientation: portrait) {
+    .description-category h3 {
+        font-size: 4vh;
+    }
     
+    .description-category p {
+        font-size: 3vh;
+    }
 }
 
 @media (max-width: 850px) and (orientation: landscape) {

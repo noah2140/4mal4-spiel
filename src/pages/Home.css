@@ -36,7 +36,7 @@
 
 @media (max-width: 1024px) and (orientation: portrait) {
     .remaining-tries-text {
-        font-size: 2.2vh;
+        font-size: 1.8vh;
     }
 }
 
