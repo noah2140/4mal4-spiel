@@ -46,9 +46,9 @@ const WordGrid: React.FC<WordGridProps> = ({
 
             if (width <= 480) {
                 setDeviceType('mobile');
-            } else if (width > 480 && width <= 768) {
+            } else if (width > 480 && width <= 750) {
                 setDeviceType('mobile');
-            } else if (width > 768 && width <= 1024) {
+            } else if (width > 750 && width <= 1024) {
                 setDeviceType('tablet');
             } else if (width > 1024) {
                 setDeviceType('pc');
@@ -70,7 +70,7 @@ const WordGrid: React.FC<WordGridProps> = ({
         let baseSize: number;
         switch (deviceType) {
             case 'mobile':
-                baseSize = 15;
+                baseSize = 17;
                 break;
             case 'tablet':
                 baseSize = 22;
@@ -79,7 +79,7 @@ const WordGrid: React.FC<WordGridProps> = ({
                 baseSize = 24;
                 break;
             default:
-                baseSize = 15;
+                baseSize = 17;
         }
 
         const maxLength = 5;
