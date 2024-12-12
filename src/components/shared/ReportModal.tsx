@@ -24,6 +24,7 @@ const ReportModal: React.FC<ReportModalProps> = ({ onClose }) => {
         reportText: '',
         mode: 'kategorie',
     });
+    
     const [status, setStatus] = useState<string | null>(null);
 
     useClickOutside(modalRef, onClose);

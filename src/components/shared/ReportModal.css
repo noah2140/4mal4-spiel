@@ -147,3 +147,26 @@ textarea, input {
         left: 0%; 
     }
 }
+
+
+@media (max-height: 700px) and (orientation: landscape) {
+    
+}
+
+@media (max-width: 1024px) and (orientation: portrait) {
+    .buttons-list button {
+        font-size: 2.3vh;
+    }
+}
+
+@media (max-width: 850px) and (orientation: landscape) {
+    .buttons-list button {
+        font-size: 3.2vh;
+    }
+}
+
+@media (max-width: 650px) and (orientation: portrait) {
+    .buttons-list button {
+        font-size: 1.7vh;
+    }
+}
