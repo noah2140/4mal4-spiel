@@ -117,8 +117,21 @@ button {
 }
 
 @media (max-width: 1024px) and (orientation: portrait) {
+    .modal-content {
+        width: 80%;
+        height: 80%;
+    }
+
+    .modal-entry h2 {
+        font-size: 5vh;
+    }
+
     #main-container {
-        width: 60%;
+        width: 80%;
+    }
+
+    .regular-button {
+        font-size: 3vh;
     }
 }
 

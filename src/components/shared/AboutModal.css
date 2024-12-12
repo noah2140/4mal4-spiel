@@ -22,21 +22,21 @@
 
 @media (max-width: 1024px) and (orientation: portrait) {
     .description-category h3 {
-        font-size: 4vh;
+        font-size: 2.5vh;
     }
     
     .description-category p {
-        font-size: 3vh;
+        font-size: 2.2vh;
     }
 }
 
 @media (max-width: 850px) and (orientation: landscape) {
     .description-category h3 {
-        font-size: 5vh;
+        font-size: 4vh;
     }
     
     .description-category p {
-        font-size: 3.8vh;
+        font-size: 3vh;
     }
 }
 
