@@ -91,6 +91,7 @@ body.no-scroll {
     color: #333;
     display: flex;
     justify-content: flex-end;
+    width: 5%;
 }
 
 button {
