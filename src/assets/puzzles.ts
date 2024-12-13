@@ -40,10 +40,28 @@ export const puzzles: Puzzle[] = [
     {
         date: '2024-12-14',
         categories: [
-            { name: '', words: ['', '', 'Pin', 'Tan'] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Enthalten viel Wasser', words: ['Atlantik', 'Meer', 'Ozean', 'Pool'] },
+            { name: 'Wovon es Nord und Süd gibt', words: ['Aldi', 'Amerika', 'Korea', 'Pol'] },
+            { name: 'Hören sich wie aneinander gereihte Buchstaben an', words: ['Ade', 'Debeka', 'Edeka', 'Haha'] },
+            { name: '_Tisch', words: ['Asia', 'Billard', 'Glas', 'Roman'] },
+        ],
+    },
+    {
+        date: '2024-12-15',
+        categories: [
+            { name: 'Zahlencodes', words: ['CVV', 'Pin', 'Puk', 'Tan'] },
+            { name: 'Nominierte für Jugendwort des Jahres', words: ['Akh', 'Aura', 'Yolo', 'Yurr'] },
+            { name: 'Hauptstädte', words: ['Apia', 'Dili', 'Rom', 'Wien'] },
             { name: 'Dia_', words: ['Dem', 'Kon', 'Log', 'Show'] },
+        ],
+    },
+    {
+        date: '2024-12-16',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: 'Wo man (einen) Po finden kann', words: ['Italien', 'Körper','Kung Fu Panda', 'Teletubbies'] },
         ],
     },
     {
