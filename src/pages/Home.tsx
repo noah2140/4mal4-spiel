@@ -149,7 +149,7 @@ const Home: React.FC = () => {
     };
 
     const gameOver = currentPuzzle
-        ? progress[currentPuzzle.date]?.falseTries.length === 4
+        ? progress[currentPuzzle.date]?.correctTries.length === 4
         : false;
 
     return (
