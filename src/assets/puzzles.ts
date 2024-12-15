@@ -58,10 +58,19 @@ export const puzzles: Puzzle[] = [
     {
         date: '2024-12-16',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Können Teile eines Buchs sein', words: ['Absatz', 'Akt', 'Kapitel', 'Passage'] },
+            { name: 'Zur Beschreibung von Schuhen verwendet', words: ['Farbe', 'Größe', 'Marke', 'Material'] },
+            { name: 'Dinge, die man teilt', words: ['Bild', 'Erfahrung', 'Kuchen', 'Pizza'] },
             { name: 'Wo man (einen) Po finden kann', words: ['Italien', 'Körper','Kung Fu Panda', 'Teletubbies'] },
+        ],
+    },
+    {
+        date: '2024-12-17',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: 'Teile einer Brille', words: ['Bügel', 'Rahmen', 'Scharnier', 'Steg'] },
+            { name: 'Am Anfang von Fantasy Filmreihen', words: ['Harry', 'Herr', 'Percy', 'Star'] },
+            { name: '', words: ['', '', '', ''] },
         ],
     },
     {
