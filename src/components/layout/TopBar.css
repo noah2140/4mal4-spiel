@@ -40,7 +40,6 @@
 
 #puzzle-list-button {
     display: flex;
-    justify-content: flex-start;
     width: 3vw;
 }
 

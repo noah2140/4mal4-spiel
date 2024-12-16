@@ -20,10 +20,6 @@ body.dark-mode .top-bar button.puzzles:hover {
     border-color: #edf2f7;
 }
 
-body.dark-mode #puzzle-list-button {
-    border: thin solid white;
-}
-
 body.dark-mode #puzzle-list-button:hover {
     background-color: #2d3748;
 }
