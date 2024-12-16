@@ -17,6 +17,8 @@ const PuzzleModal: React.FC<PuzzleModalProps> = ({ puzzles, progress, selectedPu
 
     useClickOutside(modalRef, onClose);
 
+    const reversedPuzzles = [...puzzles].reverse();
+
     return (
         <div className="modal-overlay">
             <div className="modal-content" ref={modalRef}>
@@ -28,7 +30,7 @@ const PuzzleModal: React.FC<PuzzleModalProps> = ({ puzzles, progress, selectedPu
                     </button>
                 </div>
                 <ul>
-                    {puzzles.map((puzzle, index) => {
+                    {reversedPuzzles.map((puzzle, index) => {
                         const puzzleProgress = progress[puzzle.date];
                         const puzzleState = puzzleProgress ? puzzleProgress.state : 'Noch nicht gestartet';
 
@@ -42,10 +44,12 @@ const PuzzleModal: React.FC<PuzzleModalProps> = ({ puzzles, progress, selectedPu
 
                         const isSelected = selectedPuzzle === puzzle.date;
 
+                        const displayIndex = puzzles.length - index;
+
                         return (
                             <li key={puzzle.date} className={isSelected ? 'selected-puzzle' : ''}>
                                 <button className="puzzle-item" onClick={() => onSelect(puzzle.date)}>
-                                    <p className="puzzleIndex">Puzzle #{index + 1}</p>
+                                    <p className="puzzleIndex">Puzzle #{displayIndex}</p>
                                     <p className="puzzleStatus">{statusString}</p>
                                 </button>
                             </li>
