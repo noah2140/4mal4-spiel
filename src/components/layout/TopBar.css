@@ -41,13 +41,7 @@
 #puzzle-list-button {
     display: flex;
     justify-content: flex-start;
-    border: thin solid black;
-    width: 30vw;
-}
-
-#puzzle-list-button:hover {
-    background-color: #999999;
-    color: white;
+    width: 3vw;
 }
 
 #right-modal-buttons {
@@ -107,6 +101,10 @@
     }
 
     #puzzle-list-button {
+        width: 2.5rem;
+        height: 2.5rem;
+        display: flex;
+        align-items: center;
         justify-content: center;
     }
 }

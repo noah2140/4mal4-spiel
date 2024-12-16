@@ -67,10 +67,10 @@ export const puzzles: Puzzle[] = [
     {
         date: '2024-12-17',
         categories: [
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Biereinheiten', words: ['Dose', 'Flasche', 'Glas', 'Maß'] },
             { name: 'Teile einer Brille', words: ['Bügel', 'Rahmen', 'Scharnier', 'Steg'] },
             { name: 'Am Anfang von Fiktions-Filmreihen', words: ['Harry', 'Herr', 'Percy', 'Star'] },
-            { name: 'Fach_', words: ['Arzt', '', '', ''] },
+            { name: 'Fach_', words: ['Arzt', 'Fremd', 'Handel', 'Kraft'] },
         ],
     },
     {
@@ -80,6 +80,33 @@ export const puzzles: Puzzle[] = [
             { name: 'Arche Noah - nahe Begriffe', words: ['Boot', 'Flut', 'Noah', 'Tier'] },
             { name: 'Palindrome', words: ['Ebbe', 'Ehe', 'Hannah', 'Rentner'] },
             { name: 'Anagramme von Monaten', words: ['Mia', 'Pilar', 'Saugut', 'Urfarbe'] },
+        ],
+    },
+    {
+        date: '2024-12-19',
+        categories: [
+            { name: 'Seite an Seite', words: ['Eins', 'Miteinander', 'Vereinigt', 'Zusammen'] },
+            { name: 'Doppelt gemoppelt hält besser', words: ['Bi', 'Duo', 'Paar', 'Zwei'] },
+            { name: 'Im Kontext vom Satz des Pythagoras verwendet', words: ['Drei', 'Kathete', 'Seite', 'Winkel'] },
+            { name: 'In Namen von Musikinstrumenten zu finden', words: ['Akkord', 'Klar', 'Kontra', 'Vier'] },
+        ],
+    },
+    {
+        date: '2024-12-20',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: 'Arzt_', words: ['Besuch', 'Kittel', 'Koffer', 'Praxis'] },
+        ],
+    },
+    {
+        date: '2024-12-21',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: 'Gib (mir) _', words: ['Acht', 'Fünf', 'Gas', 'Her'] },
+            { name: 'Menge an Ringen, die Personen o. Gruppen in Herr der Ringe erhalten', words: ['Drei', 'Eins', 'Neun', 'Sieben'] },
         ],
     },
     {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaQuestionCircle, FaChartBar, FaCog, FaEnvelopeOpenText } from 'react-icons/fa';
+import { FaQuestionCircle, FaChartBar, FaCog, FaEnvelopeOpenText, FaList } from 'react-icons/fa';
 import './TopBar.css';
 
 interface TopBarProps {
@@ -23,7 +23,7 @@ const TopBar: React.FC<TopBarProps> = ({
                 id="puzzle-list-button"
                 onClick={onShowPuzzleModal}
             >
-                Puzzles {}
+                <FaList size={20} />
             </button>
 
             <div id="right-modal-buttons">
