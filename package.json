@@ -2,7 +2,7 @@
   "name": "4mal4-spiel",
   "version": "0.8.0",
   "private": true,
-  "homepage": "https://username.github.io/4mal4-spiel",
+  "homepage": "https://noah2140.github.io/4mal4-spiel",
   "dependencies": {
     "axios": "^1.7.9",
     "cra-template-typescript": "1.2.0",
