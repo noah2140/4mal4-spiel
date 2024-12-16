@@ -73,6 +73,18 @@ const Home: React.FC = () => {
         return shuffledArray;
     };
 
+    function mockDate(isoString: string) {
+        const OriginalDate = Date;
+        global.Date = class extends OriginalDate {
+            constructor() {
+                super();
+                return new OriginalDate(isoString);
+            }
+        } as DateConstructor;
+    }
+
+    //mockDate('2024-12-18T00:00:00.000Z');
+
     React.useEffect(() => {
         setOptions(loadOptions());
 
@@ -108,6 +120,7 @@ const Home: React.FC = () => {
     }, [showModal, showReportModal, showAboutModal, showStatisticsModal, showOptionsModal, currentPuzzle, progress, wordOrder]);
 
     const filterPuzzles = (puzzles: Puzzle[]) => {
+        
         /*
         function mockDate(isoString: string) {
             const OriginalDate = Date;
@@ -119,7 +132,6 @@ const Home: React.FC = () => {
             } as DateConstructor;
         }
         
-        // Simulate test scenario
         mockDate('2024-12-16T00:00:00.000Z');
         */
 

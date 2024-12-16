@@ -14,6 +14,7 @@
     width: 50%;
     height: 10vh;
     font-size: 3vh;
+    border-radius: 1vh;
 }
 
 textarea, input {
@@ -37,7 +38,7 @@ textarea, input {
     align-items: center;
     gap: 0.5rem;
     cursor: pointer;
-    width: 30%;
+    width: 10%;
 }
 
 .switch-buttons {
@@ -48,12 +49,18 @@ textarea, input {
 }
 
 .switch-buttons button {
-    width: 40%;
+    width: 50%;
     height: 5vh;
     border: thin solid;
+    border-radius: 0.5vh;
     background: none;
     cursor: pointer;
     font-weight: bold;
+}
+
+.switch-buttons button.active {
+    background-color: #CCCCCC;             
+    border: medium solid;
 }
 
 .switch-buttons button:hover {
@@ -65,9 +72,11 @@ textarea, input {
     height: 10vh;
     background: none;
     border: thin solid;
+    border-radius: 1vh;
     cursor: pointer;
     font-weight: bold;
     font-size: 2vh;
+    margin-top: 2vh;
 }
 
 .send-button:hover {
@@ -149,6 +158,48 @@ textarea, input {
 }
 
 
+body.dark-mode .buttons-list button {
+    background-color: #373e4a;
+    color: white;
+}
+
+body.dark-mode .buttons-list button:hover {
+    background-color: #474e5a;
+    color: white;
+}
+
+body.dark-mode .switch-buttons button {
+    color: #edf2f7;
+}
+
+body.dark-mode .switch-buttons button:hover {
+    background-color: #373e4a;
+}
+
+body.dark-mode .back-button {
+    color: white;
+}
+
+body.dark-mode .send-button {
+    color: white;
+    background-color: #373e4a;
+}
+
+body.dark-mode .send-button:hover {
+    color: white;
+    background-color: #474e5a;
+}
+
+body.dark-mode input {
+    color: white;
+    background-color: #474e5a;
+}
+
+body.dark-mode .switch-buttons button.active {
+    background-color: #474e5a;             
+}
+
+
 @media (max-height: 700px) and (orientation: landscape) {
     
 }
@@ -168,5 +219,9 @@ textarea, input {
 @media (max-width: 650px) and (orientation: portrait) {
     .buttons-list button {
         font-size: 1.7vh;
+    }
+
+    .back-button {
+        width: 15%;
     }
 }

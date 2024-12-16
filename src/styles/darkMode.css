@@ -43,15 +43,3 @@ body.dark-mode .option-name {
 body.dark-mode .close-button {
     color: #edf2f7;
 }
-
-body.dark-mode .switch-buttons button {
-    color: #edf2f7;
-}
-
-body.dark-mode .switch-buttons button:hover {
-    background-color: #373e4a;
-}
-
-body.dark-mode .back-button {
-    color: white;
-}

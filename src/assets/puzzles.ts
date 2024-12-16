@@ -69,8 +69,8 @@ export const puzzles: Puzzle[] = [
         categories: [
             { name: '', words: ['', '', '', ''] },
             { name: 'Teile einer Brille', words: ['Bügel', 'Rahmen', 'Scharnier', 'Steg'] },
-            { name: 'Am Anfang von Fantasy Filmreihen', words: ['Harry', 'Herr', 'Percy', 'Star'] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Am Anfang von Fiktions-Filmreihen', words: ['Harry', 'Herr', 'Percy', 'Star'] },
+            { name: 'Fach_', words: ['Arzt', '', '', ''] },
         ],
     },
     {
