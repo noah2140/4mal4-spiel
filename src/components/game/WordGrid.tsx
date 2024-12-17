@@ -74,7 +74,7 @@ const WordGrid: React.FC<WordGridProps> = ({
         let baseSize: number;
         switch (deviceType) {
             case 'mobile':
-                baseSize = 17;
+                baseSize = 18;
                 break;
             case 'tablet':
                 baseSize = 20;
