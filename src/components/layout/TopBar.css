@@ -64,6 +64,14 @@
         align-items: center;
         justify-content: center;
     }
+
+    #puzzle-list-button {
+        width: 6vh;
+        height: 6vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 @media (max-width: 1024px) and (orientation: portrait) {
@@ -74,10 +82,26 @@
         align-items: center;
         justify-content: center;
     }
+
+    #puzzle-list-button {
+        width: 5vh;
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 @media (max-width: 850px) and (orientation: landscape) {
     #right-modal-buttons button {
+        width: 2.5rem;
+        height: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #puzzle-list-button {
         width: 2.5rem;
         height: 2.5rem;
         display: flex;

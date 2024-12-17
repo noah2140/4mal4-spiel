@@ -120,21 +120,6 @@ const Home: React.FC = () => {
     }, [showModal, showReportModal, showAboutModal, showStatisticsModal, showOptionsModal, currentPuzzle, progress, wordOrder]);
 
     const filterPuzzles = (puzzles: Puzzle[]) => {
-        
-        /*
-        function mockDate(isoString: string) {
-            const OriginalDate = Date;
-            global.Date = class extends OriginalDate {
-                constructor() {
-                    super();
-                    return new OriginalDate(isoString);
-                }
-            } as DateConstructor;
-        }
-        
-        mockDate('2024-12-16T00:00:00.000Z');
-        */
-
         const today = new Date().toISOString().split('T')[0];
         return puzzles.filter((puzzle) => puzzle.date <= today);
     };
