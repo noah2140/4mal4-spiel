@@ -49,12 +49,12 @@
 }
 
 @media (max-width: 650px) and (orientation: portrait) {
-    .remaining-tries-container {
-        padding-right: 2vh;
-    }
-
     .remaining-tries-text {
         font-size: 2vh;
+    }
+
+    .tries-bubbles {
+        padding-left: 2vh;
     }
 
     .bubble {

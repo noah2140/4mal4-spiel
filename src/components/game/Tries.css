@@ -72,10 +72,10 @@
     .tries-grid {
         gap: 5px;
         margin-top: 0vh;
-        height: 14vh;
+        height: 12vh;
     }
 
     .grid-item {
-        font-size: 1.4vh;
+        font-size: 1.3vh;
     }
 }
