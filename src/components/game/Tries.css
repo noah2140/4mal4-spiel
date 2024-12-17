@@ -77,5 +77,6 @@
 
     .grid-item {
         font-size: 1.3vh;
+        padding: 3px;
     }
 }
