@@ -96,7 +96,7 @@ export const puzzles: Puzzle[] = [
         categories: [
             { name: '', words: ['', '', '', ''] },
             { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'In welchen Kontexten "Note" verwendet wird', words: ['Duft', 'Geld', 'Musik', 'Schule'] },
             { name: 'Arzt_', words: ['Besuch', 'Kittel', 'Koffer', 'Praxis'] },
         ],
     },
@@ -107,6 +107,51 @@ export const puzzles: Puzzle[] = [
             { name: '', words: ['', '', '', ''] },
             { name: 'Gib (mir) _', words: ['Acht', 'Fünf', 'Gas', 'Her'] },
             { name: 'Menge an Ringen, die Personen o. Gruppen in Herr der Ringe erhalten', words: ['Drei', 'Eins', 'Neun', 'Sieben'] },
+        ],
+    },
+    {
+        date: '2024-12-22',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: 'Ergeben auch Sinn, wenn man sie hinter sich selbst setzt', words: ['April', 'Bar', 'Bon', 'Pur'] },
+        ],
+    },
+    {
+        date: '2024-12-23',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2024-12-24',
+        categories: [
+            { name: 'Vornamen von Künstlern für Weihnachtslieder', words: ['Bing', 'Frank', 'Mariah', 'Rolf'] },
+            { name: 'Name vom Weihnachtsmann in verschiedenen Sprachen (ohne Santa/Väterchen/...)', words: ['Claus', 'Klaas', 'Natale', 'Noël'] },
+            { name: 'Namen bekannter Engel', words: ['Clarence', 'Gabriel', 'Raphael', 'Uriel'] },
+            { name: 'Namen der Bailey Kinder in "Ist das Leben nicht schön"', words: ['Janie', 'Pete', 'Tommy', 'Zuzu'] },
+        ],
+    },
+    {
+        date: '2024-12-25',
+        categories: [
+            { name: 'Frauen in Sissi', words: ['Elisabeth', 'Helene', 'Ludovika', 'Sophie'] },
+            { name: 'Namen männlicher Bundeskanzler', words: ['Helmut', 'Konrad', 'Ludwig', 'Olaf'] },
+            { name: 'Charaktere in "Two and a half men"', words: ['Charles', 'Evelyn', 'Jacob', 'Judith'] },
+            { name: 'Namen von Charakteren in "Das Büro"', words: ['Angela', 'Jim', 'Michael', 'Pam'] },
+        ],
+    },
+    {
+        date: '2024-12-26',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
         ],
     },
     {

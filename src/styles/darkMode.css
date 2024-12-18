@@ -13,15 +13,7 @@ body.dark-mode .top-bar button {
 }
 
 body.dark-mode .top-bar button:hover {
-    color: #edf2f7;
-}
-
-body.dark-mode .top-bar button.puzzles:hover {
-    border-color: #edf2f7;
-}
-
-body.dark-mode #puzzle-list-button:hover {
-    background-color: #2d3748;
+    color: #aaaaaa;
 }
 
 body.dark-mode .modal-content {
