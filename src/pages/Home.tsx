@@ -165,8 +165,8 @@ const Home: React.FC = () => {
         : false;
 
     const handlePuzzleSelection = (date: string) => {
-        handleSelectPuzzle(date); // Call existing handleSelectPuzzle
-        setSelectedWords([]); // Clear selected words when a new puzzle is selected
+        handleSelectPuzzle(date);
+        setSelectedWords([]);
     };
 
     return (
