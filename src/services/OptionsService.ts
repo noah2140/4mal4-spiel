@@ -1,7 +1,7 @@
 const OPTIONS_KEY = "user-options";
 
 const defaultOptions = [
-    { name: 'Dark Mode', isOn: false },
+    { name: 'Dunkelmodus', isOn: false },
     { name: 'Stärke der Versuche anzeigen', isOn: true },
     { name: 'Wackeln bei Fehlversuchen', isOn: true },
 ];

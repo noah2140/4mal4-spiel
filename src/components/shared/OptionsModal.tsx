@@ -30,7 +30,7 @@ const OptionsModal: React.FC<OptionsModalProps> = ({ onClose }) => {
         setOptions(newOptions);
         saveOptions(newOptions);
 
-        if (newOptions[index].name === 'Dark Mode') {
+        if (newOptions[index].name === 'Dunkelmodus') {
             if (newOptions[index].isOn) {
                 document.body.classList.add('dark-mode');
             } else {

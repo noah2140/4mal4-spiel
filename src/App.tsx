@@ -9,7 +9,7 @@ import './styles/darkMode.css';
 const App: React.FC = () => {
     useEffect(() => {
         const options = loadOptions();
-        const darkModeOption = options.find(option => option.name === 'Dark Mode');
+        const darkModeOption = options.find(option => option.name === 'Dunkelmodus');
         if (darkModeOption && darkModeOption.isOn) {
             document.body.classList.add('dark-mode');
         }
