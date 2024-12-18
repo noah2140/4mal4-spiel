@@ -53,8 +53,8 @@
         font-size: 2vh;
     }
 
-    .tries-bubbles {
-        padding-left: 2vh;
+    .remaining-tries-container {
+        gap: 2vh;
     }
 
     .bubble {

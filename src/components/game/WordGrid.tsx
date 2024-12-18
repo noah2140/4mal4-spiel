@@ -13,6 +13,7 @@ export interface WordGridProps {
     animateTiles: string[];
     animationDelays: number[];
     animatePairs: [number, number][];
+    guessAnimationInProgress: boolean;
 }
 
 interface SolvedCategory {
@@ -29,6 +30,7 @@ const WordGrid: React.FC<WordGridProps> = ({
     animateTiles,
     animationDelays,
     animatePairs,
+    guessAnimationInProgress,
 }) => {
     const [solvedCategories, setSolvedCategories] = useState<SolvedCategory[]>([]);
     const [tilePositions, setTilePositions] = useState<any[]>([]);
@@ -189,7 +191,8 @@ const WordGrid: React.FC<WordGridProps> = ({
                             fontSize: `${fontSizes[index]}px`
                         }}
                         ref={(el: HTMLButtonElement | null) => { tileRefs.current[index] = el; }}
-                        onClick={() => toggleWordSelection(word)}
+                        onClick={() => !guessAnimationInProgress && toggleWordSelection(word)} 
+                        disabled={guessAnimationInProgress} 
                     >
                         {word}
                     </button>

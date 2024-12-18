@@ -18,6 +18,7 @@
 
 .top-bar button:hover {
     color: #666666;
+    transform: scale(1.1);
 }
 
 .top-bar button.puzzles {

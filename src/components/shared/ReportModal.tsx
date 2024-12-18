@@ -8,9 +8,40 @@ interface ReportModalProps {
     onClose: () => void;
 }
 
+const MAX_SUBMISSIONS_PER_DAY = 5;
+
+const checkSubmissionLimit = (): boolean => {
+    const today = new Date().toISOString().split('T')[0];
+    const storedData = localStorage.getItem('submissionTracker');
+    const tracker = storedData ? JSON.parse(storedData) : { date: '', count: 0 };
+
+    if (tracker.date !== today) {
+        localStorage.setItem(
+            'submissionTracker',
+            JSON.stringify({ date: today, count: 0 })
+        );
+        return false;
+    }
+
+    return tracker.count >= MAX_SUBMISSIONS_PER_DAY;
+};
+
+const incrementSubmissionCount = () => {
+    const today = new Date().toISOString().split('T')[0];
+    const storedData = localStorage.getItem('submissionTracker');
+    const tracker = storedData ? JSON.parse(storedData) : { date: '', count: 0 };
+
+    const updatedTracker = {
+        date: today,
+        count: tracker.count + 1,
+    };
+
+    localStorage.setItem('submissionTracker', JSON.stringify(updatedTracker));
+};
+
 const ReportModal: React.FC<ReportModalProps> = ({ onClose }) => {
     const modalRef = useRef<HTMLDivElement>(null);
-    const [view, setView] = useState<'default' | 'report' | 'suggest' | 'processing' | 'success'>('default');
+    const [view, setView] = useState<'default' | 'lockout' | 'report' | 'suggest' | 'processing' | 'success'>('default');
 
     const [formData, setFormData] = useState<{
         categoryName: string;
@@ -29,6 +60,16 @@ const ReportModal: React.FC<ReportModalProps> = ({ onClose }) => {
 
     useClickOutside(modalRef, onClose);
 
+    const isLockedOut = checkSubmissionLimit();
+
+    React.useEffect(() => {
+        if (isLockedOut) {
+          setView('lockout');
+        } else {
+          setView('default');
+        }
+      }, [isLockedOut]);
+
     const handleChange = (
         e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
         index?: number
@@ -43,6 +84,13 @@ const ReportModal: React.FC<ReportModalProps> = ({ onClose }) => {
     };
 
     const handleSubmit = (type: 'report' | 'suggest') => {
+        console.log(localStorage.getItem("submissionTracker"));
+
+        if (checkSubmissionLimit()) {
+            setStatus('Limit für heute erreicht.');
+            return;
+        }
+
         setView('processing');
     
         let emailParams;
@@ -81,6 +129,7 @@ const ReportModal: React.FC<ReportModalProps> = ({ onClose }) => {
                 "5we664aYY95Z9Mo01"
             )
             .then(() => {
+                incrementSubmissionCount();
                 setStatus("Message sent successfully!");
                 setFormData({ categoryName: '', words: ['', '', '', ''], reportText: '', mode: 'kategorie' });
                 setView('success');
@@ -114,6 +163,21 @@ const ReportModal: React.FC<ReportModalProps> = ({ onClose }) => {
                     </>
                 )}
 
+                {view === 'lockout' && (
+                    <>
+                        <div className="modal-entry">
+                            <h2>Nachricht an Entwickler senden</h2>
+
+                            <button className="close-button" onClick={onClose}>
+                                &times;
+                            </button>
+                        </div>
+                        <p>
+                            Limit für heute erreicht. Ab morgen können erneut Puzzles, Kategorien und Problemmeldungen übermittelt werden.
+                        </p>
+                    </>
+                )}
+
                 {view === 'report' && (
                     <>
                         <div className="modal-entry" id="report">
@@ -126,7 +190,7 @@ const ReportModal: React.FC<ReportModalProps> = ({ onClose }) => {
                                 &times;
                             </button>
                         </div>
-                        <input
+                        <textarea
                             className="reportInput"
                             name="reportText"
                             placeholder="Beschreiben Sie das Problem..."
@@ -185,7 +249,7 @@ const ReportModal: React.FC<ReportModalProps> = ({ onClose }) => {
                                     value={formData.categoryName}
                                     onChange={(e) => handleChange(e)}
                                 />
-                                <div>
+                                <div className="word-grid">
                                     {Array.from({ length: 4 }).map((_, i) => (
                                         <input
                                             key={i}
@@ -213,24 +277,23 @@ const ReportModal: React.FC<ReportModalProps> = ({ onClose }) => {
                                                 })
                                             }
                                         />
-                                        <div>
+                                        <div className="word-grid">
                                             {Array.from({ length: 4 }).map((_, i) => (
                                                 <input
-                                                    key={`${j}-${i}`}
-                                                    placeholder={`Kategorie ${j+1}, Wort ${i + 1}`}
-                                                    value={formData[`words${j}_${i}`] || ''}
-                                                    onChange={(e) =>
-                                                        setFormData({
-                                                            ...formData,
-                                                            [`words${j}_${i}`]: e.target.value,
-                                                        })
-                                                    }
+                                                    key={i}
+                                                    placeholder={`Kategorie ${j + 1} Wort ${i + 1}`}
+                                                    value={formData.words[i]}
+                                                    onChange={(e) => handleChange(e, i)}
                                                 />
                                             ))}
                                         </div>
                                     </div>
                                 ))}
                             </>
+                        )}
+
+                        {formData.reportText.trim() === '' && (
+                            <p className="error-message">Die Eingabe darf nicht leer sein.</p>
                         )}
 
                         <div className="suggest-buttons">

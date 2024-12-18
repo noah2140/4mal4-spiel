@@ -207,6 +207,7 @@ const Home: React.FC = () => {
                             animateTiles={animateTiles}
                             animationDelays={calculateAnimationDelays()}
                             animatePairs={animatePairs}
+                            guessAnimationInProgress={guessAnimationInProgress}
                         />
 
                         {progress[currentPuzzle.date].correctTries.length !== 4 && (

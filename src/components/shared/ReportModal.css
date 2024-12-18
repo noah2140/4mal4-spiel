@@ -88,9 +88,15 @@ textarea, input {
 }
 
 .reportInput {
-    height: 50%;
+    min-height: 15vh;
     font-size: 2vh;
     margin-bottom: 2vh;
+}
+
+.word-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px; 
 }
 
 .temp-screen {
@@ -190,7 +196,7 @@ body.dark-mode .send-button:hover {
     background-color: #474e5a;
 }
 
-body.dark-mode input {
+body.dark-mode textarea, input {
     color: white;
     background-color: #474e5a;
 }
