@@ -196,7 +196,12 @@ body.dark-mode .send-button:hover {
     background-color: #474e5a;
 }
 
-body.dark-mode textarea, input {
+body.dark-mode textarea {
+    color: white;
+    background-color: #474e5a;
+}
+
+body.dark-mode input {
     color: white;
     background-color: #474e5a;
 }
