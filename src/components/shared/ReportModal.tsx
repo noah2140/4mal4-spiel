@@ -8,40 +8,9 @@ interface ReportModalProps {
     onClose: () => void;
 }
 
-const MAX_SUBMISSIONS_PER_DAY = 5;
-
-const checkSubmissionLimit = (): boolean => {
-    const today = new Date().toISOString().split('T')[0];
-    const storedData = localStorage.getItem('submissionTracker');
-    const tracker = storedData ? JSON.parse(storedData) : { date: '', count: 0 };
-
-    if (tracker.date !== today) {
-        localStorage.setItem(
-            'submissionTracker',
-            JSON.stringify({ date: today, count: 0 })
-        );
-        return false;
-    }
-
-    return tracker.count >= MAX_SUBMISSIONS_PER_DAY;
-};
-
-const incrementSubmissionCount = () => {
-    const today = new Date().toISOString().split('T')[0];
-    const storedData = localStorage.getItem('submissionTracker');
-    const tracker = storedData ? JSON.parse(storedData) : { date: '', count: 0 };
-
-    const updatedTracker = {
-        date: today,
-        count: tracker.count + 1,
-    };
-
-    localStorage.setItem('submissionTracker', JSON.stringify(updatedTracker));
-};
-
 const ReportModal: React.FC<ReportModalProps> = ({ onClose }) => {
     const modalRef = useRef<HTMLDivElement>(null);
-    const [view, setView] = useState<'default' | 'lockout' | 'report' | 'suggest' | 'processing' | 'success'>('default');
+    const [view, setView] = useState<'default' | 'report' | 'suggest' | 'processing' | 'success'>('default');
 
     const [formData, setFormData] = useState<{
         categoryName: string;
@@ -60,16 +29,6 @@ const ReportModal: React.FC<ReportModalProps> = ({ onClose }) => {
 
     useClickOutside(modalRef, onClose);
 
-    const isLockedOut = checkSubmissionLimit();
-
-    React.useEffect(() => {
-        if (isLockedOut) {
-          setView('lockout');
-        } else {
-          setView('default');
-        }
-      }, [isLockedOut]);
-
     const handleChange = (
         e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
         index?: number
@@ -82,15 +41,8 @@ const ReportModal: React.FC<ReportModalProps> = ({ onClose }) => {
             setFormData({ ...formData, [e.target.name]: e.target.value });
         }
     };
-
+    
     const handleSubmit = (type: 'report' | 'suggest') => {
-        console.log(localStorage.getItem("submissionTracker"));
-
-        if (checkSubmissionLimit()) {
-            setStatus('Limit für heute erreicht.');
-            return;
-        }
-
         setView('processing');
     
         let emailParams;
@@ -129,7 +81,6 @@ const ReportModal: React.FC<ReportModalProps> = ({ onClose }) => {
                 "5we664aYY95Z9Mo01"
             )
             .then(() => {
-                incrementSubmissionCount();
                 setStatus("Message sent successfully!");
                 setFormData({ categoryName: '', words: ['', '', '', ''], reportText: '', mode: 'kategorie' });
                 setView('success');
@@ -160,21 +111,6 @@ const ReportModal: React.FC<ReportModalProps> = ({ onClose }) => {
                                 <button onClick={() => setView('suggest')}>Kategorie / Puzzle vorschlagen</button>
                             </li>
                         </ul>
-                    </>
-                )}
-
-                {view === 'lockout' && (
-                    <>
-                        <div className="modal-entry">
-                            <h2>Nachricht an Entwickler senden</h2>
-
-                            <button className="close-button" onClick={onClose}>
-                                &times;
-                            </button>
-                        </div>
-                        <p>
-                            Limit für heute erreicht. Ab morgen können erneut Puzzles, Kategorien und Problemmeldungen übermittelt werden.
-                        </p>
                     </>
                 )}
 
@@ -235,7 +171,16 @@ const ReportModal: React.FC<ReportModalProps> = ({ onClose }) => {
                             </button>
                             <button
                                 className={formData.mode === 'puzzle' ? 'active' : ''}
-                                onClick={() => setFormData({ ...formData, mode: 'puzzle' })}
+                                onClick={() => {
+                                    if (formData.mode === 'kategorie' && formData.categoryName.trim() !== '') {
+                                        setFormData({
+                                            ...formData,
+                                            mode: 'puzzle',
+                                        });
+                                    } else {
+                                        setFormData({ ...formData, mode: 'puzzle' });
+                                    }
+                                }}
                             >
                                 Puzzle
                             </button>
@@ -282,8 +227,13 @@ const ReportModal: React.FC<ReportModalProps> = ({ onClose }) => {
                                                 <input
                                                     key={i}
                                                     placeholder={`Kategorie ${j + 1} Wort ${i + 1}`}
-                                                    value={formData.words[i]}
-                                                    onChange={(e) => handleChange(e, i)}
+                                                    value={formData[`words${j}_${i}`] || ''}
+                                                    onChange={(e) =>
+                                                        setFormData({
+                                                            ...formData,
+                                                            [`words${j}_${i}`]: e.target.value,
+                                                        })
+                                                    }
                                                 />
                                             ))}
                                         </div>
@@ -292,9 +242,21 @@ const ReportModal: React.FC<ReportModalProps> = ({ onClose }) => {
                             </>
                         )}
 
-                        {formData.reportText.trim() === '' && (
-                            <p className="error-message">Die Eingabe darf nicht leer sein.</p>
+                        {formData.mode === 'kategorie' && (formData.categoryName.trim() === '' || formData.words.some(word => word.trim() === '')) && (
+                            <p className="error-message">Kategorie-Name und Wörter dürfen nicht leer sein.</p>
                         )}
+
+                        {formData.mode === 'puzzle' && 
+                            Array.from({ length: 4 }).filter((_, j) => {
+                                const categoryName = formData[`categoryName${j}`] || '';
+                                const words = Array.from({ length: 4 })
+                                    .map((_, i) => formData[`words${j}_${i}`] || '')
+                                    .filter(Boolean); 
+                                return categoryName.trim() !== '' && words.length === 4; 
+                            }).length < 2 && (
+                            <p className="error-message">Mindestens zwei Kategorien müssen einen Namen und vier Wörter enthalten.</p>
+                        )}
+
 
                         <div className="suggest-buttons">
                             <button className="send-button" onClick={() => handleSubmit('suggest')}>Senden</button>

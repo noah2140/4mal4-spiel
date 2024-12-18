@@ -35,6 +35,7 @@ body.dark-mode .puzzle-item:hover {
 .puzzleStatus {
     display: flex;
     justify-content: center;
+    padding: 3vh;
 }
 
 .selected-puzzle .puzzle-item {
