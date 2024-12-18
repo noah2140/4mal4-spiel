@@ -10,9 +10,9 @@ const ScreenShake: React.FC<ScreenShakeProps> = ({ children, trigger }) => {
     const shakeVariants = {
         initial: { x: 0, y: 0, rotate: 0 },
         shake: {
-            x: [1, -1, -2, 1, 1, -1, -2, 1, -1, 2, 1],
-            y: [2, -1, 0, 2, -1, 1, 1, 1, -1, 1, -2],
-            rotate: [0, -0.2, 0.2, 0, 0.2, -0.2, 0, -0.2, 0.2, 0, -0.2],
+            x: [2, -1, -2, 2, 1, -2, -1, 2, -1, 1, 2],
+            y: [2, -1, 1, -1, -2, 1, -1, -2, -1, 2, -1],
+            rotate: [0, -0.7, 0.7, 0, 0.7, -0.7, 0, -0.7, 0.7, 0, -0.7],
           transition: { duration: 0.5, ease: "easeInOut" },
         },
     };

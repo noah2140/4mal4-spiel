@@ -164,6 +164,11 @@ const Home: React.FC = () => {
         ? progress[currentPuzzle.date]?.correctTries.length === 4
         : false;
 
+    const handlePuzzleSelection = (date: string) => {
+        handleSelectPuzzle(date); // Call existing handleSelectPuzzle
+        setSelectedWords([]); // Clear selected words when a new puzzle is selected
+    };
+
     return (
         <ScreenShake trigger={shake}>
             <div>
@@ -186,7 +191,7 @@ const Home: React.FC = () => {
                     currentPuzzle={currentPuzzle}
                     statistics={statistics}
                     toggleModal={toggleModal}
-                    handleSelectPuzzle={handleSelectPuzzle}
+                    handleSelectPuzzle={handlePuzzleSelection}
                     setShowModal={setShowModal}
                 />
 

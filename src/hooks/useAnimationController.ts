@@ -12,7 +12,7 @@ export default function useAnimationController() {
             callback();
             setAnimateTiles([]);
             setGuessAnimationInProgress(false);
-        }, 1200);
+        }, 1000);
     };
 
     return { guessAnimationInProgress, animateTiles, startGuessAnimation };

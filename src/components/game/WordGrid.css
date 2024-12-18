@@ -109,7 +109,7 @@
 }
 
 .word-tile.animate {
-    animation: moveUpDown 0.9s ease-in-out;
+    animation: moveUpDown 0.5s ease-in-out;
 }
 
 @media (max-width: 1024px) and (orientation: portrait) {
