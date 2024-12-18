@@ -15,7 +15,7 @@ const App: React.FC = () => {
         if (darkModeOption && darkModeOption.isOn) {
             document.body.classList.add('dark-mode');
             if (themeMetaTag) {
-                themeMetaTag.setAttribute('content', '#1a202c');
+                themeMetaTag.setAttribute('content', '#151b28');
             }
         } else {
             document.body.classList.remove('dark-mode');
