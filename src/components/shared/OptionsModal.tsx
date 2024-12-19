@@ -30,6 +30,9 @@ const OptionsModal: React.FC<OptionsModalProps> = ({ onClose }) => {
         setOptions(newOptions);
         saveOptions(newOptions);
 
+        const event = new Event('optionsUpdated');
+        window.dispatchEvent(event);
+
         const themeMetaTag = document.querySelector('meta[name="theme-color"]');
 
         if (newOptions[index].name === 'Dunkelmodus') {

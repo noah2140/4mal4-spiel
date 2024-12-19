@@ -13,6 +13,18 @@ const Tries: React.FC<TriesProps> = ({ falseTries, categories }) => {
 
     const showTryStrength = options.find((option) => option.name === "Stärke der Versuche anzeigen")?.isOn;
 
+    React.useEffect(() => {
+        const updateOptions = () => {
+            setOptions(loadOptions());
+        };
+    
+        window.addEventListener('optionsUpdated', updateOptions);
+    
+        return () => {
+            window.removeEventListener('optionsUpdated', updateOptions);
+        };
+    }, []);
+
     const getCommonWordsCount = (guess: string[], categoryWords: string[]): number => {
         const commonWords = guess.filter(word => categoryWords.includes(word));
         return commonWords.length;
