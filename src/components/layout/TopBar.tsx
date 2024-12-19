@@ -8,6 +8,7 @@ interface TopBarProps {
     onShowAboutModal: () => void;
     onShowStatisticsModal: () => void;
     onShowOptionsModal: () => void;
+    guessAnimationInProgress: boolean;
 }
 
 const TopBar: React.FC<TopBarProps> = ({
@@ -16,27 +17,41 @@ const TopBar: React.FC<TopBarProps> = ({
     onShowAboutModal,
     onShowStatisticsModal,
     onShowOptionsModal,
+    guessAnimationInProgress,
 }) => {
     return (
         <div className="top-bar">
             <button
                 id="puzzle-list-button"
-                onClick={onShowPuzzleModal}
+                onClick={() => { if (!guessAnimationInProgress) onShowPuzzleModal(); }}
+                disabled={guessAnimationInProgress} 
             >
                 <FaList size={20} />
             </button>
 
             <div id="right-modal-buttons">
-                <button onClick={onShowStatisticsModal}>
+                <button 
+                    onClick={() => { if (!guessAnimationInProgress) onShowStatisticsModal();}}
+                    disabled={guessAnimationInProgress} 
+                >
                     <FaChartBar size={20} />
                 </button>
-                <button onClick={onShowReportModal}>
+                <button 
+                    onClick={() => { if (!guessAnimationInProgress) onShowReportModal();}}
+                    disabled={guessAnimationInProgress} 
+                >
                     <FaEnvelopeOpenText size={20} />
                 </button>
-                <button onClick={onShowAboutModal}>
+                <button 
+                    onClick={() => { if (!guessAnimationInProgress) onShowAboutModal();}}
+                    disabled={guessAnimationInProgress} 
+                >
                     <FaQuestionCircle size={20} />
                 </button>
-                <button onClick={onShowOptionsModal}>
+                <button 
+                    onClick={() => { if (!guessAnimationInProgress) onShowOptionsModal();}}
+                    disabled={guessAnimationInProgress} 
+                >
                     <FaCog size={20} />
                 </button>
             </div>

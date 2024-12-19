@@ -178,6 +178,7 @@ const Home: React.FC = () => {
                     onShowAboutModal={() => toggleModal('about')}
                     onShowStatisticsModal={() => toggleModal('statistics')}
                     onShowOptionsModal={() => toggleModal('options')}
+                    guessAnimationInProgress={guessAnimationInProgress}
                 />
 
                 <Modals
