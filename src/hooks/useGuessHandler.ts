@@ -63,8 +63,6 @@ const useGuessHandler = (
                     updatedStats.streak++;
                     updatedStats.nrSolved++;
                     updatedStats.nrAttempted++;
-        
-                    setShowStatisticsModal(true);
                 }
         
                 setSelectedWords([]);
