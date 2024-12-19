@@ -23,7 +23,7 @@ const useGuessHandler = (
 
     const statistics = fetchStatistics();
 
-    const handleGuess = (pairs: [number, number][]) => {
+    const handleGuess = async (pairs: [number, number][]) => {
         if (!currentPuzzle || selectedWords.length < 4) return;
     
         const correctCategory = currentPuzzle.categories.find((category: PuzzleCategory) =>
@@ -108,6 +108,7 @@ const useGuessHandler = (
                         };
                     }),
                 ];
+
             
                 newProgress.state = "Nicht geschafft";
                 updatedStats.streak = 0;
@@ -123,7 +124,7 @@ const useGuessHandler = (
             updateStatistics(updatedStats);
             setStatistics(updatedStats);
         }
-    };    
+    };
 
     return { handleGuess, selectedWords, setSelectedWords, correctTriesCount, falseTriesCount, statistics };
 };
