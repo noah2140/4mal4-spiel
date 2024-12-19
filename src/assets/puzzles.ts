@@ -94,8 +94,8 @@ export const puzzles: Puzzle[] = [
     {
         date: '2024-12-20',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Historie', words: ['Geschichte', 'Lebensweg', 'Vergangenheit', 'Vita'] },
+            { name: 'Wo Sport ausgeübt wird', words: ['Halle', 'Laufbahn', 'Piste', 'Rasen'] },
             { name: 'In welchen Kontexten "Note" verwendet wird', words: ['Duft', 'Geld', 'Musik', 'Schule'] },
             { name: 'Arzt_', words: ['Besuch', 'Kittel', 'Koffer', 'Praxis'] },
         ],
@@ -103,32 +103,41 @@ export const puzzles: Puzzle[] = [
     {
         date: '2024-12-21',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Versager', words: ['Flasche', 'Niete', 'Null', 'Pfeife'] },
+            { name: 'Am Anfang von Gesellschaftsspielen', words: ['Mau', 'Monopol', 'Phase', 'Vier'] },
             { name: 'Gib (mir) _', words: ['Acht', 'Fünf', 'Gas', 'Her'] },
-            { name: 'Menge an Ringen, die Personen o. Gruppen in Herr der Ringe erhalten', words: ['Drei', 'Eins', 'Neun', 'Sieben'] },
+            { name: 'Menge an Ringen, die Personen o. Gruppen in Herr der Ringe erhielten', words: ['Drei', 'Eins', 'Neun', 'Sieben'] },
         ],
     },
     {
         date: '2024-12-22',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Bestandteil von Autos', words: ['Gurt', 'Klimaanlage', 'Sitz', 'Spiegel'] },
+            { name: 'Clever (vorgehen)', words: ['Bedacht', 'Logisch', 'Methodisch', 'Überlegt'] },
+            { name: 'Arten von Zahlen', words: ['Ganz', 'Imaginär', 'Natürlich', 'Rational'] },
             { name: 'Ergeben auch Sinn, wenn man sie hinter sich selbst setzt', words: ['April', 'Bar', 'Bon', 'Pur'] },
         ],
     },
     {
         date: '2024-12-23',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Zum Schutz verwendet', words: ['Brille', 'Handschuh', 'Helm', 'Maske'] },
+            { name: 'Zusätzlich', words: ['Außerdem', 'Dazu', 'Mehr', 'Weiter'] },
+            { name: 'Unternehmen ohne "Deutsche"', words: ['Bahn', 'Bank', 'Post', 'Telekom'] },
+            { name: 'Im Kontext "Mitgehen" verwendet', words: ['Demo', 'Diebstahl', 'Enthusiasmus', 'Zeit'] },
         ],
     },
     {
         date: '2024-12-24',
+        categories: [
+            { name: 'Was viele an Weihnachten gerne sehen', words: ['Baum', 'Familie', 'Geschenk', 'Schnee'] },
+            { name: 'Sind oft am/auf Weihnachtsbaum zu sehen', words: ['Kugel', 'Lichterkette', 'Schmuck', 'Stern'] },
+            { name: 'Gängige Geschenke', words: ['Gutschein', 'Socken', 'Spielzeug', 'Technik'] },
+            { name: 'Schutz_', words: ['Band', 'Engel', 'Helm', 'Kleidung'] },
+        ],
+    },
+    {
+        date: '2024-12-25',
         categories: [
             { name: 'Vornamen von Künstlern für Weihnachtslieder', words: ['Bing', 'Frank', 'Mariah', 'Rolf'] },
             { name: 'Name vom Weihnachtsmann in verschiedenen Sprachen (ohne Santa/Väterchen/...)', words: ['Claus', 'Klaas', 'Natale', 'Noël'] },
@@ -137,21 +146,12 @@ export const puzzles: Puzzle[] = [
         ],
     },
     {
-        date: '2024-12-25',
+        date: '2024-12-26',
         categories: [
             { name: 'Frauen in Sissi', words: ['Elisabeth', 'Helene', 'Ludovika', 'Sophie'] },
             { name: 'Namen männlicher Bundeskanzler', words: ['Helmut', 'Konrad', 'Ludwig', 'Olaf'] },
             { name: 'Charaktere in "Two and a half men"', words: ['Charles', 'Evelyn', 'Jacob', 'Judith'] },
             { name: 'Namen von Charakteren in "Das Büro"', words: ['Angela', 'Jim', 'Michael', 'Pam'] },
-        ],
-    },
-    {
-        date: '2024-12-26',
-        categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
         ],
     },
     {
