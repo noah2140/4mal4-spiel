@@ -155,6 +155,78 @@ export const puzzles: Puzzle[] = [
         ],
     },
     {
+        date: '2024-12-27',
+        categories: [
+            { name: 'News', words: ['Bericht', 'Meldung', 'Nachricht', 'Report'] },
+            { name: 'Haben Seiten', words: ['Buch', 'Frisur', 'Internet', 'Zeitung'] },
+            { name: 'Enthalten Batterien/Akku', words: ['Kamera', 'Laptop', 'Taschenlampe', 'Wecker'] },
+            { name: '_Bank', words: ['Bier', 'Fenster', 'Park', 'Power'] },
+        ],
+    },
+    {
+        date: '2024-12-28',
+        categories: [
+            { name: 'Beim Pokern zu sehen', words: ['Chips', 'Matte', 'Paar', 'Straße'] },
+            { name: 'Kreative Werke', words: ['Bild', 'Buch', 'Gedicht', 'Lied'] },
+            { name: 'Machen einen Schlumpf aus', words: ['Blau', 'Hose', 'Klein', 'Mütze'] },
+            { name: 'Sicherheits_', words: ['Abstand', 'Brille', 'Code', 'Gurt'] },
+        ],
+    },
+    {
+        date: '2024-12-29',
+        categories: [
+            { name: 'Brettspiele', words: ['Dame', 'Mühle', 'Risiko', 'Tabu'] },
+            { name: '"Halt die/den _"', words: ['Gosche', 'Klappe', 'Schnabel', 'Schnauze'] },
+            { name: 'Werden häufig verliehen', words: ['Abzeichen', 'Buch', 'Medaille', 'Preis'] },
+            { name: 'Enden mit Körperteilen', words: ['Bohr', 'Dortmund', 'Lauge', 'Schwarm'] },
+        ],
+    },
+    {
+        date: '2024-12-30',
+        categories: [
+            { name: 'Teile eines Autos', words: ['Gurt', 'Motor', 'Sitz', 'Tank'] },
+            { name: 'Oft bei Brettspielen dabei', words: ['Anleitung', 'Karte', 'Sanduhr', 'Würfel'] },
+            { name: 'In Namen der sieben alten Weltwunder', words: ['Grabmal', 'Leuchtturm', 'Pyramide', 'Tempel'] },
+            { name: 'Lotto_', words: ['Gewinn', 'Kugel', 'Schein', 'Zahl'] },
+        ],
+    },
+    {
+        date: '2024-12-31',
+        categories: [
+            { name: 'Sind laut', words: ['Alarm', 'Böller', 'Feuerwerk', 'Flugzeug'] },
+            { name: 'Kommen von oben', words: ['Hagel', 'Konfetti', 'Regen', 'Schnee'] },
+            { name: '_Flasche', words: ['Champagner', 'Ketchup', 'Pfand', 'Plastik'] },
+            { name: 'Namen dt. Schriftsteller', words: ['Ende', 'Grass', 'Mann', 'Zweig'] },
+        ],
+    },
+    {
+        date: '2025-01-01',
+        categories: [
+            { name: 'Männliche Tiere', words: ['Bock', 'Bulle', 'Hahn', 'Kater'] },
+            { name: 'Frauenheld', words: ['Don Juan', 'Hengst', 'Playboy', 'Romeo'] },
+            { name: 'Was noch in der Zukunft liegt', words: ['Prognose', 'Vorsatz', 'Wunsch', 'Ziel'] },
+            { name: 'Neu_', words: ['Bau', 'Gierig', 'Jahr', 'Land'] },
+        ],
+    },
+    {
+        date: '2025-01-02',
+        categories: [
+            { name: 'Behältnis', words: ['Karton', 'Kiste', 'Schachtel', 'Verpackung'] },
+            { name: 'Vorführung', words: ['Akt', 'Aufführung', 'Inszenierung', 'Spiel'] },
+            { name: 'Aus dem Französischem stammende Wörter', words: ['Buffet', 'Genre', 'Restaurant', 'Toilette'] },
+            { name: 'Am Ende deutscher Castingshows', words: ['Germany', 'Model', 'Star', 'Talent'] },
+        ],
+    },
+    {
+        date: '2025-01-03',
+        categories: [
+            { name: 'Thematik', words: ['Bereich', 'Gebiet', 'Materie', 'Thema'] },
+            { name: 'Gattung', words: ['Familie', 'Genre', 'Gruppe', 'Klasse'] },
+            { name: 'Bei Monopoly zu sehen', words: ['Bahnhof', 'Gefängnis', 'Los', 'Straße'] },
+            { name: 'Haben Stufen', words: ['Alter', 'Gehalt', 'Sprache', 'Treppe'] },
+        ],
+    },
+    {
         date: '2099-12-31',
         categories: [
             { name: '', words: ['', '', '', ''] },
