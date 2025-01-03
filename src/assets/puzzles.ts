@@ -227,6 +227,51 @@ export const puzzles: Puzzle[] = [
         ],
     },
     {
+        date: '2025-01-04',
+        categories: [
+            { name: 'Findet man in Sätzen', words: ['Artikel', 'Komma', 'Verb', 'Wort'] },
+            { name: 'Was man für falsches Verhalten im Straßenverkehr kriegt', words: ['Entzug', 'Geldstrafe', 'Punkt', 'Ticket'] },
+            { name: 'Wo man Kleidung finden kann', words: ['Geschäft', 'Koffer', 'Leine', 'Schrank'] },
+            { name: '_Zeug', words: ['Bett', 'Feuer', 'Flug', 'Spiel'] },
+        ],
+    },
+    {
+        date: '2025-01-05',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-01-06',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '_Wehr', words: ['Ab', 'Feuer', 'Gegen', 'Not'] },
+        ],
+    },
+    {
+        date: '2025-01-07',
+        categories: [
+            { name: 'Was man beim Wäsche machen macht', words: ['Aufhängen', 'Falten', 'Trocknen', 'Waschen'] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '_Spiel', words: ['Brett', 'Fest', 'Heim', 'Party'] },
+        ],
+    },
+    {
+        date: '2025-01-08',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
         date: '2099-12-31',
         categories: [
             { name: '', words: ['', '', '', ''] },
