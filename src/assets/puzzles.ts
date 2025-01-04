@@ -238,19 +238,19 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-01-05',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Zum Machen einer Pizza Margherita verwendet', words: ['Käse', 'Mehl', 'Öl', 'Tomatensauce'] },
+            { name: 'Gehören zu Top-Essensexportgütern Brasiliens', words: ['Kaffee', 'Mais', 'Soja', 'Zucker'] },
+            { name: 'Brems_', words: ['Belag', 'Scheibe', 'Spur', 'Weg'] },
+            { name: 'Werden im Kontext "Spannung" verwendet', words: ['Erwartung', 'Konflikt', 'Strom', 'Thriller'] },
         ],
     },
     {
         date: '2025-01-06',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Was man im Meer findet', words: ['Alge', 'Fisch', 'Müll', 'Wasser'] },
+            { name: 'Was es im Weltall nicht gibt', words: ['Luft', 'Nacht', 'Schwerkraft', 'Tag'] },
             { name: '_Wehr', words: ['Ab', 'Feuer', 'Gegen', 'Not'] },
+            { name: 'Was (die) Erde ist', words: ['Braun', 'Fruchtbar', 'Planet', 'Rund'] },
         ],
     },
     {
