@@ -257,9 +257,9 @@ export const puzzles: Puzzle[] = [
         date: '2025-01-07',
         categories: [
             { name: 'Was man beim Wäsche machen macht', words: ['Aufhängen', 'Falten', 'Trocknen', 'Waschen'] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '_Spiel', words: ['Brett', 'Fest', 'Heim', 'Party'] },
+            { name: 'Können zur Ausrüstung eines Bergsteigers gehören', words: ['Gurt', 'Haken', 'Pickel', 'Seil'] },
+            { name: 'Was mit "Fall" gemeint sein kann', words: ['Ende', 'Kasus', 'Rechtsstreit', 'Sturz'] },
+            { name: '_Spiel', words: ['Brett', 'Hand', 'Heim', 'Party'] },
         ],
     },
     {
@@ -267,8 +267,8 @@ export const puzzles: Puzzle[] = [
         categories: [
             { name: '', words: ['', '', '', ''] },
             { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: '_Star', words: ['Grauer', 'Rock', 'Super', 'Welt'] },
+            { name: 'Teekesselchen', words: ['Aufzug', 'Bank', 'Flügel', 'Raupe'] },
         ],
     },
     {

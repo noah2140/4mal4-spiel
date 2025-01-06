@@ -3,22 +3,11 @@ To-Dos:
 General Logic:
 -Make it so animations play out, when puzzle is failed
 -Maybe: No update of tiles in puzzle grid after swapping on solve
--Store date of last load, to update displayed puzzle to newest ✔
+-Reload page on date change
 
 Animations:
 -Swap tiles on press of shuffle button
 
-Buttons:
--Disable buttons while guess plays out ✔
-
 Modals:
--Contact (✔)
 -Support the dev
 -Weekly Challenge?
-
-Stylings:
--Proper styling for all main devices ✔
--Ensure proper styling for PCs, no matter how it is displayed ✔
-
-For Contact Modal:
--Improve styling for everything, including different devices ✔
