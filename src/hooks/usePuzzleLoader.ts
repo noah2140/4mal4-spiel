@@ -19,6 +19,16 @@ const usePuzzleLoader = () => {
 
     let initialized = useRef(false);
 
+    // Utility function to check if a puzzle is complete
+    const isPuzzleComplete = (puzzle: Puzzle): boolean => {
+        return puzzle.categories.every(
+            (category) =>
+                category.name.trim() !== "" && // Name must not be empty
+                category.words.length === 4 && // Must have exactly 4 words
+                category.words.every((word) => word.trim() !== "") // All words must be non-empty
+        );
+    };
+
     useEffect(() => {
         if (initialized.current) return;
 
@@ -30,7 +40,7 @@ const usePuzzleLoader = () => {
 
         const lastOpenedPuzzleDate = localStorage.getItem('lastOpenedPuzzle');
         const storedToday = localStorage.getItem('today');
-    
+
         const today = new Date().toISOString().split('T')[0];
 
         const puzzleDateToLoad = (storedToday === today) 
@@ -43,8 +53,10 @@ const usePuzzleLoader = () => {
         }
 
         const puzzle = fetchPuzzleByDate(puzzleDateToLoad);
-        if (puzzle) {
+        if (puzzle && isPuzzleComplete(puzzle)) {
             loadPuzzle(puzzle, false);
+        } else {
+            setCurrentPuzzle(null); // Set currentPuzzle to null if it's incomplete
         }
 
         loadedPuzzles.forEach(puzzle => {
@@ -66,9 +78,11 @@ const usePuzzleLoader = () => {
 
     const handleSelectPuzzle = (date: string, resetSelectedWords?: () => void) => {
         const puzzle = fetchPuzzleByDate(date);
-        if (puzzle) {
+        if (puzzle && isPuzzleComplete(puzzle)) {
             loadPuzzle(puzzle, false, resetSelectedWords);
-            localStorage.setItem('lastOpenedPuzzle', date); 
+            localStorage.setItem('lastOpenedPuzzle', date);
+        } else {
+            setCurrentPuzzle(null); // Set currentPuzzle to null if it's incomplete
         }
         setShowModal(false);
     };

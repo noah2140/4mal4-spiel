@@ -83,7 +83,7 @@ const Home: React.FC = () => {
         } as DateConstructor;
     }
 
-    //mockDate('2024-12-25T00:00:00.000Z');
+    //mockDate('2025-01-10T00:00:00.000Z');
 
     React.useEffect(() => {
         setOptions(loadOptions());
@@ -151,7 +151,7 @@ const Home: React.FC = () => {
             const pairs = swapPairs;
             startGuessAnimation(selectedWords, () => handleGuess(pairs));
         } else {
-            console.log('These words have already been guessed');
+            console.log('Diese Worte wurden bereits geraten');
         }
     };
 
@@ -244,8 +244,8 @@ const Home: React.FC = () => {
                 )}
             </div>
         </ScreenShake>
-        
     );
 };
 
 export default Home;
+
