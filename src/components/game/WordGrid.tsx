@@ -173,6 +173,7 @@ const WordGrid: React.FC<WordGridProps> = ({
                     <div key={category} className={`solved-category difficulty-${difficulty}`}>
                         <h3>{category}</h3>
                         <p>{categoryWords}</p>
+                        <div className="difficultyNumber">{difficulty}</div>
                     </div>
                 );
             })}

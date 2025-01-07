@@ -9,6 +9,7 @@
 }
 
 .solved-category {
+    position: relative;
     grid-column: span 4;
     grid-row: span 1;
     background-color: #888888;
@@ -42,6 +43,15 @@
 .solved-category p {
     padding-top: 1vh;
     font-size: 2vh;
+}
+
+.solved-category .difficultyNumber {
+    position: absolute;
+    left: 47%;
+    top: 70%;
+    font-size: 14px;
+    text-align: center;
+    z-index: 10;
 }
 
 .difficulty-1 {
@@ -144,11 +154,15 @@
     }
 
     .solved-category h3 {
-        font-size: 1.8vh;
+        font-size: 1.6vh;
     }
     
     .solved-category p {
         font-size: 1.4vh;
+    }
+
+    .solved-category .difficultyNumber {
+        font-size: 11px;
     }
 
     .word-tile {
