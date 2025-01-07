@@ -240,7 +240,7 @@ const Home: React.FC = () => {
                         
                     </div>
                 ) : (
-                    <p>No puzzle selected.</p>
+                    <p>Seite bitte neu laden. Wenn diese Seite nach dem Neuladen immer noch da ist, ist aktuell kein neues Puzzle verfügbar. Alte Puzzle können weiterhin über den Knopf links oben ausgewählt werden.</p>
                 )}
             </div>
         </ScreenShake>
