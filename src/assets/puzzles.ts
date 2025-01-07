@@ -266,9 +266,54 @@ export const puzzles: Puzzle[] = [
         date: '2025-01-08',
         categories: [
             { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '_Star', words: ['Grauer', 'Rock', 'Super', 'Welt'] },
+            { name: 'Messerarten', words: ['Brot', 'Jagd', 'Taschen', 'Teppich'] },
+            { name: '_Star', words: ['Fußball', 'Grauer', 'Super', 'Welt'] },
             { name: 'Teekesselchen', words: ['Aufzug', 'Bank', 'Flügel', 'Raupe'] },
+        ],
+    },
+    {
+        date: '2025-01-09',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: 'Bundes_', words: ['Amt', 'Land', 'Liga', 'Tag'] },
+            { name: 'Was (der) Mars ist', words: ['Planet', 'Riegel', 'Rot', 'Rund'] },
+        ],
+    },
+    {
+        date: '2025-01-10',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '_Salat', words: ['Feld', 'Kabel', 'Kopf', 'Nudel'] },
+            { name: 'Am Anfang von Star Wars Charakteren', words: ['General', 'Luke', 'Obi', 'Qui'] },
+        ],
+    },
+    {
+        date: '2025-01-11',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: 'In welchen Kontexten man einen "Pass" findet', words: ['Basketball', 'Berg', 'Fußball', 'Reisen'] },
+        ],
+    },
+    {
+        date: '2025-01-12',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-01-13',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
         ],
     },
     {
