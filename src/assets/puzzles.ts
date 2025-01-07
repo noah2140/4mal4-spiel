@@ -265,7 +265,7 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-01-08',
         categories: [
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Möbel die häufig aus Holz sind', words: ['Kommode', 'Regal', 'Schrank', 'Tisch'] },
             { name: 'Messerarten', words: ['Brot', 'Jagd', 'Taschen', 'Teppich'] },
             { name: '_Star', words: ['Fußball', 'Grauer', 'Super', 'Welt'] },
             { name: 'Teekesselchen', words: ['Aufzug', 'Bank', 'Flügel', 'Raupe'] },
@@ -274,8 +274,8 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-01-09',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Kleines Pulver, (oft) weiß', words: ['Mehl', 'Salz', 'Schnee', 'Zucker'] },
+            { name: 'Sind scharf', words: ['Chili', 'Messer', 'Peperoni', 'Pfeffer'] },
             { name: 'Bundes_', words: ['Amt', 'Land', 'Liga', 'Tag'] },
             { name: 'Was (der) Mars ist', words: ['Planet', 'Riegel', 'Rot', 'Rund'] },
         ],
@@ -283,8 +283,8 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-01-10',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Was man auf Schiffen findet', words: ['Anker', 'Kabine', 'Kapitän', 'Ruder'] },
+            { name: 'Schiff- und Bootarten', words: ['Container', 'Kutter', 'Kreuzfahrt', 'Segel'] },
             { name: '_Salat', words: ['Feld', 'Kabel', 'Kopf', 'Nudel'] },
             { name: 'Am Anfang von Star Wars Charakteren', words: ['General', 'Luke', 'Obi', 'Qui'] },
         ],
