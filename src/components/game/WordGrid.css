@@ -47,8 +47,7 @@
 
 .solved-category .difficultyNumber {
     position: absolute;
-    left: 47%;
-    top: 70%;
+    left: 46%;
     font-size: 14px;
     text-align: center;
     z-index: 10;
@@ -139,6 +138,10 @@
     
     .solved-category p {
         font-size: 1.4vh;
+    }
+
+    .solved-category .difficultyNumber {
+        font-size: 12px;
     }
 }
 
