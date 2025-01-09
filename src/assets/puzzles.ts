@@ -292,19 +292,19 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-01-11',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Menschliche Tierkreiszeichen', words: ['Jungfrau', 'Schütze', 'Wassermann', 'Zwillinge'] },
+            { name: 'Mehrzahl von Tieren', words: ['Büffel', 'Fische', 'Fliegen', 'Rochen'] },
+            { name: 'In Namen bekannter Disney-Filme', words: ['Löwe', 'Meerjungfrau', 'Strolch', 'Wunderland'] },
             { name: 'In welchen Kontexten man einen "Pass" findet', words: ['Basketball', 'Berg', 'Fußball', 'Reisen'] },
         ],
     },
     {
         date: '2025-01-12',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Häufige Allergien', words: ['Haar', 'Milch', 'Nuss', 'Pollen'] },
+            { name: 'Wofür es Rennen gibt', words: ['Auto', 'Pferd', 'Schnecke', 'Schubkarre'] },
+            { name: 'Formen, zu denen man Papier zusammenfaltet', words: ['Boot', 'Flieger', 'Frosch', 'Hut'] },
+            { name: '_Löffel', words: ['Koch', 'Plastik', 'Schuh', 'Tee'] },
         ],
     },
     {
@@ -313,7 +313,7 @@ export const puzzles: Puzzle[] = [
             { name: '', words: ['', '', '', ''] },
             { name: '', words: ['', '', '', ''] },
             { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'In welchen Kontexten das Wort "Platte" verwendet wird', words: ['Glatze', 'Herd', 'Musik', 'Teller'] },
         ],
     },
     {
