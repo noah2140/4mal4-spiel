@@ -310,10 +310,28 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-01-13',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Glückssymbole', words: ['Hasenpfote', 'Hufeisen', 'Kleeblatt', 'Schwein'] },
+            { name: 'Wofür es Bürsten gibt', words: ['Grill', 'Haare', 'Klo', 'Zähne'] },
+            { name: '_Album', words: ['Debüt', 'Foto', 'Solo', 'Sticker'] },
             { name: 'In welchen Kontexten das Wort "Platte" verwendet wird', words: ['Glatze', 'Herd', 'Musik', 'Teller'] },
+        ],
+    },
+    {
+        date: '2025-01-14',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: 'Haben Tasten', words: ['Controller', 'Fernbedienung', 'Klavier', 'Maus'] },
+            { name: '', words: ['', '', '', ''] },
+            { name: 'Teile vom Bett ohne letzte 1/2 Buchstaben', words: ['Deck', 'Kiss', 'Lake', 'Rahm'] },
+        ],
+    },
+    {
+        date: '2025-01-15',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: 'Kommen in "Spiel des Lebens" vor', words: ['Auto', 'Beruf', 'Gehalt', 'Hochzeit'] },
         ],
     },
     {
