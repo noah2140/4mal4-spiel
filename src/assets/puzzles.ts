@@ -319,19 +319,73 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-01-14',
         categories: [
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Behältnisse', words: ['Fach', 'Mappe', 'Sack', 'Tasche'] },
             { name: 'Haben Tasten', words: ['Controller', 'Fernbedienung', 'Klavier', 'Maus'] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Findet man in Fußballstadien', words: ['Fans', 'Ordner', 'Spielfeld', 'Tribüne'] },
             { name: 'Teile vom Bett ohne letzte 1/2 Buchstaben', words: ['Deck', 'Kiss', 'Lake', 'Rahm'] },
         ],
     },
     {
         date: '2025-01-15',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Leichtes Windchen', words: ['Brise', 'Hauch', 'Stoß', 'Zug'] },
+            { name: 'Drehen sich', words: ['Bohrer', 'Erde', 'Rad', 'Ventilator'] },
+            { name: 'Fahr_', words: ['Bahn', 'Karte', 'Plan', 'Stuhl'] },
             { name: 'Kommen in "Spiel des Lebens" vor', words: ['Auto', 'Beruf', 'Gehalt', 'Hochzeit'] },
+        ],
+    },
+    {
+        date: '2025-01-16',
+        categories: [
+            { name: 'Sind (zumindest zum Großteil) schwarz und weiß', words: ['Dalmatiner', 'Klavier', 'Pinguin', 'Zebra'] },
+            { name: 'Werden oft in der Küche verwendet', words: ['Löffel', 'Mixer', 'Topf', 'Zewa'] },
+            { name: 'Findet man auf Notenseiten (Musik)', words: ['Forte', 'Piano', 'Schlüssel', 'Tempo'] },
+            { name: 'Haben Saiten/Seiten', words: ['Buch', 'Gitarre', 'Violine', 'Zeitung'] },
+        ],
+    },
+    {
+        date: '2025-01-17',
+        categories: [
+            { name: 'Linien in der Mathematik', words: ['Gerade', 'Kurve', 'Strahl', 'Strecke'] },
+            { name: 'Begriffe im Aktienhandel', words: ['Fond', 'Index', 'Kurs', 'Wertpapier'] },
+            { name: 'Tür_', words: ['Angel', 'Griff', 'Loch', 'Rahmen'] },
+            { name: 'Namen bekannter deutscher Filme, aber ohne Artikel am Anfang', words: ['Boot', 'Himmel über Berlin', 'Name der Rose', 'Welle'] },
+        ],
+    },
+    {
+        date: '2025-01-18',
+        categories: [
+            { name: 'Gänge in Automatik-Autos', words: ['Drive', 'Neutral', 'Parken', 'Rückwärts'] },
+            { name: '"Auf gehts!"', words: ['Ab', 'Los', 'Vorwärts', 'Weiter'] },
+            { name: 'Herz_', words: ['Haft', 'Pochen', 'Rasen', 'Stück'] },
+            { name: 'In welchen Kontexten das Wort "Motiv" verwendet wird', words: ['Begründung', 'Gemälde', 'Motivation', 'Straftat'] },
+        ],
+    },
+    {
+        date: '2025-01-19',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: 'Als Mengenangaben an der Fleischtheke verwendet', words: ['Gramm', 'Ring', 'Scheibe', 'Stück'] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-01-20',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-01-21',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
         ],
     },
     {
