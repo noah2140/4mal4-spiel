@@ -364,14 +364,32 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-01-19',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Kann man öffnen und schließen', words: ['Fenster', 'Koffer', 'Regenschirm', 'Tür'] },
             { name: 'Als Mengenangaben an der Fleischtheke verwendet', words: ['Gramm', 'Ring', 'Scheibe', 'Stück'] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Bei Sudoku von Bedeutung', words: ['Kästchen', 'Neun', 'Reihe', 'Spalte'] },
+            { name: '_Meter', words: ['Elf', 'Kilo', 'Sieben', 'Tacho'] },
         ],
     },
     {
         date: '2025-01-20',
+        categories: [
+            { name: 'Was man in der Schule hat', words: ['Fach', 'Note', 'Test', 'Unterricht'] },
+            { name: 'In welchen Formen Bier kommt', words: ['Dose', 'Fass', 'Flasche', 'Kasten'] },
+            { name: 'Findet man bei der Formel 1', words: ['Auto', 'Box', 'Strecke', 'Team'] },
+            { name: '"Du alter/altes/alte _"', words: ['Hase', 'Haus', 'Sack', 'Schachtel'] },
+        ],
+    },
+    {
+        date: '2025-01-21',
+        categories: [
+            { name: 'Reihenfolge', words: ['Ablauf', 'Folge', 'Plan', 'Programm'] },
+            { name: 'Was Piraten nutzen/suchen', words: ['Fernglas', 'Karte', 'Schatz', 'Schiff'] },
+            { name: '_Schirm', words: ['Bild', 'Fall', 'Regen', 'Strand'] },
+            { name: 'Wörter bei denen das "ch" immer anders ausgesprochen wird', words: ['Chaussee', 'Chor', 'Dach', 'Gewicht'] },
+        ],
+    },
+    {
+        date: '2025-01-22',
         categories: [
             { name: '', words: ['', '', '', ''] },
             { name: '', words: ['', '', '', ''] },
@@ -380,7 +398,34 @@ export const puzzles: Puzzle[] = [
         ],
     },
     {
-        date: '2025-01-21',
+        date: '2025-01-23',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-01-24',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-01-25',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-01-26',
         categories: [
             { name: '', words: ['', '', '', ''] },
             { name: '', words: ['', '', '', ''] },
