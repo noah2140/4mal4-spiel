@@ -391,34 +391,34 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-01-22',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Was man liest', words: ['Artikel', 'Buch', 'Karte', 'Vertrag'] },
+            { name: 'Im Kino zu sehen', words: ['Film', 'Leinwand', 'Popcorn', 'Sitz'] },
+            { name: 'Wo man Musik findet', words: ['Album', 'Festival', 'Konzert', 'Radio'] },
+            { name: '_Tag', words: ['Feier', 'Partei', 'Spiel', 'Zahl'] },
         ],
     },
     {
         date: '2025-01-23',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Konsequenz', words: ['Ergebnis', 'Folge', 'Resultat', 'Schluss'] },
+            { name: 'Musikalische Begriffe', words: ['Melodie', 'Note', 'Schlüssel', 'Ton'] },
+            { name: 'Kann man schneiden', words: ['Brot', 'Haar', 'Kurve', 'Papier'] },
+            { name: '_Lauf', words: ['Durch', 'Leer', 'Staffel', 'Test'] },
         ],
     },
     {
         date: '2025-01-24',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Findet man auf Bauernhöfen', words: ['Heu', 'Huhn', 'Kuh', 'Stall'] },
+            { name: 'Was Polizisten dabei haben können', words: ['Funkgerät', 'Handschellen', 'Hund', 'Waffe'] },
+            { name: 'Beim Tennis zu sehen', words: ['Ass', 'Netz', 'Punkt', 'Satz'] },
+            { name: 'In welchen Kontexten man das Wort "Rollen" verwendet', words: ['Auto', 'Koffer', 'Schauspieler', 'Skateboard'] },
         ],
     },
     {
         date: '2025-01-25',
         categories: [
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Berufe mit Uniformen', words: ['Arzt', 'Pilot', 'Polizist', 'Soldat'] },
             { name: '', words: ['', '', '', ''] },
             { name: '', words: ['', '', '', ''] },
             { name: '', words: ['', '', '', ''] },
