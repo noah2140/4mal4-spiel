@@ -418,19 +418,19 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-01-25',
         categories: [
+            { name: 'Findet man in Schulen', words: ['Klasse', 'Lehrer', 'Schwamm', 'Tafel'] },
             { name: 'Berufe mit Uniformen', words: ['Arzt', 'Pilot', 'Polizist', 'Soldat'] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Was Leonardo da Vinci von Beruf war', words: ['Architekt', 'Ingenieur', 'Maler', 'Philosoph'] },
+            { name: 'Bundes_', words: ['Agentur', 'Liga', 'Minister', 'Tag'] },
         ],
     },
     {
         date: '2025-01-26',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Das Jenseits', words: ['Himmel', 'Nirvana', 'Paradies', 'Walhalla'] },
+            { name: 'Beliebteste Vornamen 2024', words: ['Emilia', 'Matteo', 'Noah', 'Sophia'] },
+            { name: 'Rockbands ohne "The"', words: ['Beatles', 'Eagles', 'Police', 'Rolling Stones'] },
+            { name: 'Bücher im alten Testament', words: ['Daniel', 'Genesis', 'Richter', 'Rut'] },
         ],
     },
     {
