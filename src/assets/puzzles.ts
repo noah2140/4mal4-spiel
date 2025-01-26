@@ -434,6 +434,51 @@ export const puzzles: Puzzle[] = [
         ],
     },
     {
+        date: '2025-01-27',
+        categories: [
+            { name: 'Was von der Sonne kommt', words: ['Energie', 'Hitze', 'Licht', 'Schein'] },
+            { name: 'Deutsche Zeitungen', words: ['Bild', 'Spiegel', 'Welt', 'Zeit'] },
+            { name: 'Findet man an/in Flugzeugen', words: ['Flügel', 'Gurt', 'Pilot', 'Sitz'] },
+            { name: 'Zahn_', words: ['Arzt', 'Bürste', 'Rad', 'Seide'] },
+        ],
+    },
+    {
+        date: '2025-01-28',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-01-29',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-01-30',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-01-31',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
         date: '2099-12-31',
         categories: [
             { name: '', words: ['', '', '', ''] },
