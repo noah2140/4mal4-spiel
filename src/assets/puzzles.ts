@@ -445,28 +445,28 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-01-28',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Was man in der Schule macht', words: ['Lernen', 'Lesen', 'Rechnen', 'Schreiben'] },
+            { name: 'Findet man im Briefkasten', words: ['Post', 'Rechnung', 'Werbung', 'Zeitung'] },
+            { name: 'Einzahl von gängigen Handy-Apps', words: ['Einstellung', 'Foto', 'Kontakt', 'Nachricht'] },
+            { name: 'Enthalten Farben', words: ['Ablauf', 'Brotbox', 'Bügelbrett', 'Gründen'] },
         ],
     },
     {
         date: '2025-01-29',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Männliche Person', words: ['Herr', 'Kerl', 'Mann', 'Typ'] },
+            { name: 'Beziehen sich auf das menschliche Erscheinungsbild', words: ['Bau', 'Figur', 'Haltung', 'Statur'] },
+            { name: 'Im Kontext von Gehalt verwendet', words: ['Lohn', 'Position', 'Stufe', 'Tarif'] },
+            { name: 'Rechts_', words: ['Anwalt', 'Bruch', 'Form', 'Schutz'] },
         ],
     },
     {
         date: '2025-01-30',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Raum', words: ['Bude', 'Kammer', 'Stube', 'Zimmer'] },
+            { name: 'Begriffe für Anbaugebiete/flächen', words: ['Boden', 'Feld', 'Flur', 'Land'] },
+            { name: 'Arten von Schuhen', words: ['Bowling', 'Haus', 'Ski', 'Tanz'] },
+            { name: 'Frei_', words: ['Bad', 'Bier', 'Staat', 'Tag'] },
         ],
     },
     {
@@ -474,8 +474,8 @@ export const puzzles: Puzzle[] = [
         categories: [
             { name: '', words: ['', '', '', ''] },
             { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Beziehungstypen', words: ['Exklusiv', 'Fern', 'Offen', 'Poly'] },
+            { name: '_Zeit', words: ['Ernte', 'Frei', 'Hoch', 'Sommer'] },
         ],
     },
     {
