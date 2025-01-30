@@ -482,8 +482,8 @@ export const puzzles: Puzzle[] = [
         date: '2025-02-01',
         categories: [
             { name: 'Körperteile von denen wir 2 haben', words: ['Auge', 'Fuß', 'Hand', 'Ohr'] },
-            { name: '', words: ['', '', '', ''] },
             { name: 'Kann man streichen', words: ['Brot', 'Haus', 'Violine', 'Zimmer'] },
+            { name: 'Kommen in Sprichwörten zu "Ich bin sauer" vor', words: ['Blut', 'Hals', 'Kragen', 'Puls'] },
             { name: 'Wasser_', words: ['Ball', 'Fall', 'Farbe', 'Schaden'] },
         ],
     },

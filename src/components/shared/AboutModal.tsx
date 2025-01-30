@@ -73,10 +73,6 @@ const AboutModal: React.FC<AboutModalProps> = ({ onClose }) => {
                     <p>Rot/Orange bedeutet: 3 der Wörter sind in ein und der selben Kategorie.</p>
                     <p>Grün bedeutet: 2 der Wörter sind in ein und der selben Kategorie.</p>
                     <p>Blau/Türkis bedeutet: Alle 4 Wörter sind in verschiedenen Kategorien.</p>
-
-                    <div className="versionNr">
-                        <p>0.8.2</p>
-                    </div>
                 </div>
             </div>
         </div>
