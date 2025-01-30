@@ -472,10 +472,46 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-01-31',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Kann man brechen', words: ['Regel', 'Rekord', 'Schweigen', 'Welle'] },
             { name: 'Beziehungstypen', words: ['Exklusiv', 'Fern', 'Offen', 'Poly'] },
             { name: '_Zeit', words: ['Ernte', 'Frei', 'Hoch', 'Sommer'] },
+            { name: 'Was mit "Dicht" gemeint sein kann', words: ['Betrunken', 'Eng', 'Geschlossen', 'Konzentriert'] },
+        ],
+    },
+    {
+        date: '2025-02-01',
+        categories: [
+            { name: 'Körperteile von denen wir 2 haben', words: ['Auge', 'Fuß', 'Hand', 'Ohr'] },
+            { name: '', words: ['', '', '', ''] },
+            { name: 'Kann man streichen', words: ['Brot', 'Haus', 'Violine', 'Zimmer'] },
+            { name: 'Wasser_', words: ['Ball', 'Fall', 'Farbe', 'Schaden'] },
+        ],
+    },
+    {
+        date: '2025-02-02',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: 'Kann man drehen', words: ['Film', 'Hals', 'Rad', 'Spieß'] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-02-03',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: 'Kann man halten', words: ['Abstand', 'Atem', 'Versprechen', 'Vortrag'] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-02-04',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
         ],
     },
     {
