@@ -490,28 +490,28 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-02-02',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Sequenz', words: ['Folge', 'Lauf', 'Reihe', 'Serie'] },
+            { name: 'Hört man im Radio', words: ['Anrufer', 'Musik', 'Nachrichten', 'Werbung'] },
             { name: 'Kann man drehen', words: ['Film', 'Hals', 'Rad', 'Spieß'] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Gegen_', words: ['Angebot', 'Satz', 'Teil', 'Zug'] },
         ],
     },
     {
         date: '2025-02-03',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Gattung', words: ['Familie', 'Kategorie', 'Klasse', 'Typ'] },
+            { name: 'Haben 2 Umlaute', words: ['Hörgerät', 'Rückwärts', 'Übeltäter', 'Überschätzen'] },
+            { name: 'Post_', words: ['Bote', 'Eingang', 'Fach', 'Karte'] },
             { name: 'Kann man halten', words: ['Abstand', 'Atem', 'Versprechen', 'Vortrag'] },
-            { name: '', words: ['', '', '', ''] },
         ],
     },
     {
         date: '2025-02-04',
         categories: [
+            { name: 'Gruppe an Musikern', words: ['Band', 'Ensemble', 'Gruppe', 'Orchester'] },
+            { name: 'Was Hosen haben (können)', words: ['Bein', 'Bund', 'Reißverschluss', 'Tasche'] },
             { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Daten_', words: ['Bank', 'Müll', 'Satz', 'Träger'] },
         ],
     },
     {
