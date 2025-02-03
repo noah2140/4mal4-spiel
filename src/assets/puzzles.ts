@@ -510,8 +510,125 @@ export const puzzles: Puzzle[] = [
         categories: [
             { name: 'Gruppe an Musikern', words: ['Band', 'Ensemble', 'Gruppe', 'Orchester'] },
             { name: 'Was Hosen haben (können)', words: ['Bein', 'Bund', 'Reißverschluss', 'Tasche'] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Kann man schütteln', words: ['Getränk', 'Hand', 'Kopf', 'Würfel'] },
             { name: 'Daten_', words: ['Bank', 'Müll', 'Satz', 'Träger'] },
+        ],
+    },
+    {
+        date: '2025-02-05',
+        categories: [
+            { name: 'Sehr gut', words: ['Klasse', 'Spitze', 'Stark', 'Super'] },
+            { name: 'Kann man falten', words: ['Hände', 'Handtuch', 'Papier', 'Wäsche'] },
+            { name: 'Sind/Waren F1 Konstrukteure', words: ['Jaguar', 'Jordan', 'Lotus', 'Sauber'] },
+            { name: '_Kraft', words: ['Fach', 'Kauf', 'Schwer', 'Wind'] },
+        ],
+    },
+    {
+        date: '2025-02-06',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: 'Haben Ringe', words: ['Augen', 'Ehe', 'Saturn', 'Zirkus'] },
+            { name: 'Kann man schwingen', words: ['Axt', 'Hüfte', 'Pendel', 'Zauberstab'] },
+            { name: 'Strom_', words: ['Berg', 'Kreis', 'Netz', 'Schlag'] },
+        ],
+    },
+    {
+        date: '2025-02-07',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: 'Haben Federn', words: ['Bett', 'Füller', 'Kissen', 'Vogel'] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-02-08',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-02-09',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-02-10',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-02-11',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-02-12',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-02-13',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-02-14',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-02-15',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-02-16',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-02-17',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
         ],
     },
     {
