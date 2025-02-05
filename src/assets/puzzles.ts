@@ -526,7 +526,7 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-02-06',
         categories: [
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Wischt man ab', words: ['Hände', 'Mund', 'Teller', 'Tisch'] },
             { name: 'Haben Ringe', words: ['Augen', 'Ehe', 'Saturn', 'Zirkus'] },
             { name: 'Kann man schwingen', words: ['Axt', 'Hüfte', 'Pendel', 'Zauberstab'] },
             { name: 'Strom_', words: ['Berg', 'Kreis', 'Netz', 'Schlag'] },
@@ -535,25 +535,25 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-02-07',
         categories: [
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Typen von Jacken', words: ['Jeans', 'Leder', 'Regen', 'Winter'] },
+            { name: '"Wo spielst du?" (Fußballbezogen)', words: ['Abwehr', 'Flügel', 'Sturm', 'Tor'] },
             { name: 'Haben Federn', words: ['Bett', 'Füller', 'Kissen', 'Vogel'] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: '_Sprache', words: ['Baby', 'Fremd', 'Jugend', 'Zeichen'] },
         ],
     },
     {
         date: '2025-02-08',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Verwandte von denen es sowohl die reguläre, als auch die "Groß" Version gibt', words: ['Mutter', 'Onkel', 'Tante', 'Vater'] },
+            { name: 'Werden gelöscht', words: ['Brand', 'Datei', 'Durst', 'Feuer'] },
+            { name: '(Eher jugendliche) Anrede an guten Freund', words: ['Alter', 'Bruder', 'Kollege', 'Meister'] },
+            { name: 'Edelsteine, die einen Buchstaben vermissen', words: ['Acht', 'Ade', 'Opa', 'Ruin'] },
         ],
     },
     {
         date: '2025-02-09',
         categories: [
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Womit man schreiben kann', words: ['Feder', 'Kreide', 'Stift', 'Tastatur'] },
             { name: '', words: ['', '', '', ''] },
             { name: '', words: ['', '', '', ''] },
             { name: '', words: ['', '', '', ''] },
