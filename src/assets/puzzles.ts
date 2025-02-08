@@ -553,28 +553,28 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-02-09',
         categories: [
+            { name: 'Zentrum', words: ['Herz', 'Kern', 'Mitte', 'Puls'] },
             { name: 'Womit man schreiben kann', words: ['Feder', 'Kreide', 'Stift', 'Tastatur'] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Kann man spenden', words: ['Blut', 'Geld', 'Kleidung', 'Knochenmark'] },
+            { name: 'In welchen Kontexten Rot und Weiß die gängigen Farben sind', words: ['Blutkörperchen', 'Pommes', 'Wein', 'Zwiebel'] },
         ],
     },
     {
         date: '2025-02-10',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Findet man auf Geburtstagen', words: ['Geschenk', 'Hut', 'Kerze', 'Torte'] },
+            { name: 'Bitte warten', words: ['Ampel', 'Halt', 'Schlange', 'Stau'] },
+            { name: 'Sammelt man in Alben', words: ['Briefmarke', 'Foto', 'Münze', 'Sticker'] },
+            { name: 'Öl_', words: ['Gemälde', 'Lampe', 'Spur', 'Wechsel'] },
         ],
     },
     {
         date: '2025-02-11',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Sind hoch', words: ['Berg', 'Kran', 'Turm', 'Wolkenkratzer'] },
+            { name: 'Markennamen, die sich als der normale Begriff etabliert haben', words: ['Bobbycar', 'Post-It', 'Tempo', 'Tesa'] },
+            { name: 'Beim Volleyball zu sehen', words: ['Aufschlag', 'Bagger', 'Block', 'Netz'] },
+            { name: 'Golf_', words: ['Ball', 'Krieg', 'Platz', 'Schläger'] },
         ],
     },
     {
