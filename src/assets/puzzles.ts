@@ -562,7 +562,7 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-02-10',
         categories: [
-            { name: 'Findet man auf Geburtstagen', words: ['Geschenk', 'Hut', 'Kerze', 'Torte'] },
+            { name: 'Findet man auf Geburtstagspartys', words: ['Geschenk', 'Hut', 'Kerze', 'Torte'] },
             { name: 'Bitte warten', words: ['Ampel', 'Halt', 'Schlange', 'Stau'] },
             { name: 'Sammelt man in Alben', words: ['Briefmarke', 'Foto', 'Münze', 'Sticker'] },
             { name: 'Öl_', words: ['Gemälde', 'Lampe', 'Spur', 'Wechsel'] },
@@ -580,37 +580,37 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-02-12',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Sind normalerweise weiß', words: ['Heizung', 'Milch', 'Papier', 'Salz'] },
+            { name: 'Haben Löcher', words: ['Käse', 'Netz', 'Schwamm', 'Sieb'] },
+            { name: 'Sind Beleidigungen', words: ['Affe', 'Flasche', 'Lappen', 'Schwein'] },
+            { name: '_Kasten', words: ['Bau', 'Getränke', 'Post', 'Sand'] },
         ],
     },
     {
         date: '2025-02-13',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Rottöne', words: ['Blut', 'Feuer', 'Herz', 'Rubin'] },
+            { name: 'Was Hunde mal im Mund haben', words: ['Ball', 'Frisbee', 'Knochen', 'Stock'] },
+            { name: 'Was mit "Gemein" gemeint sein kann', words: ['Böse', 'Gemeinsam', 'Giftig', 'Schrecklich'] },
+            { name: 'Anagramme von Farben', words: ['Laub', 'Organe', 'Tor', 'Urban'] },
         ],
     },
     {
         date: '2025-02-14',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Käuft man an Theken in Supermärkten', words: ['Brot', 'Fleisch', 'Käse', 'Wurst'] },
+            { name: 'Deckungsgleich', words: ['Egal', 'Eins', 'Identisch', 'Konform'] },
+            { name: 'Symbole in der Mathematik', words: ['Gleich', 'Mal', 'Periode', 'Wurzel'] },
+            { name: 'Stern_', words: ['Schnuppe', 'Schritt', 'Stunde', 'Zeichen'] },
         ],
     },
     {
         date: '2025-02-15',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Justiz-nahe Begriffe', words: ['Aussage', 'Gericht', 'Urteil', 'Verfahren'] },
+            { name: 'Was Sport mit sich bringt', words: ['Ausgleich', 'Figur', 'Schweiß', 'Verletzungen'] },
+            { name: 'Enthalten die Farben der Kategorien dieses Spiels', words: ['Ablauf', 'Begründung', 'Bügelbrett', 'Somaliland'] },
+            { name: 'Abend_', words: ['Brot', 'Essen', 'Mahl', 'Schule'] },
         ],
     },
     {
