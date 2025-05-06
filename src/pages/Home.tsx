@@ -83,7 +83,7 @@ const Home: React.FC = () => {
         } as DateConstructor;
     }
 
-    //mockDate('2025-01-10T00:00:00.000Z');
+    //mockDate('2025-03-24T00:00:00.000Z');
 
     React.useEffect(() => {
         setOptions(loadOptions());

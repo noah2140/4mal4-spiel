@@ -9,5 +9,4 @@ Animations:
 -Swap tiles on press of shuffle button
 
 Modals:
--Support the dev
 -Weekly Challenge?
