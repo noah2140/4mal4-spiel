@@ -1345,95 +1345,356 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-05-08',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Weißes Pulver', words: ['Kokain', 'Mehl', 'Salz', 'Zucker'] },
+            { name: 'Typische Allergien', words: ['Gras', 'Haar', 'Milch', 'Nuss'] },
+            { name: 'Homographen', words: ['Collagen', 'Heroin', 'Modern', 'Umfahren'] },
+            { name: 'Kommen in Breaking Bad vor', words: ['Labor', 'Maske', 'Meth', 'Wohnmobil'] },
         ],
     },
     {
         date: '2025-05-09',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Schachfiguren', words: ['Bauer', 'Dame', 'König', 'Turm'] },
+            { name: 'Küchengeräte', words: ['Mühle', 'Presse', 'Reibe', 'Sieb'] },
+            { name: '_Klub', words: ['Automobil', 'Buch', 'Fussball', 'Schach'] },
+            { name: 'Rollen im Spiel Werwölfe', words: ['Bürgermeister', 'Jäger', 'Seherin', 'Werwolf'] },
         ],
     },
     {
         date: '2025-05-10',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Bei der Wahl eines neuen Papstes gesehen', words: ['Kardinal', 'Konklave', 'Petersplatz', 'Rauch'] },
+            { name: 'Eigenschaften der Sonne', words: ['Gelb', 'Groß', 'Heiß', 'Hell'] },
+            { name: 'Hilft gegen Vampire', words: ['Knoblauch', 'Kreuz', 'Silber', 'Sonne'] },
+            { name: 'Am Ende europäischer Wahrzeichen', words: ['Dame', 'Platz', 'Tag', 'Turm'] },
         ],
     },
     {
         date: '2025-05-11',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Ahhhh', words: ['Logisch', 'Natürlich', 'Offensichtlich', 'Selbstverständlich'] },
+            { name: 'Mehlsorten', words: ['Kokos', 'Reis', 'Roggen', 'Weizen'] },
+            { name: 'Milchsorten/-typen', words: ['Kuh', 'Mager', 'Mandel', 'Soja'] },
+            { name: 'Kristall_', words: ['Glas', 'Klar', 'Schale', 'Zucker'] },
         ],
     },
     {
         date: '2025-05-12',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Betrunken', words: ['Blau', 'Breit', 'Dicht', 'Voll'] },
+            { name: 'Was eine Gurke ist', words: ['Gemüse', 'Grün', 'Lang', 'Wässrig'] },
+            { name: 'Beim Roulette zu sehen', words: ['Kessel', 'Kugel', 'Rot', 'Schwarz'] },
+            { name: 'Schwarz_', words: ['Arbeit', 'Markt', 'Wald', 'Weiß'] },
         ],
     },
     {
         date: '2025-05-13',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Unterart', words: ['Arm', 'Ast', 'Gattung', 'Zweig'] },
+            { name: 'Findet man in Krankenhäusern', words: ['Arzt', 'Bett', 'Patient', 'Schwester'] },
+            { name: '_Buch', words: ['Dschungel', 'Foto', 'Hand', 'Stamm'] },
+            { name: 'Frère Jacques', words: ['Bruder', 'Dong', 'Glocken', 'Noch'] },
         ],
     },
     {
         date: '2025-05-14',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Schmal', words: ['Dünn', 'Eng', 'Knapp', 'Kompakt'] },
+            { name: 'Zeitungen/Zeitschriften', words: ['Bild', 'Spiegel', 'Welt', 'Zeit'] },
+            { name: 'Worauf man hinarbeitet', words: ['Erfolg', 'Rente', 'Traum', 'Ziel'] },
+            { name: '_Darm', words: ['Blind', 'Dick', 'Mast', 'Wurst'] },
         ],
     },
     {
         date: '2025-05-15',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Sind blau', words: ['Avatar', 'Dory', 'Himmel', 'Schlumpf'] },
+            { name: 'Lange blonde Haare', words: ['Barbie', 'Elsa', 'Rapunzel', 'Thor'] },
+            { name: '_Papier', words: ['Alt', 'Drucker', 'Reis', 'Sand'] },
+            { name: 'Berühmte Schiffe', words: ['Beagle', 'Bismarck', 'Nautilus', 'Titanic'] },
         ],
     },
     {
         date: '2025-05-16',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Aus Getreide gemacht', words: ['Bier', 'Brot', 'Mehl', 'Pasta'] },
+            { name: 'Sind i. d. R. heiß', words: ['Feuer', 'Kaffee', 'Sonne', 'Wüste'] },
+            { name: 'Saugen Dinge auf', words: ['Reis', 'Schwamm', 'Staubsauger', 'Windel'] },
+            { name: 'Blau_', words: ['Kraut', 'Licht', 'Mann', 'Wal'] },
         ],
     },
     {
         date: '2025-05-17',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: '"Zack Zack"', words: ['Los', 'Schnell', 'Tempo', 'Vorwärts'] },
+            { name: 'Beleidigungen', words: ['Flasche', 'Lappen', 'Lauch', 'Pfeife'] },
+            { name: 'Wörter mit 2 Umlauten', words: ['Hörgerät', 'Müllbehälter', 'Ölgemälde', 'Rückwärts'] },
+            { name: 'Was manche Tiere bauen', words: ['Damm', 'Hügel', 'Nest', 'Netz'] },
         ],
     },
     {
         date: '2025-05-18',
+        categories: [
+            { name: 'Drehen sich', words: ['Karussell', 'Planet', 'Rad', 'Ventilator'] },
+            { name: 'Staatstypen', words: ['Binnen', 'Insel', 'Wüsten', 'Zwerg'] },
+            { name: 'Werden häufig verliehen', words: ['Abzeichen', 'Buch', 'Medaille', 'Preis'] },
+            { name: 'Enthalten Ländernamen', words: ['Begabung', 'Einmalig', 'Inkubator', 'Piranha'] },
+        ],
+    },
+    {
+        date: '2025-05-19',
+        categories: [
+            { name: 'Typische Abteilungen in Buchhandlungen', words: ['Fantasie', 'Historisch', 'Krimi', 'Reisen'] },
+            { name: 'Haben Schalen die man eher nicht isst', words: ['Banane', 'Bundesliga', 'Ei', 'Nuss'] },
+            { name: 'Von Bedeutung in Wilhelm Tell', words: ['Apfel', 'Armbrust', 'Gessler', 'Tell'] },
+            { name: '_szeit', words: ['Amt', 'Arbeit', 'Jahre', 'Ort'] },
+        ],
+    },
+    {
+        date: '2025-05-20',
+        categories: [
+            { name: 'Kann man drin schwimmen', words: ['Becken', 'Geld', 'Ozean', 'See'] },
+            { name: 'Aus dem Französischen stammende Worte', words: ['Buffet', 'Genre', 'Restaurant', 'Toilette'] },
+            { name: 'Können brechen', words: ['Eis', 'Glas', 'Keks', 'Knochen'] },
+            { name: 'Am Ende von menschlichen Körperteilen zu finden', words: ['Bein', 'Blatt', 'Bügel', 'Kiefer'] },
+        ],
+    },
+    {
+        date: '2025-05-21',
+        categories: [
+            { name: 'Lautlich nachgeahmte Geräusche', words: ['Klick', 'Klirr', 'Peng', 'Zisch'] },
+            { name: 'Wörter mit 3 aufeinanderfolgenden Vokalen', words: ['Aue', 'Feuer', 'Miau', 'Reue'] },
+            { name: 'Kofferwörter', words: ['Brunch', 'Denglisch', 'Eurasien', 'Wikipedia'] },
+            { name: 'Ur_', words: ['Knall', 'Laub', 'Oma', 'Wald'] },
+        ],
+    },
+    {
+        date: '2025-05-22',
+        categories: [
+            { name: 'In der Seefahrt verwendet', words: ['Kiel', 'Klüver', 'Mast', 'Ruder'] },
+            { name: 'Teile eines Baums', words: ['Ast', 'Kambium', 'Krone', 'Stamm'] },
+            { name: 'Englisch klingende Wörter, die aber auf Englisch nicht diese Bedeutung haben', words: ['Beamer', 'Handy', 'Oldtimer', 'Smoking'] },
+            { name: 'Anfang von Musikgenres', words: ['Fun', 'Po', 'Pun', 'Tech'] },
+        ],
+    },
+    {
+        date: '2025-05-23',
+        categories: [
+            { name: 'Brettspiele', words: ['Dame', 'Mühle', 'Operation', 'Risiko'] },
+            { name: 'Deutsche Verläge', words: ['Beck', 'Hanser', 'Piper', 'Springer'] },
+            { name: 'Geraten ins Schwitzen', words: ['Fußballer', 'Handwerker', 'Koch', 'Läufer'] },
+            { name: 'Zaun_', words: ['Eidechse', 'Gast', 'König', 'Pfahl'] },
+        ],
+    },
+    {
+        date: '2025-05-24',
+        categories: [
+            { name: 'Begriffe aus der Nähmacherei', words: ['Reißverschluss', 'Schere', 'Stecknadel', 'Zwirn'] },
+            { name: 'Werkzeuge zum Malen', words: ['Palette', 'Pinsel', 'Rolle', 'Staffelei'] },
+            { name: 'Was ein Gänseblümchen ist', words: ['Gelb', 'Korbblütler', 'Pflanze', 'Weiß'] },
+            { name: 'Meister_', words: ['Brief', 'Haft', 'Schale', 'Werk'] },
+        ],
+    },
+    {
+        date: '2025-05-25',
+        categories: [
+            { name: 'Blasinstrumente', words: ['Flöte', 'Klarinette', 'Oboe', 'Trompete'] },
+            { name: 'Komponenten eines Windrads', words: ['Blatt', 'Generator', 'Getriebe', 'Nabe'] },
+            { name: 'Enthalten Zahlen', words: ['Bildreihe', 'Einsam', 'Klavier', 'Yacht'] },
+            { name: 'Findet man gerne an einem Lagerfeuer', words: ['Gitarre', 'Grillrost', 'Marshmallow', 'Stockbrot'] },
+        ],
+    },
+    {
+        date: '2025-05-26',
+        categories: [
+            { name: 'Haben hauptsächlich Charaktere mit bestimmter Körperfarbe', words: ['Avatar', 'Die Schlümpfe', 'Minions', 'Shrek'] },
+            { name: 'Filme mit Al Pacino', words: ['Der Pate', 'Heat', 'Scarface', 'The Irishman'] },
+            { name: 'Wo man einen James findet', words: ['Casino Royale', 'Dinner for One', 'Harry Potter', 'Star Trek'] },
+            { name: 'Filmreihen bei denen es mehrere Trilogien gibt', words: ['Herr der Ringe', 'Jurassic Park', 'Star Wars', 'X-Men'] },
+        ],
+    },
+    {
+        date: '2025-05-27',
+        categories: [
+            { name: 'An verschiedenen Kleidungsstücken zu finden', words: ['Bund', 'Haken', 'Knopf', 'Tasche'] },
+            { name: 'Teile eines Fahrrads', words: ['Kette', 'Lenker', 'Pedal', 'Sattel'] },
+            { name: '_Kraft', words: ['Atom', 'Kern', 'Schwer', 'Super'] },
+            { name: 'Können Patronen enthalten', words: ['Drucker', 'Füller', 'Kaffeemaschine', 'Magazin'] },
+        ],
+    },
+    {
+        date: '2025-05-28',
+        categories: [
+            { name: 'Rottöne', words: ['Blut', 'Rosen', 'Rubin', 'Sommer'] },
+            { name: 'Sind kalt', words: ['Eis', 'Gletscher', 'Schnee', 'Winter'] },
+            { name: 'Deutsche Schauspieler', words: ['Bär', 'Herbst', 'Koch', 'Vogel'] },
+            { name: 'Am Anfang großbritannischer Städte', words: ['Aber', 'Glas', 'Live', 'Manch'] },
+        ],
+    },
+    {
+        date: '2025-05-29',
+        categories: [
+            { name: 'Beim Golf zu sehen', words: ['Ball', 'Bunker', 'Grün', 'Loch'] },
+            { name: 'Werkzeuge zum Schneiden', words: ['Messer', 'Säge', 'Schere', 'Skalpell'] },
+            { name: 'Palindrome', words: ['Ebbe', 'Ehe', 'Rentner', 'Tot'] },
+            { name: '_Schirm', words: ['Bild', 'Fall', 'Regen', 'Sonnen'] },
+        ],
+    },
+    {
+        date: '2025-05-30',
+        categories: [
+            { name: 'Historie', words: ['Geschichte', 'Lebensweg', 'Vergangenheit', 'Vita'] },
+            { name: 'Wo Sport ausgeübt wird', words: ['Halle', 'Laufbahn', 'Piste', 'Rasen'] },
+            { name: '_Wehr', words: ['Ab', 'Feuer', 'Gegen', 'Not'] },
+            { name: 'In welchen Kontexten man einen "Pass" findet', words: ['Basketball', 'Berg', 'Fußball', 'Reisen'] },
+        ],
+    },
+    {
+        date: '2025-05-31',
+        categories: [
+            { name: 'Ausrüstung fürs Camping', words: ['Kocher', 'Isomatte', 'Schlafsack', 'Zelt'] },
+            { name: 'Zur Beschreibung von Schuhen verwendet', words: ['Farbe', 'Größe', 'Marke', 'Material'] },
+            { name: 'Dinge, die man teilt', words: ['Bild', 'Erfahrung', 'Kuchen', 'Pizza'] },
+            { name: 'Auto_', words: ['Bahn', 'Fokus', 'Haus', 'Mobil'] },
+        ],
+    },
+    {
+        date: '2025-06-01',
+        categories: [
+            { name: 'SV Werder Bremen', words: ['Bremen', 'Sport', 'Verein', 'Werder'] },
+            { name: 'Sachen im Verbandskasten', words: ['Desinfektionsmittel', 'Pflaster', 'Schere', 'Verband'] },
+            { name: 'Was Hosen haben (können)', words: ['Bein', 'Bund', 'Reißverschluss', 'Tasche'] },
+            { name: 'Schach_', words: ['Klub', 'Matt', 'Uhr', 'Zug'] },
+        ],
+    },
+    {
+        date: '2025-06-02',
+        categories: [
+            { name: 'Haben oftmals Kragen', words: ['Bluse', 'Hemd', 'Kittel', 'Pullover'] },
+            { name: 'Rollen in Unternehmen', words: ['Administrator', 'Chef', 'Lehrling', 'Praktikant'] },
+            { name: 'Gleichgestellte/r', words: ['Kamerad', 'Kollege', 'Kommilitone', 'Peer'] },
+            { name: 'Bade_', words: ['Hose', 'Kappe', 'Meister', 'Wasser'] },
+        ],
+    },
+    {
+        date: '2025-06-03',
+        categories: [
+            { name: 'Werkzeuge für einfache Heimreperaturen', words: ['Hammer', 'Nagel', 'Schlüssel', 'Schraube'] },
+            { name: 'Blautöne', words: ['Eis', 'Himmel', 'Ozean', 'Stahl'] },
+            { name: 'Ergeben auch Sinn, wenn man sie hinter sich selbst setzt', words: ['April', 'Bar', 'Bon', 'Pur'] },
+            { name: 'Obst_', words: ['Baum', 'Garten', 'Plantage', 'Stand'] },
+        ],
+    },
+    {
+        date: '2025-06-04',
+        categories: [
+            { name: 'Vor kurzem', words: ['Eben', 'Erst', 'Frisch', 'Gerade'] },
+            { name: 'Aus, Fertig', words: ['Aus', 'Fertig', 'Punkt', 'Schluss'] },
+            { name: 'Pinguinarten', words: ['Felsen', 'Hauben', 'Kaiser', 'Zwerg'] },
+            { name: 'Eis_', words: ['Bein', 'Berg', 'Regen', 'Würfel'] },
+        ],
+    },
+    {
+        date: '2025-06-05',
+        categories: [
+            { name: 'Findet man in Sätzen', words: ['Artikel', 'Komma', 'Verb', 'Wort'] },
+            { name: 'Was man für falsches Verhalten im Straßenverkehr kriegt', words: ['Entzug', 'Geldstrafe', 'Punkt', 'Ticket'] },
+            { name: 'Einzahl von gängigen Handy-Apps', words: ['Einstellung', 'Foto', 'Kontakt', 'Nachricht'] },
+            { name: 'Mittags_', words: ['Pause', 'Ruhe', 'Schlaf', 'Tisch'] },
+        ],
+    },
+    {
+        date: '2025-06-06',
+        categories: [
+            { name: 'Sind gern mal im Rucksack eines Wanderers', words: ['Kompass', 'Proviant', 'Regenjacke', 'Wasserflasche'] },
+            { name: 'Woraus man Behältnisse machen kann', words: ['Glas', 'Holz', 'Plastik', 'Ton'] },
+            { name: 'Zeitschriften', words: ['Bild', 'Spiegel', 'Welt', 'Zeit'] },
+            { name: '_Karte', words: ['Frei', 'Grafik', 'Stadt', 'Wein'] },
+        ],
+    },
+    {
+        date: '2025-06-07',
+        categories: [
+            { name: 'Was man beim Grillen gebrauchen kann', words: ['Grill', 'Holz', 'Teller', 'Zange'] },
+            { name: 'Im Regal einer Drogerie zu finden', words: ['Deo', 'Klopapier', 'Shampoo', 'Zahnpasta'] },
+            { name: 'Utensilien für Bastelarbeiten', words: ['Faden', 'Kleber', 'Knopf', 'Schere'] },
+            { name: 'Sachen aus der Küche mit einem vertauschten Buchstaben', words: ['Besser', 'Fabel', 'Oben', 'Torf'] },
+        ],
+    },
+    {
+        date: '2025-06-08',
+        categories: [
+            { name: 'Bestehend aus den Buchstaben ABELG', words: ['Bagel', 'Beagle', 'Belag', 'Gabel'] },
+            { name: 'Sind punktiert', words: ['Dalmatiner', 'Forelle', 'Gepard', 'Würfel'] },
+            { name: 'Haben viele Tasten', words: ['Fernbedienung', 'Klavier', 'Orgel', 'Tastatur'] },
+            { name: 'Zwerg_', words: ['Dackel', 'Maus', 'Planet', 'Spitz'] },
+        ],
+    },
+    {
+        date: '2025-06-09',
+        categories: [
+            { name: 'Niederländisches Essen', words: ['Edamer', 'Frikandel', 'Gouda', 'Krokette'] },
+            { name: 'Zitrusfrüchte', words: ['Bergamotte', 'Limette', 'Mandarine', 'Zitrone'] },
+            { name: 'Zutaten für einen klassischen griechischen Salat', words: ['Feta', 'Gurke', 'Olive', 'Tomate'] },
+            { name: '_Essig', words: ['Apfel', 'Speise', 'Trüffel', 'Wein'] },
+        ],
+    },
+    {
+        date: '2025-06-10',
+        categories: [
+            { name: 'Computerbegriffe', words: ['Bus', 'Chip', 'Port', 'Ram'] },
+            { name: 'Können für lustige Stimmen sorgen', words: ['Autotune', 'Helium', 'Pubertät', 'Schnupfen'] },
+            { name: 'Sender der ARD/ZDF', words: ['Ard', 'Neo', 'One', 'Zdf'] },
+            { name: 'Behältnisse ohne letzten Buchstaben', words: ['Dos', 'Kann', 'Schüsse', 'Tub'] },
+        ],
+    },
+    {
+        date: '2025-06-11',
+        categories: [
+            { name: 'Gruppe an Musikern', words: ['Band', 'Ensemble', 'Gruppe', 'Orchester'] },
+            { name: 'Kann man schütteln', words: ['Getränk', 'Hand', 'Kopf', 'Würfel'] },
+            { name: 'Sammelt man in Alben', words: ['Briefmarke', 'Foto', 'Münze', 'Sticker'] },
+            { name: 'Öl_', words: ['Gemälde', 'Lampe', 'Spur', 'Wechsel'] },
+        ],
+    },
+    {
+        date: '2025-06-12',
+        categories: [
+            { name: 'Findet man in Schulen', words: ['Klasse', 'Lehrer', 'Schwamm', 'Tafel'] },
+            { name: 'Beziehen sich auf das menschliche Erscheinungsbild', words: ['Bau', 'Figur', 'Haltung', 'Statur'] },
+            { name: 'Kann man halten', words: ['Abstand', 'Atem', 'Versprechen', 'Vortrag'] },
+            { name: '_Frau/Mann', words: ['Ehe', 'Fach', 'Haus', 'Traum'] },
+        ],
+    },
+    {
+        date: '2025-06-13',
+        categories: [
+            { name: 'Als Mengenangaben an der Fleischtheke verwendet', words: ['Gramm', 'Ring', 'Scheibe', 'Stück'] },
+            { name: 'Teile einer Brille', words: ['Bügel', 'Rahmen', 'Scharnier', 'Steg'] },
+            { name: 'Was (der) Mars ist', words: ['Planet', 'Riegel', 'Rot', 'Rund'] },
+            { name: '_Tisch', words: ['Asia', 'Billard', 'Glas', 'Roman'] },
+        ],
+    },
+    {
+        date: '2025-06-14',
+        categories: [
+            { name: 'Beim Pokern zu sehen', words: ['Chips', 'Matte', 'Paar', 'Straße'] },
+            { name: 'Wo man Musik findet', words: ['Album', 'Festival', 'Konzert', 'Radio'] },
+            { name: 'In welchen Kontexten "Note" verwendet wird', words: ['Duft', 'Geld', 'Musik', 'Schule'] },
+            { name: '_Tag', words: ['Feier', 'Partei', 'Spiel', 'Zahl'] },
+        ],
+    },
+    {
+        date: '2025-06-15',
+        categories: [
+            { name: 'Teile eines Autos', words: ['Gurt', 'Motor', 'Sitz', 'Tank'] },
+            { name: 'Beim Tennis zu sehen', words: ['Ass', 'Netz', 'Punkt', 'Satz'] },
+            { name: 'Formen, zu denen man Papier zusammenfaltet', words: ['Boot', 'Flieger', 'Frosch', 'Hut'] },
+            { name: 'Wasser_', words: ['Fall', 'Leitung', 'Melone', 'Stoff'] },
+        ],
+    },
+    {
+        date: '2025-06-16',
         categories: [
             { name: '', words: ['', '', '', ''] },
             { name: '', words: ['', '', '', ''] },
@@ -1442,7 +1703,7 @@ export const puzzles: Puzzle[] = [
         ],
     },
     {
-        date: '2025-05-19',
+        date: '2025-06-17',
         categories: [
             { name: '', words: ['', '', '', ''] },
             { name: '', words: ['', '', '', ''] },
