@@ -1741,10 +1741,10 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-06-21',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Machen Krach', words: ['Flugzeug', 'Motor', 'Trommel', 'Wecker'] },
+            { name: 'Können gefaltet werden', words: ['Fächer', 'Karte', 'Origami', 'Zeitung'] },
+            { name: 'Gehen auf und ab', words: ['Achterbahn', 'Aktie', 'Fahrstuhl', 'Welle'] },
+            { name: 'Hitchcock Filme', words: ['Berüchtigt', 'Psycho', 'Saboteure', 'Verdacht'] },
         ],
     },
     {
