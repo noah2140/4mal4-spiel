@@ -1696,6 +1696,51 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-06-16',
         categories: [
+            { name: 'Kleiner', words: ['Gnom', 'Hobbit', 'Pimpf', 'Zwerg'] },
+            { name: 'Am Himmel zu sehen', words: ['Mond', 'Regenbogen', 'Vogel', 'Wolke'] },
+            { name: 'Sternbilder', words: ['Drache', 'Einhorn', 'Giraffe', 'Widder'] },
+            { name: 'In Logos von F1 Teams zu finden', words: ['Bulle', 'Pferd', 'Schlange', 'Stern'] },
+        ],
+    },
+    {
+        date: '2025-06-17',
+        categories: [
+            { name: 'Bei der Tour de France zu sehen', words: ['Fahrrad', 'Presse', 'Trikot', 'Ziel'] },
+            { name: 'Stadium', words: ['Etappe', 'Rang', 'Station', 'Stufe'] },
+            { name: 'Haben Gläser', words: ['Brille', 'Fenster', 'Handy', 'Monokel'] },
+            { name: 'Enden mit Fortbewegungsmitteln', words: ['Anzug', 'Cottbus', 'Grad', 'Heranwagen'] },
+        ],
+    },
+    {
+        date: '2025-06-18',
+        categories: [
+            { name: 'Sind schwarz', words: ['Kohle', 'Öl', 'Rabe', 'Schatten'] },
+            { name: 'Enthalten Wasserstoff', words: ['Kohlensäure', 'Methan', 'Propan', 'Wasser'] },
+            { name: 'Im Kontext von Türen verwendet', words: ['Griff', 'Rahmen', 'Schlüssel', 'Spion'] },
+            { name: '_Lösung', words: ['Dauer', 'Kochsalz', 'Muster', 'Not'] },
+        ],
+    },
+    {
+        date: '2025-06-19',
+        categories: [
+            { name: 'Haben Feuer', words: ['Grill', 'Herd', 'Kerze', 'Vulkan'] },
+            { name: 'Werden aus Holz gemacht', words: ['Geige', 'Kiste', 'Möbel', 'Papier'] },
+            { name: 'Dinge die "wachsen"', words: ['Baum', 'Haare', 'Kind', 'Nagel'] },
+            { name: 'Himmels_', words: ['Richtung', 'Stern', 'Tor', 'Zelt'] },
+        ],
+    },
+    {
+        date: '2025-06-20',
+        categories: [
+            { name: 'Können pfeifen', words: ['Kessel', 'Mensch', 'Vogel', 'Wind'] },
+            { name: 'Im Wald zu sehen', words: ['Baum', 'Laub', 'Stock', 'Weg'] },
+            { name: 'Haben Zähne', words: ['Hai', 'Kamm', 'Mund', 'Säge'] },
+            { name: 'Tinten_', words: ['Fisch', 'Herz', 'Killer', 'Patrone'] },
+        ],
+    },
+    {
+        date: '2025-06-21',
+        categories: [
             { name: '', words: ['', '', '', ''] },
             { name: '', words: ['', '', '', ''] },
             { name: '', words: ['', '', '', ''] },
@@ -1703,7 +1748,79 @@ export const puzzles: Puzzle[] = [
         ],
     },
     {
-        date: '2025-06-17',
+        date: '2025-06-22',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: 'Werden geschlossen', words: ['Fenster', 'Geschäft', 'Kiste', 'Tür'] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-06-23',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-06-24',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-06-25',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-06-26',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-06-27',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-06-28',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-06-29',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-06-30',
         categories: [
             { name: '', words: ['', '', '', ''] },
             { name: '', words: ['', '', '', ''] },
