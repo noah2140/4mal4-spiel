@@ -1750,10 +1750,10 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-06-22',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: 'Werden geschlossen', words: ['Fenster', 'Geschäft', 'Kiste', 'Tür'] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'In Steckbriefen zu sehen', words: ['Alter', 'Gewicht', 'Größe', 'Name'] },
+            { name: 'Dinge die fließen', words: ['Blut', 'Fluss', 'Strom', 'Verkehr'] },
+            { name: 'Werden geschlossen', words: ['Fenster', 'Geschäft', 'Tür', 'Vertrag'] },
+            { name: '_Blick', words: ['Meer', 'Röntgen', 'Tunnel', 'Weit'] },
         ],
     },
     {
