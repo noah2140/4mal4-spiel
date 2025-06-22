@@ -1759,19 +1759,19 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-06-23',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Auf Notenblättern zu sehen', words: ['Note', 'Pause', 'Takt', 'Tempo'] },
+            { name: 'In Supermärkten zu finden', words: ['Kasse', 'Lager', 'Regal', 'Wagen'] },
+            { name: 'Gängiges Wander-Equipment', words: ['Karte', 'Rucksack', 'Schuhe', 'Stock'] },
+            { name: 'Haben mit "Kippen" zu tun', words: ['Fenster', 'Stimmung', 'Turm', 'Zigarette'] },
         ],
     },
     {
         date: '2025-06-24',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'In vielen Rezepten zu sehen', words: ['Becher', 'Erhitzen', 'Schlagen', 'Teelöffel'] },
+            { name: 'Beim Poker zu sehen', words: ['Chips', 'Einsatz', 'Paar', 'Straße'] },
+            { name: 'Sternbilder', words: ['Drache', 'Dreieck', 'Krebs', 'Pegasus'] },
+            { name: 'Wolfs_', words: ['Burg', 'Grube', 'Rudel', 'Schanze'] },
         ],
     },
     {
