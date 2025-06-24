@@ -1777,10 +1777,10 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-06-25',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Sind scharf', words: ['Chili', 'Messer', 'Pfeffer', 'Schwert'] },
+            { name: 'Haben Flügel, sind aber keine Vögel', words: ['Engel', 'Fledermaus', 'Flugzeug', 'Schmetterling'] },
+            { name: 'Was mit "Stock" gemeint sein kann', words: ['Ast', 'Etage', 'Gehhilfe', 'Vorrat'] },
+            { name: '_Stein', words: ['Edel', 'Klo', 'Pizza', 'Ziegel'] },
         ],
     },
     {
