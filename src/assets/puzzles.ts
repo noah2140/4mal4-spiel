@@ -1786,28 +1786,28 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-06-26',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Ausrüstung von Polizisten', words: ['Handschellen', 'Pistole', 'Schutzweste', 'Taser'] },
+            { name: 'Kann man spannen', words: ['Armbrust', 'Bogen', 'Nerven', 'Segel'] },
+            { name: 'Was man hält', words: ['Hand', 'Rede', 'Tasche', 'Versprechen'] },
+            { name: 'Tisch_', words: ['Bein', 'Decke', 'Ende', 'Lampe'] },
         ],
     },
     {
         date: '2025-06-27',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Können reflektieren', words: ['Fenster', 'Politur', 'Spiegel', 'Wasser'] },
+            { name: 'Häufige dt. Nachnamen', words: ['Bauer', 'Fischer', 'Klein', 'Koch'] },
+            { name: 'Werden gezogen', words: ['Faden', 'Karte', 'Kutsche', 'Zahn'] },
+            { name: 'Blut_', words: ['Bad', 'Bild', 'Gruppe', 'Wurst'] },
         ],
     },
     {
         date: '2025-06-28',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Eigenart', words: ['Charakter', 'Merkmal', 'Note', 'Typ'] },
+            { name: 'Aus dem Französischem stammende Wörter', words: ['Accessoire', 'Charme', 'Medaille', 'Restaurant'] },
+            { name: 'Grüntöne', words: ['Apfel', 'Billard', 'Militär', 'Smaragd'] },
+            { name: 'Schwach_', words: ['Kopf', 'Punkt', 'Sinn', 'Stelle'] },
         ],
     },
     {
