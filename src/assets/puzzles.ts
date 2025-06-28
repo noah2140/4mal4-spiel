@@ -1813,10 +1813,10 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-06-29',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'In Bibliotheken zu finden', words: ['Buch', 'Leser', 'Regal', 'Stille'] },
+            { name: 'Werden oft in Ritualen verwendet', words: ['Glocke', 'Kerze', 'Wasser', 'Weihrauch'] },
+            { name: '_Frau/Mann', words: ['Ehe', 'Fach', 'Haus', 'Traum'] },
+            { name: 'Namen dt. Schriftsteller', words: ['Ende', 'Grass', 'Mann', 'Zweig'] },
         ],
     },
     {
