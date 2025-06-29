@@ -1822,6 +1822,159 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-06-30',
         categories: [
+            { name: 'In Flugzeugen zu sehen', words: ['Fenster', 'Gurt', 'Schwimmweste', 'Sitz'] },
+            { name: 'Kann man spielen', words: ['Ball', 'Golf', 'Harfe', 'Schach'] },
+            { name: '_Bruch', words: ['Aus', 'Baum', 'Bein', 'Deich'] },
+            { name: 'Am Anfang deutscher Moderatoren', words: ['Gott', 'Kern', 'Welk', 'Winter'] },
+        ],
+    },
+    {
+        date: '2025-07-01',
+        categories: [
+            { name: 'Was von der Sonne kommt', words: ['Energie', 'Hitze', 'Licht', 'Schein'] },
+            { name: 'Schützen vor bestimmten Sachen', words: ['Handschuh', 'Helm', 'Regenschirm', 'Sonnencreme'] },
+            { name: 'Enthalten Kartenspiele', words: ['Cambridge', 'Pokerface', 'Skaten', 'Unordnung'] },
+            { name: 'Werden im Zusammenhang mit Wellen verwendet', words: ['Corona', 'Haare', 'Stimmung', 'Surfen'] },
+        ],
+    },
+    {
+        date: '2025-07-02',
+        categories: [
+            { name: 'Teile eines Schiffs', words: ['Brücke', 'Deck', 'Kiel', 'Rumpf'] },
+            { name: 'Kann man schneiden', words: ['Brot', 'Haar', 'Kurve', 'Papier'] },
+            { name: 'Formen, zu denen man Papier zusammenfaltet', words: ['Boot', 'Flieger', 'Frosch', 'Hut'] },
+            { name: 'In welchen Kontexten man das Wort "Rollen" verwendet', words: ['Auto', 'Koffer', 'Schauspieler', 'Skateboard'] },
+        ],
+    },
+    {
+        date: '2025-07-03',
+        categories: [
+            { name: 'Ist gesund', words: ['Gemüste', 'Obst', 'Schlaf', 'Sport'] },
+            { name: 'Zum Fangen von Fischen verwendet', words: ['Angel', 'Netz', 'Reuse', 'Speer'] },
+            { name: 'Stellt man auf', words: ['Gerüst', 'Leiter', 'Schild', 'Ziel'] },
+            { name: '_Feuer', words: ['Kreuz', 'Lager', 'Signal', 'Sperr'] },
+        ],
+    },
+    {
+        date: '2025-07-04',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-07-05',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-07-06',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-07-07',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-07-08',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-07-09',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-07-10',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-07-11',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-07-12',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-07-13',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-07-14',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-07-15',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-07-16',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-07-17',
+        categories: [
             { name: '', words: ['', '', '', ''] },
             { name: '', words: ['', '', '', ''] },
             { name: '', words: ['', '', '', ''] },
