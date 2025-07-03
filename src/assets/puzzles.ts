@@ -1858,10 +1858,10 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-07-04',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Etwas hat "Bedeutung"', words: ['Gewicht', 'Kraft', 'Macht', 'Stärke'] },
+            { name: 'Findet man Essen drauf/drin', words: ['Karte', 'Teller', 'Tisch', 'Topf'] },
+            { name: '_skraft', words: ['Anzug', 'Arbeit', 'Leben', 'Vorstellung'] },
+            { name: 'Teile einer Geige', words: ['Decke', 'Schnecke', 'Steg', 'Wirbel'] },
         ],
     },
     {
