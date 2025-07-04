@@ -1867,10 +1867,10 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-07-05',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Variation', words: ['Abwandlung', 'Form', 'Variante', 'Version'] },
+            { name: 'Kann man (drauf) drücken', words: ['Knopf', 'Pedal', 'Taste', 'Touchscreen'] },
+            { name: 'Beim Bowling zu sehen', words: ['Bahn', 'Kugel', 'Pin', 'Wurf'] },
+            { name: 'Kleider_', words: ['Bügel', 'Größe', 'Sack', 'Schrank'] },
         ],
     },
     {
