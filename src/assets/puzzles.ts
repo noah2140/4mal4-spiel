@@ -1885,10 +1885,10 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-07-07',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Packt man auf den Grill', words: ['Fackel', 'Fleisch', 'Kohle', 'Spieß'] },
+            { name: 'Was Hunde oft im Mund haben', words: ['Ball', 'Fressen', 'Knochen', 'Stock'] },
+            { name: 'Taschen_', words: ['Dieb', 'Geld', 'Rechner', 'Uhr'] },
+            { name: 'Haben Töne', words: ['Alarm', 'Farbe', 'Musik', 'Sprache'] },
         ],
     },
     {
@@ -1896,7 +1896,7 @@ export const puzzles: Puzzle[] = [
         categories: [
             { name: '', words: ['', '', '', ''] },
             { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Mit Karneval verbunden', words: ['Elf', 'Köln', 'Kostüm', 'Venedig'] },
             { name: '', words: ['', '', '', ''] },
         ],
     },
