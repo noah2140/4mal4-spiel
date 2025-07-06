@@ -1876,15 +1876,6 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-07-06',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-        ],
-    },
-    {
-        date: '2025-07-07',
-        categories: [
             { name: 'Packt man auf den Grill', words: ['Fackel', 'Fleisch', 'Kohle', 'Spieß'] },
             { name: 'Was Hunde oft im Mund haben', words: ['Ball', 'Fressen', 'Knochen', 'Stock'] },
             { name: 'Taschen_', words: ['Dieb', 'Geld', 'Rechner', 'Uhr'] },
@@ -1892,21 +1883,30 @@ export const puzzles: Puzzle[] = [
         ],
     },
     {
+        date: '2025-07-07',
+        categories: [
+            { name: 'Womit man schneidet', words: ['Cutter', 'Klinge', 'Messer', 'Schere'] },
+            { name: 'Kleidung', words: ['Aufzug', 'Dress', 'Garderobe', 'Hülle'] },
+            { name: 'Teil mittelalterlicher Burgen', words: ['Hof', 'Saal', 'Tor', 'Zinne'] },
+            { name: '_Körper', words: ['Adonis', 'Anti', 'Fremd', 'Ober'] },
+        ],
+    },
+    {
         date: '2025-07-08',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Morgenroutine', words: ['Anziehen', 'Dusche', 'Frühstück', 'Wecker'] },
             { name: 'Mit Karneval verbunden', words: ['Elf', 'Köln', 'Kostüm', 'Venedig'] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Auf der US-Amerikanischen Flagge zu sehen', words: ['Blau', 'Rot', 'Stern', 'Streifen'] },
+            { name: 'Teil eines Hauses, mit einem extra Buchstaben', words: ['Band', 'Kellner', 'Traum', 'Türk'] },
         ],
     },
     {
         date: '2025-07-09',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Mathe-Begriffe', words: ['Klammer', 'Komma', 'Mal', 'Zahl'] },
+            { name: 'Haben 4 Beine', words: ['Hund', 'Katze', 'Stuhl', 'Tisch'] },
+            { name: 'In welchen Kontexten man ein Netz findet', words: ['Fischer', 'Internet', 'Spinne', 'Tennis'] },
+            { name: 'Was mit "Au" gemeint sein kann', words: ['Australien', 'Gold', 'Krankheit', 'Schmerz'] },
         ],
     },
     {
