@@ -1912,10 +1912,10 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-07-10',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Sportarten mit nicht-kugelförmigen Spielobjekten', words: ['Dart', 'Eishockey', 'Rugby', 'Speerwerfen'] },
+            { name: 'Homophone von Buchstaben', words: ['Haar', 'Kuh', 'Tee', 'Zeh'] },
+            { name: 'Wo es Ecken gibt', words: ['Fußball', 'Haus', 'Quadrat', 'Straßen'] },
+            { name: '_Arm', words: ['Gips', 'Roboter', 'Tennis', 'Wurf'] },
         ],
     },
     {
