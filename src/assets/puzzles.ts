@@ -1921,37 +1921,37 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-07-11',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Werden bei Gebrauch leer', words: ['Batterie', 'Feuerlöscher', 'Handy', 'Portemonnaie'] },
+            { name: 'Werden bei Filmpreisverleihungen ausgezeichnet', words: ['Film', 'Musik', 'Regisseur', 'Schauspieler'] },
+            { name: 'Wunsch_', words: ['Kind', 'Konzert', 'Liste', 'Vorstellung'] },
+            { name: 'Alle meine Entchen', words: ['Alle', 'Schwimmen', 'See', 'Wasser'] },
         ],
     },
     {
         date: '2025-07-12',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Schachfiguren', words: ['Bauer', 'Dame', 'König', 'Turm'] },
+            { name: 'Beim Tennis verwendete Begriffe', words: ['Ass', 'Aufschlag', 'Netz', 'Satz'] },
+            { name: '_Tor', words: ['Eigen', 'Fußball', 'Joker', 'Sieg'] },
+            { name: 'Im Zusammenhang mit Hörnern verwendet', words: ['Kuh', 'Instrument', 'Teufel', 'Ziege'] },
         ],
     },
     {
         date: '2025-07-13',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Werden geworfen', words: ['Ball', 'Bumerang', 'Speer', 'Würfel'] },
+            { name: 'Brauchen Luft', words: ['Ballon', 'Feuer', 'Sänger', 'Taucher'] },
+            { name: 'Typen an Spielen', words: ['Brett', 'Gesellschaft', 'Karten', 'Video'] },
+            { name: 'Stein_', words: ['Adler', 'Bock', 'Bruch', 'Ofen'] },
         ],
     },
     {
         date: '2025-07-14',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'In 4 aufgeteilt', words: ['Basketballspiel', 'Himmelsrichtung', 'Rechenart', 'Spielkarten'] },
+            { name: 'Haribo-Artikel', words: ['Fläschchen', 'Gurke', 'Schnecke', 'Schnuller'] },
+            { name: 'Werden in bestimmten Situationen gedreht', words: ['Flasche', 'Kopf', 'Schlüssel', 'Schraube'] },
+            { name: 'Kann man abgeben', words: ['Geruch', 'Löffel', 'Rezension', 'Verpflichtung'] },
         ],
     },
     {
