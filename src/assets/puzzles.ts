@@ -1957,14 +1957,851 @@ export const puzzles: Puzzle[] = [
     {
         date: '2025-07-15',
         categories: [
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
-            { name: '', words: ['', '', '', ''] },
+            { name: 'Enthalten Tierarten', words: ['Biberach', 'Hirschberg', 'Schweinfurt', 'Wolfsburg'] },
+            { name: 'Hansestädte', words: ['Bremen', 'Lübeck', 'Rostock', 'Wismar'] },
+            { name: 'Beginnen mit männlichen Vornamen', words: ['Friedrichshafen', 'Karlsruhe', 'Ludwigshafen', 'Wilhelmshafen'] },
+            { name: 'Werden mit bestimmten Spezialitäten assoziiert', words: ['Berlin', 'Hamburg', 'Nürnberg', 'Wien'] },
         ],
     },
     {
         date: '2025-07-16',
+        categories: [
+            { name: 'Behältnisse', words: ['Fach', 'Mappe', 'Sack', 'Tasche'] },
+            { name: 'Schwimmarten', words: ['Brust', 'Rücken', 'Schmetterling', 'Seiten'] },
+            { name: 'Findet man in Fußballstadien', words: ['Fans', 'Ordner', 'Spielfeld', 'Tribüne'] },
+            { name: 'Bier_', words: ['Bank', 'Bauch', 'Garten', 'Preis'] },
+        ],
+    },
+    {
+        date: '2025-07-17',
+        categories: [
+            { name: 'Was die Sonne ist', words: ['Gelb', 'Groß', 'Heiß', 'Hell'] },
+            { name: 'Beim Golf zu sehen', words: ['Ball', 'Bunker', 'Grün', 'Loch'] },
+            { name: 'Gut drauf', words: ['Blau', 'Breit', 'Dicht', 'Voll'] },
+            { name: '(Teile von) Namen von "Die Unglaublichen" Charakteren', words: ['Flash', 'Girl', 'Jack', 'Violett'] },
+        ],
+    },
+    {
+        date: '2025-07-18',
+        categories: [
+            { name: 'Oft mit der Farbe rot assoziiert', words: ['Blut', 'Gefahr', 'Rose', 'Wut'] },
+            { name: 'Verschwinden im Laufe der Zeit', words: ['Echo', 'Erinnerung', 'Rauch', 'Schatten'] },
+            { name: 'Haben Krallen', words: ['Adler', 'Bagger', 'Hummer', 'Katze'] },
+            { name: '_Karte', words: ['Gruß', 'Land', 'Schatz', 'Spiel'] },
+        ],
+    },
+    {
+        date: '2025-07-19',
+        categories: [
+            { name: 'Tauchen in der Regel paarweise auf', words: ['Flügel', 'Schuh', 'Socke', 'Zwillinge'] },
+            { name: 'Haben Deckel', words: ['Flasche', 'Klo', 'Mülltonne', 'Topf'] },
+            { name: 'Teile eines Bettes', words: ['Latte', 'Kissen', 'Matratze', 'Rahmen'] },
+            { name: 'Wofür der erste Buchstabe in Abkürzungen endend mit KW stehen kann', words: ['Atom', 'Kern', 'Last', 'Personen'] },
+        ],
+    },
+    {
+        date: '2025-07-20',
+        categories: [
+            { name: 'Typisch Japanisch', words: ['Karaoke', 'Manga', 'Ramen', 'Sushi'] },
+            { name: 'In Kirchen zu sehen', words: ['Altar', 'Bank', 'Kreuz', 'Orgel'] },
+            { name: 'Monopoly Spielfiguren', words: ['Fingerhut', 'Schiff', 'Schubkarre', 'Zylinder'] },
+            { name: '_Kugel', words: ['Blei', 'Bowling', 'Eis', 'Lotto'] },
+        ],
+    },
+    {
+        date: '2025-07-21',
+        categories: [
+            { name: 'Tun', words: ['Handeln', 'Machen', 'Operieren', 'Vorgehen'] },
+            { name: 'Drehen sich', words: ['Bohrer', 'Erde', 'Rad', 'Ventilator'] },
+            { name: 'Alle Themen der deutschen Musikindustrie', words: ['Leben', 'Menschen', 'Tanzen', 'Welt'] },
+            { name: 'Fern_', words: ['Bleiben', 'Glas', 'Rohr', 'Sehen'] },
+        ],
+    },
+    {
+        date: '2025-07-22',
+        categories: [
+            { name: 'Vorführung', words: ['Akt', 'Auftritt', 'Inszenierung', 'Spiel'] },
+            { name: 'US-Amerikanische Maßeinheiten', words: ['Fahrenheit', 'Gallone', 'Meile', 'Pfund'] },
+            { name: 'Sportarten minus Ball', words: ['Fuß', 'Hand', 'Volley', 'Wasser'] },
+            { name: 'Kann man lesen', words: ['Buch', 'Gedanken', 'Mimik', 'Zeitung'] },
+        ],
+    },
+    {
+        date: '2025-07-23',
+        categories: [
+            { name: 'Was man braucht zum Erfolg', words: ['Disziplin', 'Ehrgeiz', 'Glück', 'Ziele'] },
+            { name: 'Wo man Obst findet', words: ['Baum', 'Korb', 'Schale', 'Supermarkt'] },
+            { name: 'Haben mit Hüpfen zu tun', words: ['Hase', 'Känguru', 'Seil', 'Trampolin'] },
+            { name: 'Traum_', words: ['Beruf', 'Frau', 'Tagebuch', 'Tor'] },
+        ],
+    },
+    {
+        date: '2025-07-24',
+        categories: [
+            { name: 'Sind gelb', words: ['Banane', 'Mais', 'Sonne', 'Zitrone'] },
+            { name: 'Was Türen hat', words: ['Aufzug', 'Auto', 'Haus', 'Kühlschrank'] },
+            { name: 'Was man aufnimmt', words: ['Fahrt', 'Lied', 'Nahrung', 'Video'] },
+            { name: '_Zeug', words: ['Bett', 'Feuer', 'Flug', 'Spiel'] },
+        ],
+    },
+    {
+        date: '2025-07-25',
+        categories: [
+            { name: 'Kleines Pulver, (oft) weiß', words: ['Mehl', 'Salz', 'Schnee', 'Zucker'] },
+            { name: 'Sind scharf', words: ['Chili', 'Messer', 'Peperoni', 'Pfeffer'] },
+            { name: 'Herz_', words: ['Haft', 'Pochen', 'Rasen', 'Stück'] },
+            { name: 'Was (der) Mars ist', words: ['Planet', 'Riegel', 'Rot', 'Rund'] },
+        ],
+    },
+    {
+        date: '2025-07-26',
+        categories: [
+            { name: 'Riese', words: ['Baum', 'Hüne', 'Koloss', 'Titan'] },
+            { name: 'In Herr der Ringe vorkommende Wesen', words: ['Drache', 'Elf', 'Hobbit', 'Zwerg'] },
+            { name: 'Klassische Catan-Spielfiguren', words: ['Räuber', 'Ritter', 'Stadt', 'Strasse'] },
+            { name: '_Romantik', words: ['Dorf', 'Früh', 'Neu', 'Spät'] },
+        ],
+    },
+    {
+        date: '2025-07-27',
+        categories: [
+            { name: 'Hilsgeräte', words: ['Brille', 'Gehstock', 'Krücke', 'Rollstuhl'] },
+            { name: 'Circa', words: ['Fast', 'Rund', 'Um', 'Ungefähr'] },
+            { name: 'Auf vielerlei Flaggen zu sehen', words: ['Kreuz', 'Stern', 'Streifen', 'Tier'] },
+            { name: 'Stadion_', words: ['Atmosphäre', 'Loge', 'Rang', 'Sprecher'] },
+        ],
+    },
+    {
+        date: '2025-07-28',
+        categories: [
+            { name: 'Was Laptops standardmäßig haben', words: ['Batterie', 'Bildschirm', 'Lautsprecher', 'Tastatur'] },
+            { name: 'Tiere, die Beleidigungen sind', words: ['Hund', 'Kuh', 'Ratte', 'Schwein'] },
+            { name: 'Hollywood Schauspieler', words: ['Butler', 'Depp', 'Ford', 'Washington'] },
+            { name: 'Spitz_', words: ['Er', 'Hut', 'Maus', 'Ohr'] },
+        ],
+    },
+    {
+        date: '2025-07-29',
+        categories: [
+            { name: 'In Namen von Star Wars Filmen', words: ['Angriff', 'Bedrohung', 'Macht', 'Rache'] },
+            { name: 'In Namen von Harry Potter Filmen/Büchern', words: ['Kammer', 'Orden', 'Phönix', 'Stein'] },
+            { name: 'In Namen von Indiana Jones Filmen', words: ['Jäger', 'Königreich', 'Kreuzzug', 'Tempel'] },
+            { name: 'In Namen von James Bond Filmen', words: ['Casino', 'Colt', 'Geheimdienst', 'Moskau'] },
+        ],
+    },
+    {
+        date: '2025-07-30',
+        categories: [
+            { name: 'Gespräch', words: ['Austausch', 'Debatte', 'Interview', 'Unterhaltung'] },
+            { name: 'Schmuck', words: ['Brosche', 'Kette', 'Krone', 'Reif'] },
+            { name: 'In Kontext vom Boxen verwendet', words: ['Handschuh', 'Kampf', 'Mundschutz', 'Ring'] },
+            { name: '1, 2, 3, 4 Präfixe', words: ['Dialog', 'Monopol', 'Tetraeder', 'Trilogie'] },
+        ],
+    },
+    {
+        date: '2025-07-31',
+        categories: [
+            { name: 'Die da', words: ['Dame', 'Frau', 'Sie', 'Weib'] },
+            { name: 'Reimen sich', words: ['Kir', 'Ihr', 'Mir', 'Wir'] },
+            { name: 'In Namen von Planeten zu finden', words: ['Er', 'Kur', 'Turn', 'Uran'] },
+            { name: 'Kran_', words: ['Arm', 'Ich', 'Ker', 'Wagen'] },
+        ],
+    },
+    {
+        date: '2025-08-01',
+        categories: [
+            { name: 'Sitzgelegenheiten', words: ['Bett', 'Hocker', 'Sofa', 'Stuhl'] },
+            { name: 'Nachweis', words: ['Beleg', 'Schein', 'Urkunde', 'Zeugnis'] },
+            { name: '_Schule', words: ['Grund', 'Haupt', 'Real', 'Vor'] },
+            { name: 'Namen deutscher Weltmeister', words: ['Bauer', 'Bein', 'Lahm', 'Mai'] },
+        ],
+    },
+    {
+        date: '2025-08-02',
+        categories: [
+            { name: 'Musikinstrumente', words: ['Bass', 'Becken', 'Geige', 'Horn'] },
+            { name: 'Mythologische Wesen', words: ['Drache', 'Sirene', 'Yeti', 'Zentaur'] },
+            { name: 'Typischerweise auf Festival/Konzert-Bühnen zu sehen', words: ['Band', 'Lautsprecher', 'Mikrofon', 'Sänger'] },
+            { name: 'Beginnend mit Musikgenres', words: ['Funkuhr', 'Metall', 'Popel', 'Raps'] },
+        ],
+    },
+    {
+        date: '2025-08-03',
+        categories: [
+            { name: 'Lebewesen', words: ['Charakter', 'Leben', 'Organismus', 'Wesen'] },
+            { name: 'Teile eines Fußballtors', words: ['Latte', 'Netz', 'Pfosten', 'Verankerung'] },
+            { name: 'Bedeutung', words: ['Gewicht', 'Kraft', 'Macht', 'Stärke'] },
+            { name: 'Eis_', words: ['Bär', 'Berg', 'Lauf', 'Tee'] },
+        ],
+    },
+    {
+        date: '2025-08-04',
+        categories: [
+            { name: 'Findet man auf Bauernhöfen', words: ['Heu', 'Huhn', 'Kuh', 'Stall'] },
+            { name: 'Was Polizisten dabei haben können', words: ['Funkgerät', 'Handschellen', 'Hund', 'Waffe'] },
+            { name: 'Gliederfüßer', words: ['Ameise', 'Krebs', 'Skorpion', 'Spinne'] },
+            { name: '_Kampf', words: ['Box', 'Fünf', 'Stier', 'Wahl'] },
+        ],
+    },
+    {
+        date: '2025-08-05',
+        categories: [
+            { name: 'Wird auf Tischen gespielt', words: ['Billard', 'Ping-Pong', 'Poker', 'Pool'] },
+            { name: 'Kann man drin schwimmen', words: ['Becken', 'Geld', 'Ozean', 'See'] },
+            { name: 'Haben häufig Vorhänge', words: ['Bühne', 'Dusche', 'Fenster', 'Umkleidekabine'] },
+            { name: 'Sonnen_', words: ['Bad', 'Brand', 'Brille', 'Schutz'] },
+        ],
+    },
+    {
+        date: '2025-08-06',
+        categories: [
+            { name: 'Sind blau', words: ['Himmel', 'Jeans', 'Ozean', 'Schlumpf'] },
+            { name: 'Kann man trinken', words: ['Bier', 'Cola', 'Wasser', 'Weizen'] },
+            { name: 'Was mit "Kurzer" gemeint sein kann', words: ['Gnom', 'Pimpf', 'Schnapps', 'Zwerg'] },
+            { name: 'Sand_', words: ['Bank', 'Kasten', 'Mann', 'Uhr'] },
+        ],
+    },
+    {
+        date: '2025-08-07',
+        categories: [
+            { name: 'Typen von Jacken', words: ['Jeans', 'Leder', 'Regen', 'Winter'] },
+            { name: '"Wo spielst du?" (Fußballbezogen)', words: ['Abwehr', 'Flügel', 'Sturm', 'Tor'] },
+            { name: 'Können pfeifen', words: ['Kessel', 'Mensch', 'Vogel', 'Wind'] },
+            { name: '_Folge', words: ['Nach', 'Pilot', 'Rang', 'Schritt'] },
+        ],
+    },
+    {
+        date: '2025-08-08',
+        categories: [
+            { name: 'Können Teile eines Buchs sein', words: ['Absatz', 'Akt', 'Kapitel', 'Passage'] },
+            { name: 'Zur Beschreibung von Schuhen verwendet', words: ['Farbe', 'Größe', 'Marke', 'Material'] },
+            { name: 'Dinge, die man teilt', words: ['Bild', 'Erfahrung', 'Kuchen', 'Pizza'] },
+            { name: '"Du alter/altes/alte _"', words: ['Hase', 'Haus', 'Sack', 'Schachtel'] },
+        ],
+    },
+    {
+        date: '2025-08-09',
+        categories: [
+            { name: 'Findet man in Schulen', words: ['Klasse', 'Lehrer', 'Schwamm', 'Tafel'] },
+            { name: 'Können brechen', words: ['Glas', 'Herz', 'Knochen', 'Welle'] },
+            { name: 'Bei Monopoly zu sehen', words: ['Bahnhof', 'Gefängnis', 'Los', 'Straße'] },
+            { name: 'Bundes_', words: ['Amt', 'Land', 'Liga', 'Tag'] },
+        ],
+    },
+    {
+        date: '2025-08-10',
+        categories: [
+            { name: 'Wo man Kleidung finden kann', words: ['Geschäft', 'Koffer', 'Leine', 'Schrank'] },
+            { name: 'Kann man falten', words: ['Hände', 'Handtuch', 'Papier', 'Wäsche'] },
+            { name: 'Sammelt man in Alben', words: ['Briefmarke', 'Foto', 'Münze', 'Sticker'] },
+            { name: '_Kraft', words: ['Fach', 'Kauf', 'Schwer', 'Wind'] },
+        ],
+    },
+    {
+        date: '2025-08-11',
+        categories: [
+            { name: 'Sehr gut', words: ['Klasse', 'Spitze', 'Stark', 'Super'] },
+            { name: 'Oft bei Brettspielen dabei', words: ['Anleitung', 'Brett', 'Figur', 'Würfel'] },
+            { name: 'Sind/Waren F1 Konstrukteure', words: ['Jaguar', 'Jordan', 'Lotus', 'Sauber'] },
+            { name: 'Kristall_', words: ['Glas', 'Klar', 'Schale', 'Zucker'] },
+        ],
+    },
+    {
+        date: '2025-08-12',
+        categories: [
+            { name: 'Sind normalerweise weiß', words: ['Heizung', 'Milch', 'Papier', 'Salz'] },
+            { name: 'Haben Löcher', words: ['Käse', 'Netz', 'Schwamm', 'Sieb'] },
+            { name: 'Bei Sudoku von Bedeutung', words: ['Kästchen', 'Neun', 'Reihe', 'Spalte'] },
+            { name: '_Meter', words: ['Elf', 'Kilo', 'Sieben', 'Tacho'] },
+        ],
+    },
+    {
+        date: '2025-08-13',
+        categories: [
+            { name: 'Hat eine Spitze', words: ['Bleistift', 'Dach', 'Nagel', 'Pyramide'] },
+            { name: 'Desinfiziert man', words: ['Hände', 'Oberfläche', 'Trinkwasser', 'Wunde'] },
+            { name: 'In welchen Kontexten "Note" verwendet wird', words: ['Duft', 'Geld', 'Musik', 'Schule'] },
+            { name: 'Arzt_', words: ['Besuch', 'Kittel', 'Koffer', 'Praxis'] },
+        ],
+    },
+    {
+        date: '2025-08-14',
+        categories: [
+            { name: 'Was man im Meer findet', words: ['Alge', 'Fisch', 'Müll', 'Wasser'] },
+            { name: 'Was es im Weltall nicht gibt', words: ['Luft', 'Nacht', 'Schwerkraft', 'Tag'] },
+            { name: 'Werden gekürzt', words: ['Bruch', 'Hecke', 'Nägel', 'Rasen'] },
+            { name: '_Berg', words: ['Kreuz', 'Strom', 'Tafel', 'Wein'] },
+        ],
+    },
+    {
+        date: '2025-08-15',
+        categories: [
+            { name: 'Begriffe für Anbaugebiete/flächen', words: ['Boden', 'Feld', 'Flur', 'Land'] },
+            { name: 'Können brechen', words: ['Glas', 'Herz', 'Knochen', 'Welle'] },
+            { name: 'Was man stellt', words: ['Antrag', 'Frage', 'Ultimatum', 'Wecker'] },
+            { name: 'Brems_', words: ['Belag', 'Scheibe', 'Spur', 'Weg'] },
+        ],
+    },
+    {
+        date: '2025-08-16',
+        categories: [
+            { name: 'Beim Pokern zu sehen', words: ['Chips', 'Matte', 'Paar', 'Straße'] },
+            { name: 'Sind scharf', words: ['Chili', 'Messer', 'Peperoni', 'Pfeffer'] },
+            { name: 'Kann man brechen', words: ['Regel', 'Rekord', 'Schweigen', 'Welle'] },
+            { name: 'Zeit_', words: ['Druck', 'Geist', 'Raum', 'Zone'] },
+        ],
+    },
+    {
+        date: '2025-08-17',
+        categories: [
+            { name: 'Haben Stachel', words: ['Igel', 'Kaktus', 'Rose', 'Skorpion'] },
+            { name: 'Können geformt werden', words: ['Glas', 'Knete', 'Metall', 'Ton'] },
+            { name: 'Stehen für Beständigkeit', words: ['Anker', 'Berg', 'Eiche', 'Fels'] },
+            { name: 'Regen_', words: ['Bogen', 'Fall', 'Tropfen', 'Wald'] },
+        ],
+    },
+    {
+        date: '2025-08-18',
+        categories: [
+            { name: 'Sind hoch', words: ['Berg', 'Kran', 'Turm', 'Wolkenkratzer'] },
+            { name: 'Drehen sich', words: ['Bohrer', 'Erde', 'Rad', 'Ventilator'] },
+            { name: 'Kann man ziehen', words: ['Karte', 'Pistole', 'Schluss', 'Tau'] },
+            { name: '_Lauf', words: ['Durch', 'Leer', 'Staffel', 'Test'] },
+        ],
+    },
+    {
+        date: '2025-08-19',
+        categories: [
+            { name: 'Wovon man essen kann', words: ['Platte', 'Schüssel', 'Tafel', 'Teller'] },
+            { name: 'Was von der Sonne kommt', words: ['Energie', 'Hitze', 'Licht', 'Schein'] },
+            { name: 'Kann man messen', words: ['Abstand', 'Gewicht', 'Temperatur', 'Zeit'] },
+            { name: 'Enden mit Körperteilen', words: ['Bohr', 'Dortmund', 'Lauge', 'Schwarm'] },
+        ],
+    },
+    {
+        date: '2025-08-20',
+        categories: [
+            { name: 'Stellt man sich vor', words: ['Illusion', 'Traum', 'Utopie', 'Wunsch'] },
+            { name: 'Geometrische Begriffe', words: ['Gerade', 'Punkt', 'Pyramide', 'Würfel'] },
+            { name: 'In welchen Kontexten das Wort "Motiv" verwendet wird', words: ['Begründung', 'Gemälde', 'Motivation', 'Straftat'] },
+            { name: 'Unter_', words: ['Arm', 'Hemd', 'Hose', 'Ton'] },
+        ],
+    },
+    {
+        date: '2025-08-21',
+        categories: [
+            { name: 'Jemandes Interesse wecken', words: ['Fesseln', 'Locken', 'Packen', 'Reizen'] },
+            { name: 'Kann man verlieren', words: ['Geduld', 'Gewicht', 'Nerven', 'Spiel'] },
+            { name: 'Erlauben den Zugang zu etwas', words: ['Ausweis', 'Pass', 'Schlüssel', 'Ticket'] },
+            { name: 'Am Ende von Bundesländern', words: ['Berg', 'Burg', 'Essen', 'Stein'] },
+        ],
+    },
+    {
+        date: '2025-08-22',
+        categories: [
+            { name: 'Was ein Buch hat', words: ['Handlung', 'Kapitel', 'Seite', 'Titel'] },
+            { name: 'Teile einer Brille', words: ['Bügel', 'Rahmen', 'Scharnier', 'Steg'] },
+            { name: 'Kurz_', words: ['Arbeit', 'Fassung', 'Form', 'Schluss'] },
+            { name: 'Werden geschlossen', words: ['Fenster', 'Geschäft', 'Tür', 'Vertrag'] },
+        ],
+    },
+    {
+        date: '2025-08-23',
+        categories: [
+            { name: '"Glück im Spiel, Pech in der Liebe"', words: ['Glück', 'Liebe', 'Pech', 'Spiel'] },
+            { name: 'Zum Schutz vor Sonne verwendet', words: ['Brille', 'Creme', 'Hut', 'Schirm'] },
+            { name: 'Tisch_', words: ['Bein', 'Decke', 'Ordnung', 'Tennis'] },
+            { name: 'In welchen Kontexten man das Wort "Matt" findet', words: ['Farbe', 'Leblos', 'Müde', 'Schach'] },
+        ],
+    },
+    {
+        date: '2025-08-24',
+        categories: [
+            { name: 'Kommen von oben', words: ['Hagel', 'Konfetti', 'Regen', 'Schnee'] },
+            { name: 'Bei Siedler von Catan zu sehen', words: ['Erz', 'Getreide', 'Holz', 'Schaf'] },
+            { name: 'Von Boxern verwendet', words: ['Handschuh', 'Mundschutz', 'Ring', 'Sack'] },
+            { name: 'Beginnen mit Musikgenres', words: ['Funkuhr', 'Metall', 'Popcorn', 'Raps'] },
+        ],
+    },
+    {
+        date: '2025-08-25',
+        categories: [
+            { name: 'Bei der Tour de France zu sehen', words: ['Fahrrad', 'Presse', 'Trikot', 'Ziel'] },
+            { name: 'Stadium', words: ['Etappe', 'Rang', 'Station', 'Stufe'] },
+            { name: 'Haben Seiten', words: ['Buch', 'Internet', 'Würfel', 'Zeitung'] },
+            { name: '_Park', words: ['Europa', 'Freizeit', 'Tier', 'Wasser'] },
+        ],
+    },
+    {
+        date: '2025-08-26',
+        categories: [
+            { name: 'Gehirn/Köpfchen', words: ['Birne', 'Hirn', 'Kopf', 'Schädel'] },
+            { name: 'Teile einer Hose', words: ['Bein', 'Bund', 'Saum', 'Schritt'] },
+            { name: 'Typisches Pferdefutter', words: ['Apfel', 'Gras', 'Heu', 'Möhre'] },
+            { name: 'Stein_', words: ['Adler', 'Bruch', 'Ofen', 'Schleuder'] },
+        ],
+    },
+    {
+        date: '2025-08-27',
+        categories: [
+            { name: 'Haben Sand', words: ['Golfplatz', 'Strand', 'Stundenglas', 'Wüste'] },
+            { name: 'Mario Kart Items', words: ['Banane', 'Panzer', 'Pilz', 'Stern'] },
+            { name: 'Bringen einen zum Schwitzen', words: ['Angst', 'Fieber', 'Hitze', 'Sport'] },
+            { name: 'Unternehmen ohne "Deutsche"', words: ['Bahn', 'Bank', 'Post', 'Telekom'] },
+        ],
+    },
+    {
+        date: '2025-08-28',
+        categories: [
+            { name: 'Automodelle', words: ['Golf', 'Käfer', 'Mini', 'Polo'] },
+            { name: 'Wofür man sich rausputzt', words: ['Ball', 'Beerdigung', 'Event', 'Hochzeit'] },
+            { name: 'Haben Kronen', words: ['Baum', 'Bier', 'König', 'Zahn'] },
+            { name: 'Am Anfang großbritannischer Städte', words: ['Aber', 'Glas', 'Live', 'Manch'] },
+        ],
+    },
+    {
+        date: '2025-08-29',
+        categories: [
+            { name: 'Wird auf Tischen gespielt', words: ['Billard', 'Ping-Pong', 'Poker', 'Pool'] },
+            { name: 'Kann man drin schwimmen', words: ['Becken', 'Geld', 'Ozean', 'See'] },
+            { name: 'Wo man Bedienungen finden kann', words: ['Bar', 'Flugzeug', 'Hotel', 'Restaurant'] },
+            { name: 'Enthalten Geschichtsformen', words: ['Absagen', 'Deposition', 'Fabelhaft', 'Irreparabel'] },
+        ],
+    },
+    {
+        date: '2025-08-30',
+        categories: [
+            { name: 'Zum Feuer machen verwendet', words: ['Feuer', 'Gas', 'Holz', 'Kohle'] },
+            { name: 'Teile eines Baums', words: ['Ast', 'Krone', 'Stamm', 'Zweig'] },
+            { name: 'Haben häufig Vorhänge', words: ['Bühne', 'Dusche', 'Fenster', 'Umkleide'] },
+            { name: '_Hut', words: ['Cowboy', 'Filz', 'Finger', 'Stroh'] },
+        ],
+    },
+    {
+        date: '2025-08-31',
+        categories: [
+            { name: 'Konsequenz', words: ['Ergebnis', 'Folge', 'Resultat', 'Schluss'] },
+            { name: 'Wo Sport ausgeübt wird', words: ['Halle', 'Laufbahn', 'Piste', 'Rasen'] },
+            { name: 'Worauf man schreibt', words: ['Blatt', 'Block', 'Computer', 'Papier'] },
+            { name: 'Arzt_', words: ['Besuch', 'Kittel', 'Koffer', 'Praxis'] },
+        ],
+    },
+    {
+        date: '2025-09-01',
+        categories: [
+            { name: 'Rücksichtlos', words: ['Grob', 'Hart', 'Kalt', 'Roh'] },
+            { name: 'Was man beschreitet', words: ['Reise', 'Route', 'Schritt', 'Weg'] },
+            { name: 'Beim Golf zu sehen', words: ['Ball', 'Bunker', 'Grün', 'Loch'] },
+            { name: '_Kopf', words: ['Dumm', 'Salat', 'Schrift', 'Schwach'] },
+        ],
+    },
+    {
+        date: '2025-09-02',
+        categories: [
+            { name: 'In Krankenhäusern zu finden', words: ['Arzt', 'Bett', 'Patient', 'Schwester'] },
+            { name: 'Kann man spenden', words: ['Blut', 'Geld', 'Kleidung', 'Knochenmark'] },
+            { name: 'Wo man das Wort "Korn" verwendet', words: ['Alkohol', 'Mais', 'Pfeffer', 'Sand'] },
+            { name: 'Tür_', words: ['Angel', 'Griff', 'Loch', 'Rahmen'] },
+        ],
+    },
+    {
+        date: '2025-09-03',
+        categories: [
+            { name: 'Zum Machen von Feuer verwendet', words: ['Feuerzeug', 'Gas', 'Holz', 'Kohle'] },
+            { name: 'Findet man in der Zeitung', words: ['Anzeige', 'Artikel', 'Horoskop', 'Schlagzeile'] },
+            { name: 'Haben (oft) Verschlüsse', words: ['Dose', 'Flasche', 'Helm', 'Jacke'] },
+            { name: '_Kraft', words: ['Fach', 'Kauf', 'Schwer', 'Wind'] },
+        ],
+    },
+    {
+        date: '2025-09-04',
+        categories: [
+            { name: 'Zusammenstellung', words: ['Gruppe', 'Reihe', 'Satz', 'Serie'] },
+            { name: 'Kann man knacken', words: ['Code', 'Geheimnis', 'Knochen', 'Nuss'] },
+            { name: 'Milchsorten/-typen', words: ['Kuh', 'Mager', 'Mandel', 'Soja'] },
+            { name: 'Baer/Bär_', words: ['Bock', 'Lapp', 'Lauch', 'Tiger'] },
+        ],
+    },
+    {
+        date: '2025-09-05',
+        categories: [
+            { name: 'Haben ein Loch in der Mitte', words: ['CD', 'Donut', 'Reifen', 'Schallplatte'] },
+            { name: 'Messerarten', words: ['Brot', 'Jagd', 'Taschen', 'Teppich'] },
+            { name: 'Frère Jacques', words: ['Bruder', 'Dong', 'Glocken', 'Noch'] },
+            { name: 'Beginnen mit Tieren', words: ['Haiti', 'Hundert', 'Rehabilitation', 'Schafott'] },
+        ],
+    },
+    {
+        date: '2025-09-06',
+        categories: [
+            { name: '"Lieber den Spatz in der Hand, als die Taube auf dem Dach"', words: ['Dach', 'Hand', 'Spatz', 'Taube'] },
+            { name: 'Teil eines größerem Ganzen', words: ['Element', 'Passage', 'Scheibe', 'Segment'] },
+            { name: 'Werden im Kontext "Spannung" verwendet', words: ['Erwartung', 'Konflikt', 'Strom', 'Thriller'] },
+            { name: 'Disco_', words: ['Besuch', 'Kugel', 'Theken', 'Unter'] },
+        ],
+    },
+    {
+        date: '2025-09-07',
+        categories: [
+            { name: 'Was Betten haben', words: ['Decke', 'Kissen', 'Matratze', 'Seiten'] },
+            { name: 'Kann man drehen', words: ['Film', 'Fleisch', 'Karussell', 'Runde'] },
+            { name: 'Arten von Schuhen', words: ['Bowling', 'Haus', 'Ski', 'Tanz'] },
+            { name: 'Im Kontext "Bieten" verwendet', words: ['Angebot', 'Gelegenheit', 'Stirn', 'Unterhaltung'] },
+        ],
+    },
+    {
+        date: '2025-09-08',
+        categories: [
+            { name: 'Tiere die Eier legen', words: ['Meise', 'Schildkröte', 'Strauß', 'Wachtel'] },
+            { name: 'Amphibien', words: ['Kröte', 'Molch', 'Salamander', 'Unke'] },
+            { name: 'Geschirr/Besteck mit erstem Buchstaben verändert', words: ['Besser', 'Fabel', 'Rasse', 'Söffel'] },
+            { name: 'Blumen_', words: ['Kasten', 'Kohl', 'Schmuck', 'Topf'] },
+        ],
+    },
+    {
+        date: '2025-09-09',
+        categories: [
+            { name: 'Zentrum', words: ['Herz', 'Kern', 'Mitte', 'Puls'] },
+            { name: 'Womit man schreiben kann', words: ['Feder', 'Kreide', 'Stift', 'Tastatur'] },
+            { name: 'Formen, zu denen man Papier zusammenfaltet', words: ['Boot', 'Flieger', 'Frosch', 'Hut'] },
+            { name: '_Bogen', words: ['Frage', 'Regen', 'Test', 'Umfrage'] },
+        ],
+    },
+    {
+        date: '2025-09-10',
+        categories: [
+            { name: 'Eigenschaften eines Fußballers', words: ['Alter', 'Gehalt', 'Marktwert', 'Position'] },
+            { name: 'Zum Verpacken bei Umzügen verwendet', words: ['Karton', 'Klebeband', 'Luftpolsterfolie', 'Zeitung'] },
+            { name: 'Was man an Weihnachten sieht', words: ['Christbaum', 'Familie', 'Geschenkpapier', 'Raclette'] },
+            { name: 'Post_', words: ['Amt', 'Fach', 'Karte', 'Kasten'] },
+        ],
+    },
+    {
+        date: '2025-09-11',
+        categories: [
+            { name: 'Sportarten bei denen man schlägt', words: ['Badminton', 'Baseball', 'Boxen', 'Golf'] },
+            { name: 'Was Polizisten dabei haben können', words: ['Funkgerät', 'Handschellen', 'Hund', 'Waffe'] },
+            { name: 'Pinocchio Figuren', words: ['Fuchs', 'Kater', 'Marionette', 'Tischler'] },
+            { name: 'Beginnen mit Körperteilen', words: ['Armut', 'Beinahe', 'Fußball', 'Handball'] },
+        ],
+    },
+    {
+        date: '2025-09-12',
+        categories: [
+            { name: 'Mythologische Wesen', words: ['Drache', 'Sirene', 'Yeti', 'Zentaur'] },
+            { name: 'Bestandteil von Chips', words: ['Essig', 'Kartoffel', 'Öl', 'Salz'] },
+            { name: 'Vogelarten', words: ['Greif', 'Sing', 'Wasser', 'Zug'] },
+            { name: 'Motor_', words: ['Boot', 'Leistung', 'Rad', 'Raum'] },
+        ],
+    },
+    {
+        date: '2025-09-13',
+        categories: [
+            { name: 'Gängig(er Wert)', words: ['Durchschnitt', 'Mittel', 'Normal', 'Standard'] },
+            { name: 'Zum Erreichen eines Ziels verwendet', words: ['Lösung', 'Methode', 'Verfahren', 'Weg'] },
+            { name: 'Gold_', words: ['Erz', 'Handel', 'Rausch', 'Reserve'] },
+            { name: 'Deutsche Schauspieler', words: ['Bär', 'Herbst', 'Koch', 'Vogel'] },
+        ],
+    },
+    {
+        date: '2025-09-14',
+        categories: [
+            { name: 'Kann zur Ausrüstung eines Jägers gehören', words: ['Fernglas', 'Gewehr', 'Köder', 'Tarnung'] },
+            { name: 'Gesichtspflegeprodukte', words: ['Creme', 'Öl', 'Peeling', 'Serum'] },
+            { name: 'Haben Nadeln', words: ['Kiefer', 'Kompass', 'Tacho', 'Tanne'] },
+            { name: 'Am Ende europäischer Wahrzeichen', words: ['Dame', 'Platz', 'Tag', 'Turm'] },
+        ],
+    },
+    {
+        date: '2025-09-15',
+        categories: [
+            { name: 'Edelsteine', words: ['Amethyst', 'Diamant', 'Rubin', 'Smaragd'] },
+            { name: 'Arabische Halbinsel-Staaten', words: ['Bahrain', 'Jemen', 'Kuwait', 'Saudi-Arabien'] },
+            { name: 'WM-Austragungsorte', words: ['Katar', 'Russland', 'Südafrika', 'Südkorea'] },
+            { name: 'Beginnen mit Familienmitgliedern', words: ['Muttermal', 'Oman', 'Opal', 'Papaya'] },
+        ],
+    },
+    {
+        date: '2025-09-16',
+        categories: [
+            { name: 'Biersorten', words: ['Dunkel', 'Hell', 'Lager', 'Weizen'] },
+            { name: 'An verschiedenen Kleidungsstücken zu finden', words: ['Bund', 'Haken', 'Knopf', 'Tasche'] },
+            { name: 'Aus dem Französischem stammende Wörter', words: ['Baguette', 'Buffet', 'Restaurant', 'Toilette'] },
+            { name: 'Werden durch -er zu deutschen Nachnamen', words: ['Bau', 'Fisch', 'Müll', 'Schneid'] },
+        ],
+    },
+    {
+        date: '2025-09-17',
+        categories: [
+            { name: 'Witzig', words: ['Amüsant', 'Komisch', 'Lustig', 'Spassig'] },
+            { name: 'Schlümpfe ohne i am ende', words: ['Faul', 'Muff', 'Schlaff', 'Wein'] },
+            { name: 'Wofür es Rennen gibt', words: ['Auto', 'Pferd', 'Schnecke', 'Schubkarre'] },
+            { name: 'Schach_', words: ['Brett', 'Figur', 'Matt', 'Zug'] },
+        ],
+    },
+    {
+        date: '2025-09-18',
+        categories: [
+            { name: 'In Bibliotheken zu finden', words: ['Buch', 'Leser', 'Regal', 'Stille'] },
+            { name: 'Was Polizisten dabei haben können', words: ['Funkgerät', 'Handschellen', 'Hund', 'Waffe'] },
+            { name: 'Stellt man auf', words: ['Gerüst', 'Leiter', 'Schild', 'Ziel'] },
+            { name: 'Abend_', words: ['Brot', 'Essen', 'Mahl', 'Schule'] },
+        ],
+    },
+    {
+        date: '2025-09-19',
+        categories: [
+            { name: 'Behältnisse', words: ['Fach', 'Mappe', 'Sack', 'Tasche'] },
+            { name: 'Haben Tasten', words: ['Controller', 'Fernbedienung', 'Klavier', 'Maus'] },
+            { name: 'Angaben, bzgl. wo man wohnt', words: ['Haus', 'Land', 'Stadt', 'Straße'] },
+            { name: 'Fußball_', words: ['Bundesliga', 'Feld', 'Training', 'Verrückt'] },
+        ],
+    },
+    {
+        date: '2025-09-20',
+        categories: [
+            { name: 'Rücksichtlos', words: ['Grob', 'Hart', 'Kalt', 'Roh'] },
+            { name: 'Haben Rillen', words: ['CD', 'Fingerabdruck', 'Münze', 'Schraube'] },
+            { name: 'Sind immer in Bewegung', words: ['Fluss', 'Karussell', 'Pendel', 'Uhr'] },
+            { name: 'Zeit_', words: ['Druck', 'Geist', 'Raum', 'Zone'] },
+        ],
+    },
+    {
+        date: '2025-09-21',
+        categories: [
+            { name: 'Glückssymbole', words: ['Hasenpfote', 'Hufeisen', 'Kleeblatt', 'Schwein'] },
+            { name: 'Kann man schneiden', words: ['Brot', 'Haar', 'Kurve', 'Papier'] },
+            { name: 'Was Sport mit sich bringt', words: ['Ausgleich', 'Figur', 'Schweiß', 'Verletzungen'] },
+            { name: 'Enthalten die Farben der Kategorien dieses Spiels', words: ['Ablauf', 'Begründung', 'Bügelbrett', 'Somaliland'] },
+        ],
+    },
+    {
+        date: '2025-09-22',
+        categories: [
+            { name: 'Sind weich', words: ['Kissen', 'Marshmallow', 'Watte', 'Wolle'] },
+            { name: '"Lieber den Spatz in der Hand, als die Taube auf dem Dach"', words: ['Dach', 'Hand', 'Spatz', 'Taube'] },
+            { name: 'Schwimmstile', words: ['Brust', 'Rücken', 'Schmetterling', 'Seiten'] },
+            { name: 'Volks_', words: ['Bank', 'Lied', 'Mund', 'Nah'] },
+        ],
+    },
+    {
+        date: '2025-09-23',
+        categories: [
+            { name: 'Sporadisch', words: ['Kaum', 'Rar', 'Selten', 'Wenig'] },
+            { name: 'Zustände von Fleisch', words: ['Durch', 'Gar', 'Medium', 'Roh'] },
+            { name: 'Haben einen Griff', words: ['Koffer', 'Schwert', 'Tasse', 'Tür'] },
+            { name: 'Feder_', words: ['Ball', 'Bett', 'Gewicht', 'Hut'] },
+        ],
+    },
+    {
+        date: '2025-09-24',
+        categories: [
+            { name: 'Werden im Kontext von Vulkanen verwendet', words: ['Aktiv', 'Lava', 'Magma', 'Ruhen'] },
+            { name: 'Trägt man', words: ['Gips', 'Last', 'Mantel', 'Tasche'] },
+            { name: 'Was man mit einem Baum macht', words: ['Abstützen', 'Fällen', 'Pflanzen', 'Stellen'] },
+            { name: 'Was mit Heiß gemeint sein kann', words: ['Attraktiv', 'Begeistert', 'Gefährlich', 'Schön'] },
+        ],
+    },
+    {
+        date: '2025-09-25',
+        categories: [
+            { name: 'Sind (zumindest zum Großteil) schwarz und weiß', words: ['Dalmatiner', 'Klavier', 'Pinguin', 'Zebra'] },
+            { name: 'Werden oft in der Küche verwendet', words: ['Löffel', 'Mixer', 'Topf', 'Zewa'] },
+            { name: 'Findet man auf Notenseiten (Musik)', words: ['Forte', 'Piano', 'Schlüssel', 'Tempo'] },
+            { name: 'Haben Saiten/Seiten', words: ['Buch', 'Gitarre', 'Violine', 'Zeitung'] },
+        ],
+    },
+    {
+        date: '2025-09-26',
+        categories: [
+            { name: 'Teil eines größerem Ganzen', words: ['Element', 'Passage', 'Scheibe', 'Segment'] },
+            { name: 'Worin Geld gelagert wird', words: ['Automat', 'Konto', 'Portemonnaie', 'Tresor'] },
+            { name: 'Kann man drehen', words: ['Film', 'Hals', 'Rad', 'Spieß'] },
+            { name: 'Wörter bei denen das "ch" immer anders ausgesprochen wird', words: ['Chaussee', 'Chor', 'Dach', 'Gewicht'] },
+        ],
+    },
+    {
+        date: '2025-09-27',
+        categories: [
+            { name: 'Letzte 4 Weltmeister', words: ['ARG', 'FRA', 'GER', 'SPA'] },
+            { name: 'Währungen', words: ['CHF', 'EUR', 'GBP', 'JPY'] },
+            { name: 'Große europäische Flughäfen', words: ['AMS', 'CDG', 'IST', 'LHR'] },
+            { name: 'Akademische Grade', words: ['BED', 'BSC', 'MBA', 'PHD'] },
+        ],
+    },
+    {
+        date: '2025-09-28',
+        categories: [
+            { name: 'Zahlungswege', words: ['Bar', 'Karte', 'Scheck', 'Überweisung'] },
+            { name: 'Desinfiziert man', words: ['Hände', 'Oberfläche', 'Trinkwasser', 'Wunde'] },
+            { name: 'Werden gekürzt', words: ['Bruch', 'Hecke', 'Nägel', 'Rasen'] },
+            { name: '_Berg', words: ['Kreuz', 'Strom', 'Tafel', 'Wein'] },
+        ],
+    },
+    {
+        date: '2025-09-29',
+        categories: [
+            { name: 'Sind rund', words: ['Erde', 'Rad', 'Sonne', 'Teller'] },
+            { name: 'Unterrichtsfächer, die es so (fast) überall auf der Welt gibt', words: ['Chemie', 'Mathe', 'Musik', 'Sport'] },
+            { name: 'Begriffe, die man mit einer Bratwurst vebindet', words: ['Brötchen', 'Deutsch', 'Fleisch', 'Grillen'] },
+            { name: '_Rat', words: ['Ethik', 'Europa', 'Haus', 'Pi'] },
+        ],
+    },
+    {
+        date: '2025-09-30',
+        categories: [
+            { name: 'Sind blau', words: ['Himmel', 'Jeans', 'Ozean', 'Schlumpf'] },
+            { name: 'Haben häufig Vorhänge', words: ['Bühne', 'Dusche', 'Fenster', 'Umkleidekabine'] },
+            { name: 'Was mit "Kurzer" gemeint sein kann', words: ['Gnom', 'Pimpf', 'Schnaps', 'Zwerg'] },
+            { name: 'Beginnen mit W-Fragewörtern', words: ['Wanne', 'Wasser', 'Wieder', 'Woche'] },
+        ],
+    },
+    {
+        date: '2025-10-01',
+        categories: [
+            { name: 'Worauf man schreibt', words: ['Blatt', 'Block', 'Festplatte', 'Tafel'] },
+            { name: 'In welchen Formen Bier kommt', words: ['Dose', 'Fass', 'Flasche', 'Kasten'] },
+            { name: 'Findet man bei der Formel 1', words: ['Auto', 'Box', 'Strecke', 'Team'] },
+            { name: 'Wo man eine Decke findet', words: ['Bett', 'Feuerwehr', 'Raum', 'Schädel'] },
+        ],
+    },
+    {
+        date: '2025-10-02',
+        categories: [
+            { name: 'Gänge in Automatik-Autos', words: ['Drive', 'Neutral', 'Parken', 'Rückwärts'] },
+            { name: '"Auf gehts!"', words: ['Ab', 'Los', 'Vorwärts', 'Weiter'] },
+            { name: 'Herz_', words: ['Haft', 'Pochen', 'Rasen', 'Stück'] },
+            { name: 'Kann man "gewinnen"', words: ['Freunde', 'Geld', 'Rennen', 'Spiel'] },
+        ],
+    },
+    {
+        date: '2025-10-03',
+        categories: [
+            { name: 'Sind weich', words: ['Kissen', 'Marshmallow', 'Watte', 'Wolle'] },
+            { name: 'Beziehungstypen', words: ['Exklusiv', 'Fern', 'Offen', 'Poly'] },
+            { name: '_Zeit', words: ['Ernte', 'Frei', 'Hoch', 'Sommer'] },
+            { name: 'Können ausfallen', words: ['Haare', 'Strom', 'Unterricht', 'Zug'] },
+        ],
+    },
+    {
+        date: '2025-10-04',
+        categories: [
+            { name: 'Mit weniger verbunden', words: ['Defizit', 'Mangel', 'Minus', 'Verlust'] },
+            { name: 'Zustände von Fleisch', words: ['Durch', 'Gar', 'Medium', 'Roh'] },
+            { name: 'In Harry Potter Titeln', words: ['Kammer', 'Kelch', 'Orden', 'Stein'] },
+            { name: 'Stein_', words: ['Bock', 'Mal', 'Pilz', 'Reich'] },
+        ],
+    },
+    {
+        date: '2025-10-05',
+        categories: [
+            { name: 'Oberes Extem', words: ['Breit', 'Groß', 'Lang', 'Teuer'] },
+            { name: 'Reime', words: ['Aal', 'Kahl', 'Mal', 'Schal'] },
+            { name: 'Bekannte (Ex-)Politiker', words: ['Ford', 'Kohl', 'Kurz', 'Washington'] },
+            { name: 'HSV Spieler ohne letzten Buchstaben', words: ['Bald', 'Glatze', 'Omar', 'Philipp'] },
+        ],
+    },
+    {
+        date: '2025-10-06',
+        categories: [
+            { name: 'Sequenz', words: ['Folge', 'Lauf', 'Reihe', 'Serie'] },
+            { name: 'Turnübungen', words: ['Brücke', 'Kerze', 'Rad', 'Rolle'] },
+            { name: 'Haben 7 von etwas', words: ['Regenbogen', 'Schneewittchen', 'Tonleiter', 'Woche'] },
+            { name: 'Bundes_', words: ['Agentur', 'Liga', 'Minister', 'Tag'] },
+        ],
+    },
+    {
+        date: '2025-10-07',
+        categories: [
+            { name: 'Haben 2 Umlaute', words: ['Hörgerät', 'Rückwärts', 'Übeltäter', 'Überschätzen'] }, 
+            { name: 'Was Hosen haben (können)', words: ['Bein', 'Bund', 'Reißverschluss', 'Tasche'] },
+            { name: 'Kann man schütteln', words: ['Getränk', 'Hand', 'Kopf', 'Würfel'] },
+            { name: 'Daten_', words: ['Bank', 'Müll', 'Satz', 'Träger'] },
+        ],
+    },
+    {
+        date: '2025-10-08',
+        categories: [
+            { name: 'Kann man streichen', words: ['Brot', 'Haus', 'Violine', 'Zimmer'] },
+            { name: 'Markennamen, die sich als der normale Begriff etabliert haben', words: ['Bobbycar', 'Post-It', 'Tempo', 'Tesa'] },
+            { name: 'Draht_', words: ['Esel', 'Los', 'Seil', 'Zange'] },
+            { name: 'Was man auf einer Tafel findet', words: ['Geschirr', 'Kreide', 'Teller', 'Werbung'] },
+        ],
+    },
+    {
+        date: '2025-10-09',
+        categories: [
+            { name: 'Rottöne', words: ['Blut', 'Feuer', 'Herz', 'Rubin'] },
+            { name: 'Was Hunde mal im Mund haben', words: ['Ball', 'Frisbee', 'Knochen', 'Stock'] },
+            { name: 'Im Kontext von Gehalt verwendet', words: ['Lohn', 'Position', 'Stufe', 'Tarif'] },
+            { name: 'Rechts_', words: ['Anwalt', 'Bruch', 'Form', 'Schutz'] },
+        ],
+    },
+    {
+        date: '2025-10-10',
+        categories: [
+            { name: 'Was noch in der Zukunft liegt', words: ['Prognose', 'Vorsatz', 'Wunsch', 'Ziel'] },
+            { name: 'Teile eines Apfels', words: ['Gehäuse', 'Samen', 'Schale', 'Stiel'] },
+            { name: 'Haben Häuser', words: ['Dorf', 'Playmobil', 'Schnecke', 'Stadt'] },
+            { name: '_Zeug', words: ['Bett', 'Feuer', 'Flug', 'Spiel'] },
+        ],
+    },
+    {
+        date: '2025-10-11',
+        categories: [
+            { name: 'Begriffe aus der Nähmacherei', words: ['Reißverschluss', 'Schere', 'Stecknadel', 'Zwirn'] },
+            { name: 'Findet man auf Notenseiten (Musik)', words: ['Forte', 'Piano', 'Schlüssel', 'Tempo'] },
+            { name: 'Beim Volleyball zu sehen', words: ['Aufschlag', 'Bagger', 'Block', 'Netz'] },
+            { name: '_Schirm', words: ['Bild', 'Fall', 'Regen', 'Strand'] },
+        ],
+    },
+    {
+        date: '2025-10-12',
+        categories: [
+            { name: 'Teile eines Autos', words: ['Gurt', 'Motor', 'Sitz', 'Tank'] },
+            { name: 'Oft bei Brettspielen dabei', words: ['Anleitung', 'Karte', 'Sanduhr', 'Würfel'] },
+            { name: 'In Namen der sieben alten Weltwunder', words: ['Grabmal', 'Leuchtturm', 'Pyramide', 'Tempel'] },
+            { name: 'Golf_', words: ['Ball', 'Krieg', 'Platz', 'Schläger'] },
+        ],
+    },
+    {
+        date: '2025-10-13',
+        categories: [
+            { name: 'Findet man an Türen', words: ['Griff', 'Klinke', 'Rahmen', 'Schloss'] },
+            { name: 'Beschreibung für Bahnhofsstationen', words: ['Halt', 'Knotenpunkt', 'Station', 'Stopp'] },
+            { name: 'Symbole in der Mathematik', words: ['Gleich', 'Mal', 'Periode', 'Wurzel'] },
+            { name: 'Stern_', words: ['Schnuppe', 'Schritt', 'Stunde', 'Zeichen'] },
+        ],
+    },
+    {
+        date: '2025-10-14',
+        categories: [
+            { name: 'Seite an Seite', words: ['Eins', 'Miteinander', 'Vereinigt', 'Zusammen'] },
+            { name: 'Doppelt gemoppelt hält besser', words: ['Bi', 'Duo', 'Paar', 'Zwei'] },
+            { name: 'Im Kontext vom Satz des Pythagoras verwendet', words: ['Drei', 'Kathete', 'Seite', 'Winkel'] },
+            { name: 'In Namen von Musikinstrumenten zu finden', words: ['Akkord', 'Klar', 'Kontra', 'Vier'] },
+        ],
+    },
+    {
+        date: '2025-10-15',
+        categories: [
+            { name: 'Was man liest', words: ['Artikel', 'Buch', 'Karte', 'Vertrag'] },
+            { name: 'Im Kino zu sehen', words: ['Film', 'Leinwand', 'Popcorn', 'Sitz'] },
+            { name: 'Wo man Musik findet', words: ['Album', 'Festival', 'Konzert', 'Radio'] },
+            { name: '_Tag', words: ['Feier', 'Partei', 'Spiel', 'Zahl'] },
+        ],
+    },
+    {
+        date: '2025-10-16',
+        categories: [
+            { name: 'Was ein Buch hat', words: ['Handlung', 'Kapitel', 'Seite', 'Titel'] },
+            { name: 'Verben im Kontext "Urlaub wollen"', words: ['Beantragen', 'Beanspruchen', 'Einreichen', 'Nehmen'] },
+            { name: 'Kurz_', words: ['Arbeit', 'Fassung', 'Form', 'Schluss'] },
+            { name: 'Was mit "Laden" gemeint sein kann', words: ['Anfordern', 'Download', 'Geschäft', 'Supermarkt'] },
+        ],
+    },
+    {
+        date: '2025-10-17',
         categories: [
             { name: '', words: ['', '', '', ''] },
             { name: '', words: ['', '', '', ''] },
@@ -1973,7 +2810,133 @@ export const puzzles: Puzzle[] = [
         ],
     },
     {
-        date: '2025-07-17',
+        date: '2025-10-18',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-10-19',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-10-20',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-10-21',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-10-22',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-10-23',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-10-24',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-10-25',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-10-26',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-10-27',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-10-28',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-10-29',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-10-30',
+        categories: [
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-10-31',
+        categories: [
+            { name: 'Gehirn/Köpfchen', words: ['Birne', 'Hirn', 'Nuss', 'Schädel'] },
+            { name: 'Häufig während Halloween gesehen', words: ['Fledermaus', 'Geist', 'Kürbis', 'Spinne'] },
+            { name: '', words: ['', '', '', ''] },
+            { name: '', words: ['', '', '', ''] },
+        ],
+    },
+    {
+        date: '2025-11-01',
         categories: [
             { name: '', words: ['', '', '', ''] },
             { name: '', words: ['', '', '', ''] },
